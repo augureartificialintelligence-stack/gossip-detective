@@ -11,7 +11,7 @@ from datetime import date
 
 import anthropic
 
-from . import VERSAO, checagens, config
+from . import VERSAO, checagens, config, fontes
 from .esquema import (
     LIMITE_MARCOS, agora_iso, coletar_urls, normalizar_url, ordenar_marcos, validar_conclusao, validar_marco,
 )
@@ -77,23 +77,25 @@ def _mensagem_erro_api(erro: Exception) -> str:
     return f"Falha inesperada: {erro}"
 
 
-def investigar(pergunta: str):
+def investigar(pergunta: str, orientacao: str | None = None, caso_id: str | None = None):
+    """`orientacao`: contexto editorial opcional (ex.: ficha de um catálogo) anexado à pergunta."""
     inicio = time.monotonic()
-    caso_id = f"{date.today():%Y%m%d}-{uuid.uuid4().hex[:6]}"
+    caso_id = caso_id or f"{date.today():%Y%m%d}-{uuid.uuid4().hex[:6]}"
     urls_vistas: dict[str, str] = {}
     marcos: list[dict] = []
     rejeitados = 0
     buscas: list[str] = []
+    leituras = 0
     consultas_checagem = 0
-    tokens = {"entrada": 0, "saida": 0, "cache": 0}
+    tokens = {"entrada": 0, "saida": 0, "cache": 0, "cache_gravado": 0}
     conclusao: dict | None = None
     recusa: str | None = None
     lembrete_enviado = False
 
-    messages = [{
-        "role": "user",
-        "content": f"Pergunta a investigar: {pergunta}\n\nData de hoje: {date.today():%Y-%m-%d}",
-    }]
+    conteudo = f"Pergunta a investigar: {pergunta}\n\nData de hoje: {date.today():%Y-%m-%d}"
+    if orientacao:
+        conteudo += f"\n\nOrientação editorial para este caso:\n{orientacao}"
+    messages = [{"role": "user", "content": conteudo}]
 
     yield "fase", {"fase": "ingestao"}
     yield "log", {"tipo": "sistema", "texto": f"Missão {caso_id} aberta · modelo {config.MODELO}"}
@@ -107,6 +109,10 @@ def investigar(pergunta: str):
                 if len(marcos) >= LIMITE_MARCOS:
                     raise ValueError(f"limite de {LIMITE_MARCOS} marcos atingido; chame concluir_investigacao.")
                 marco = validar_marco(bloco.input, urls_vistas, len(marcos) + 1)
+                referencia = fontes.identificar(marco["fonte"]["url"])
+                if referencia:  # proveniência na matriz REVELATIO (F001–F070)
+                    marco["fonte"]["matriz_id"] = referencia["id"]
+                    marco["fonte"]["matriz_funcoes"] = referencia["funcoes"]
                 marcos.append(marco)
                 resultado["content"] = f"Marco {marco['id']} aceito ({len(marcos)}/{LIMITE_MARCOS})."
                 return resultado, False
@@ -144,6 +150,7 @@ def investigar(pergunta: str):
                                 yield "fase", {"fase": "recuperacao"}
                             yield "busca", {"consulta": entrada["query"], "total": len(buscas)}
                         elif bloco.name == "web_fetch" and entrada.get("url"):
+                            leituras += 1
                             yield "log", {"tipo": "leitura", "texto": f"Lendo documento: {entrada['url']}"}
 
                     elif tipo.endswith("_tool_result"):
@@ -214,6 +221,7 @@ def investigar(pergunta: str):
             tokens["entrada"] += uso.input_tokens or 0
             tokens["saida"] += uso.output_tokens or 0
             tokens["cache"] += getattr(uso, "cache_read_input_tokens", 0) or 0
+            tokens["cache_gravado"] += getattr(uso, "cache_creation_input_tokens", 0) or 0
 
             if resposta.stop_reason == "refusal":
                 yield "erro", {"mensagem": "O serviço de IA recusou este pedido por política de segurança."}
@@ -272,9 +280,11 @@ def investigar(pergunta: str):
         "fontes_consultadas": [{"url": u, "titulo": t} for u, t in list(urls_vistas.items())[:80]],
         "estatisticas": {
             "buscas": len(buscas),
+            "leituras": leituras,
             "consultas_checagem": consultas_checagem,
             "fontes": len(urls_vistas),
             "marcos": len(marcos),
+            "marcos_matriz": sum(1 for m in marcos if m["fonte"].get("matriz_id")),
             "rejeitados": rejeitados,
             "duracao_s": round(time.monotonic() - inicio, 1),
             "tokens": tokens,

@@ -1,0 +1,442 @@
+{
+  "id": "d015",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Operation Graffham: contatos diplomáticos para enganar Berlim (1944, Suécia/Reino Unido)",
+  "titulo": "Operation Graffham: a encenação diplomática britânica na Suécia (1944)",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "Graffham existiu como engano militar britânico, voltado à inteligência alemã via Suécia entre fevereiro e junho de 1944; seu efeito real foi pequeno e segue em ",
+  "sintese": "A London Controlling Section planejou em fevereiro de 1944 pedidos falsos à Suécia neutra para simular uma invasão da Noruega. Mallet e Thornton os levaram a Estocolmo em abril, e o agente duplo Tate reforçou a história. A existência e a autoria britânica são consensuais; o quanto isso influenciou Berlim é incerto.",
+  "limites": "A ferramenta de busca atingiu o limite de uso cedo. Por isso, os marcos se apoiam sobretudo na Wikipedia e no codenames.info, que resumem Howard (história oficial britânica, 1990), Barbier (2007), Crowdy (2008) e Levine (2011). Não consultei os arquivos originais da LCS no UK National Archives, documentos suecos nem registros alemães capturados. Datas e detalhes, como o chefe de polícia pró-alemão, dependem dessas obras e devem ser conferidos nelas.",
+  "perspectivas": [
+    {
+      "titulo": "Autoria e intenção: britânicas e documentadas",
+      "texto": "A autoria não é inferida: a operação foi planejada e aprovada pela London Controlling Section, segundo a história oficial de Michael Howard (HMSO). Era um engano de guerra contra um adversário militar, não desinformação dirigida ao público civil.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Pouco efeito sobre a Suécia",
+      "texto": "Estocolmo aceitou poucas concessões, a cúpula do governo não se convenceu, e Nordenskiöld guardou para si a crença numa invasão.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Efeito sobre Berlim: disputado",
+      "texto": "Alguns historiadores dizem que pouco chegou aos alemães. Outros dizem que Graffham e Fortitude North ajudaram a manter tropas alemãs na Escandinávia, já que documentos capturados mostram que a Alemanha temia um ataque diversionário. Não dá para isolar o papel do Graffham nisso.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Repasse das conversas de Thornton à Alemanha",
+      "texto": "A afirmação de que um policial pró-alemão gravou as conversas e as enviou à Alemanha vem de obra de divulgação (Crowdy). Não localizei o documento original.",
+      "sustentacao": "parcial"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "LCS propõe e aprova o plano Graffham",
+      "texto": "Em Londres, a London Controlling Section propôs um plano para fazer o inimigo acreditar que os Aliados pediam ajuda à Suécia para operações no norte da Noruega. Recebeu aprovação em 10 de fevereiro, como operação só britânica dentro do plano Bodyguard.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1944-02-03",
+      "data_fim": "1944-02-10",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "3–10 FEV 1944",
+      "local": "Londres · Reino Unido",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Graffham",
+        "entidade": "Wikipedia (cita Michael Howard, Strategic Deception, HMSO, 1990)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Graffham",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "On 3 February 1944, the LCS proposed a plan 'to induce the enemy to believe that we are enlisting the help of Sweden in connection with the British and Russian contemplated operations against northern Norway...' The department received approval to move forward with Graffham on 10 February 1944.",
+        "data_acesso": "2026-11-20T22:15:10+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Agente duplo Tate anuncia \"negociações\" com a Suécia",
+      "texto": "O agente duplo Wulf Schmidt (codinome Tate), controlado pelos britânicos, enviou aos alemães uma mensagem dizendo que o embaixador Mallet estava em Londres e voltaria a Estocolmo para negociações importantes. É o canal pelo qual a encenação diplomática foi plantada diretamente na inteligência alemã.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-03-25",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "25 MAR 1944",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Graffham",
+        "entidade": "Wikipedia (cita Joshua Levine, Operation Fortitude, 2011)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Graffham",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "On 25 March, Wulf Schmidt, a double agent with the code name Tate, transmitted a message to his handlers explaining that Mallet was in the country to receive instructions and would be returning to Sweden for 'important negotiations'.",
+        "data_acesso": "2026-11-20T22:15:15+00:00"
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Mallet apresenta pedidos a Erik Boheman",
+      "texto": "De volta a Estocolmo, o embaixador britânico Victor Mallet levou ao secretário de Estado sueco Erik Boheman pedidos de voos de reconhecimento e de cooperação em transportes. Os pedidos eram parte da encenação; a Suécia recusou os voos e aceitou só a cooperação em transportes, de pouco efeito prático.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-04-04",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "4 ABR 1944",
+      "local": "Estocolmo · Suécia",
+      "lat": 59.3293,
+      "lon": 18.0686,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Graffham - Operations & Codenames of WWII",
+        "entidade": "codenames.info",
+        "url": "https://codenames.info/operation/graffham/",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Mallet traveled to Stockholm on 4 April and met Erik Boheman, the Swedish foreign secretary, to whom he presented the proposals for British reconnaissance flights and transport collaboration.",
+        "data_acesso": "2026-11-20T22:15:20+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Missão Thornton em Estocolmo",
+      "texto": "O ex-adido militar coronel H. V. Thornton passou cerca de duas semanas na Suécia e se reuniu com o chefe da Força Aérea sueca, general Bengt Nordenskiöld, em encontros cercados de segredo proposital. Segundo a historiografia, as conversas foram gravadas por um chefe de polícia pró-alemão e repassadas à Alemanha; Thornton voltou em 30 de abril.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-04",
+      "data_fim": "1944-04-30",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "ABR 1944",
+      "local": "Estocolmo · Suécia",
+      "lat": 59.3293,
+      "lon": 18.0686,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Graffham",
+        "entidade": "Wikipedia (cita Barbier 2007 e Crowdy 2008)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Graffham",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Thornton spent two weeks in Sweden, meeting with the head of the Royal Swedish Air Force, General Bengt Nordenskiöld... Thornton's conversations were recorded by a pro-German chief of police and forwarded to Germany... Thornton returned to England on 30 April.",
+        "data_acesso": "2026-11-20T22:15:25+00:00"
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "Graffham dá lugar à Operação Royal Flush",
+      "texto": "Em junho de 1944, a encenação diplomática foi ampliada na Operação Royal Flush, que também mirava Espanha e Turquia. Isso fecha o ciclo próprio do Graffham, que durou cerca de quatro meses.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-06",
+      "data_fim": null,
+      "precisao_temporal": "mes",
+      "data_exibicao": "JUN 1944",
+      "local": "Europa (Suécia, Espanha, Turquia)",
+      "lat": 50.0,
+      "lon": 10.0,
+      "grau_geografico": "continente",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Royal Flush",
+        "entidade": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Operation_Royal_Flush",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Royal Flush was a political deception that expanded on the efforts of another Bodyguard deception, Operation Graffham by emphasising the threat to Norway... Target: Sweden, Spain, Turkey, German intelligence.",
+        "data_acesso": "2026-11-20T22:15:29+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "Historiadores avaliam impacto limitado e disputado",
+      "texto": "Na avaliação de historiadores como Mary Barbier, poucos pedidos foram aceitos, a cúpula sueca via qualquer ataque à Noruega como diversão, e nem a compra de títulos noruegueses foi notada. O efeito de Graffham e de Fortitude North sobre a estratégia alemã na Escandinávia continua em debate.",
+      "tipo_registro": "interpretacao_retrospectiva",
+      "data_inicio": "2007",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "2007",
+      "local": "Local não identificado",
+      "lat": null,
+      "lon": null,
+      "grau_geografico": "desconhecido",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Graffham",
+        "entidade": "Wikipedia (cita Barbier, D-Day Deception, 2007)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Graffham",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The impact of Graffham was minimal. The Swedish government agreed to few of the concessions... Even the purchase of Norwegian securities went unnoticed... Overall, the influence of Graffham and of Fortitude North on German strategy in Scandinavia is disputed.",
+        "data_acesso": "2026-11-20T22:15:37+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Graffham",
+      "titulo": "Operation Graffham"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Royal_Flush",
+      "titulo": "Operation Royal Flush"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Operation_Royal_Flush",
+      "titulo": "Operation Royal Flush"
+    },
+    {
+      "url": "https://worddisk.com/wiki/Operation_Graffham",
+      "titulo": "Operation_Graffham - Wikipedia @ WordDisk"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Zeppelin_(deception_plan)",
+      "titulo": "Operation Zeppelin (deception plan)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Zeppelin_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Ferdinand",
+      "titulo": "Operation Ferdinand"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/D-Day_naval_deceptions",
+      "titulo": "D-Day naval deceptions"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Ironside",
+      "titulo": "Operation Ironside"
+    },
+    {
+      "url": "https://wikimili.com/en/Operation_Royal_Flush",
+      "titulo": "Operation Royal Flush - WikiMili, The Best Wikipedia Reader"
+    },
+    {
+      "url": "https://tardis.fandom.com/wiki/Operation_Graffham",
+      "titulo": "Operation Graffham"
+    },
+    {
+      "url": "https://coldspur.com/josephine-istoc",
+      "titulo": "JOSEPHINE & ISTOC"
+    },
+    {
+      "url": "https://codenames.info/operation/graffham",
+      "titulo": "Operation Graffham - Operations & Codenames of WWII"
+    },
+    {
+      "url": "https://dokumen.pub/british-policy-and-strategy-towards-norway-194145-978-1-349-30286-4-978-1-137-28435-8.html",
+      "titulo": "British Policy and Strategy towards Norway, 1941–45 978-1-349-30286-4, 978-1-137-28435-8 - DOKUMEN.PUB"
+    },
+    {
+      "url": "https://todayifoundout.com/index.php/2024/03/the-bizarre-story-of-the-massive-fake-army-that-defeated-the-nazis-and-helped-end-wwii",
+      "titulo": "The Bizarre Story of the Massive Fake Army That Defeated the Nazis and Helped End WWII"
+    },
+    {
+      "url": "https://grokipedia.com/page/Operation_Bodyguard",
+      "titulo": "Operation Bodyguard — Grokipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Bodyguard",
+      "titulo": "Operation Bodyguard"
+    },
+    {
+      "url": "https://armedconflicts.com/Operation-Graffham-t113542",
+      "titulo": "Operation Graffham : Operations"
+    },
+    {
+      "url": "https://d-dayinfo.org/en/preparation/operation-bodyguard",
+      "titulo": "Operation Bodyguard, the diversion plan for D-day - D-day Info"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Carl_Adolf_Boheman",
+      "titulo": "Carl Adolf Boheman"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Erik_Boheman",
+      "titulo": "Erik Boheman"
+    },
+    {
+      "url": "https://wikiwand.com/en/Operation_Royal_Flush",
+      "titulo": "Operation Royal Flush - Wikiwand"
+    },
+    {
+      "url": "https://tandfonline.com/doi/abs/10.1080/02684528908431999",
+      "titulo": "Deception plan Graffham and Sweden another view: Intelligence and National Security: Vol 4, No 2"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Operation_Bodyguard",
+      "titulo": "Operation Bodyguard"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Military_deception",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allies_of_World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Fortitude",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Norway",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Double-Cross_System",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sweden_during_World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Axis_powers",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Hardboiled",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Cockade",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Bevan_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/London_Controlling_Section",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ball_bearing",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Northern_Norway",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Military_attach%C3%A9",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Security_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Victor_Mallet",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wulf_Schmidt",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/State_Secretary_for_Foreign_Affairs_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Royal_Swedish_Air_Force",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bengt_Nordenski%C3%B6ld",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ISBN_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-275-99479-2",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-1-84603-135-9",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Michael_Howard_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Second_World_War",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/0116309547",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jon_Latimer",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-1-58567-381-0",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Cite_book",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:CS1_maint:_publisher_location",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-00-741324-9",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 3,
+    "consultas_checagem": 0,
+    "fontes": 57,
+    "marcos": 6,
+    "marcos_matriz": 0,
+    "rejeitados": 0,
+    "duracao_s": 92.5,
+    "tokens": {
+      "entrada": 22,
+      "saida": 8137,
+      "cache": 191823,
+      "cache_gravado": 31577
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:15:49+00:00",
+  "ultima_revisao": "2026-11-20T22:15:49+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D015",
+  "classe_preliminar": "M",
+  "epoca": "1944",
+  "regiao": "Suécia/Reino Unido",
+  "status_editorial": "ia_revisao_pendente"
+}

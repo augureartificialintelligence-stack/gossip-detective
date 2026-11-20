@@ -1,0 +1,429 @@
+{
+  "id": "d003",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Campanha soviética sobre supostas armas biológicas dos EUA na Guerra da Coreia (1950s, URSS/China/Coreia)",
+  "titulo": "Acusação de guerra biológica dos EUA na Guerra da Coreia (1951–1953)",
+  "tipo_alegacao": "conflito_de_narrativas",
+  "classificacao": "refutada",
+  "veredito": "Documentos soviéticos internos de 1953 declaram as acusações fictícias e descrevem provas forjadas; a tese de que os EUA usaram armas biológicas na Coreia não s",
+  "sintese": "Coreia do Norte e China acusaram os EUA de guerra biológica (1951–1952), com aval da Comissão Needham. Em 1953, o próprio governo soviético chamou as acusações de fictícias e mencionou provas forjadas; esses papéis vieram a público em 1998. Persistem críticos dessa leitura, e a autoria exata de cada etapa da fabricação segue menos documentada.",
+  "limites": "A cota de buscas se esgotou cedo: não li na íntegra o relatório Needham, as notas norte-coreanas originais na ONU nem a resolução da Assembleia Geral de 1953. As cópias dos documentos soviéticos chegaram por um jornal japonês, e não diretamente de um arquivo russo aberto. A data exata da nota de Razuvaev (abril de 1953) não foi conferida no original.",
+  "perspectivas": [
+    {
+      "titulo": "Fabricação documentada",
+      "texto": "Uma resolução do Presidium soviético de 2/5/1953 classifica as acusações como 'fictícias' e prevê punir os soviéticos envolvidos no forjamento de 'provas'. Leitenberg e Weathersby (CWIHP) leem isso como campanha deliberada. Isso é atribuição histórica de pesquisadores, não uma decisão judicial.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Acusações verdadeiras (tese minoritária)",
+      "texto": "Endicott, Hagerman e Jeffrey Kaye questionam a autenticidade ou o alcance dos documentos de 1998. Eles citam o relatório Needham e documentos de inteligência dos EUA liberados depois. Nenhum desses pesquisadores apresentou prova direta de que os EUA usaram armas biológicas na guerra.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Contexto do programa americano",
+      "texto": "Os EUA tinham um programa ofensivo de armas biológicas e protegeram líderes da Unidade 731. Isso deu plausibilidade à campanha na época, mas não prova que essas armas foram usadas na Coreia.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Quem orquestrou e com que intenção",
+      "texto": "Os documentos apontam participação de assessores soviéticos e de autoridades chinesas e norte-coreanas. Mas o papel exato de Stalin, Mao e Kim, e quem idealizou a campanha, depende da interpretação de historiadores e exige um padrão de prova próprio.",
+      "sustentacao": "parcial"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Primeira acusação norte-coreana à ONU",
+      "texto": "O chanceler norte-coreano Pak Hon-yong enviou queixa formal à ONU acusando os EUA de ataques com germes entre dez. 1950 e jan. 1951. A acusação teve pouca repercussão, mas é o registro mais antigo localizado da alegação.",
+      "tipo_registro": "primeiro_registro_localizado",
+      "data_inicio": "1951-05-08",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "8 MAI 1951",
+      "local": "Coreia do Norte",
+      "lat": 40.0,
+      "lon": 127.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Biological Warfare in the Korean War: Allegations and Cover-up",
+        "entidade": "Socialism and Democracy (sdonline.org)",
+        "url": "https://sdonline.org/issue/73/biological-warfare-korean-war-allegations-and-cover",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "the first accusation of American BW use by North Korean Foreign Minister Pak Heong-yeong (Bak Hong-yong) on May 8, 1951 ... designated a specific four-week window of germ attacks from December 1950 to January 1951.",
+        "data_acesso": "2026-11-20T22:07:27+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Campanha principal começa com nova nota de Pak",
+      "texto": "Pak Hon-yong enviou ao Secretariado da ONU nova declaração dizendo que aviões dos EUA lançaram insetos infectados sobre a Coreia do Norte. É o início da grande campanha internacional da acusação.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1952-02-22",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "22 FEV 1952",
+      "local": "Coreia do Norte",
+      "lat": 40.0,
+      "lon": 127.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "China's False Allegations of the Use of Biological Weapons by the United States during the Korean War (CWIHP Working Paper #78)",
+        "entidade": "Wilson Center – Cold War International History Project",
+        "url": "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/cwihp_wp_78_china_false_bw_allegations_korean_war_march_16.pdf",
+        "tipo_fonte": "academica",
+        "data_documento": "2016-03",
+        "trecho_de_suporte": "The major campaign alleging US BW use began on February 22, 1952 ... Foreign Minister again issued an official statement addressed to the United Nations Secretariat, charging that in January and February the US had made multiple air drops over North Korea.",
+        "data_acesso": "2026-11-20T22:07:32+00:00"
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "China amplia a acusação",
+      "texto": "O premiê chinês Zhou Enlai ampliou as acusações, dizendo que 448 aviões dos EUA lançaram insetos com germes no Nordeste da China. A alegação passa a envolver também o território chinês.",
+      "tipo_registro": "amplificacao",
+      "data_inicio": "1952-03-08",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "8 MAR 1952",
+      "local": "Pequim · China",
+      "lat": 39.9,
+      "lon": 116.4,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Chapter 6: False Allegations of U.S. Biological Weapons Use during the Korean War",
+        "entidade": "CISSM – University of Maryland (Milton Leitenberg)",
+        "url": "https://cissm.umd.edu/sites/default/files/2019-07/leitenberg_biological_weapons_korea.pdf",
+        "tipo_fonte": "academica",
+        "data_documento": null,
+        "trecho_de_suporte": "On March 8, Zhou Enlai enlarged the accusations against the United States, charging that the United States had sent 448 aircraft on no fewer than 68 occasions between February 29 and March 5 into Northeast China to air-drop germ-carrying insects.",
+        "data_acesso": "2026-11-20T22:07:37+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Comissão Needham endossa as acusações",
+      "texto": "A Comissão Científica Internacional, patrocinada pelo Conselho Mundial da Paz e integrada por Joseph Needham, reuniu-se de junho a agosto de 1952; seu relatório, publicado em Pequim, apoiou as acusações. Foi o principal aval 'científico' da campanha.",
+      "tipo_registro": "publicacao",
+      "data_inicio": "1952-06-23",
+      "data_fim": "1952-08-31",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "JUN–AGO 1952",
+      "local": "Pequim · China",
+      "lat": 39.9,
+      "lon": 116.4,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "China 1952 (International Scientific Commission), 1951 - 1985",
+        "entidade": "Cambridge University – ArchiveSearch (Needham Research Institute papers)",
+        "url": "https://archivesearch.lib.cam.ac.uk/repositories/21/archival_objects/329370",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "The first meeting was held on 23 Jun. 1952 and the final meeting was held on 31 Aug. 1952. The concluding 'Report of the International Scientific Commission ... in Korea and China' was published in Beijing in 1952.",
+        "data_acesso": "2026-11-20T22:07:42+00:00"
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "Nota a Beria descreve forjamento de provas",
+      "texto": "Após a morte de Stalin, o general soviético V. N. Razuvaev enviou a Beria uma nota explicativa que descreve passos tomados para fazer parecer que os EUA usavam armas biológicas. O documento é a peça interna central sobre a fabricação.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1953-04",
+      "data_fim": null,
+      "precisao_temporal": "mes",
+      "data_exibicao": "ABR 1953",
+      "local": "Moscou · URSS",
+      "lat": 55.75,
+      "lon": 37.62,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Explanatory Note from Lt. Gen. V.N. Razuvaev to L.P. Beria",
+        "entidade": "Wilson Center Digital Archive",
+        "url": "https://digitalarchive.wilsoncenter.org/document/112026",
+        "tipo_fonte": "primaria",
+        "data_documento": "1953-04",
+        "trecho_de_suporte": "Razuvaev explains the steps taken to make it appear that Americans are using biological weapons in the Korean War.",
+        "data_acesso": "2026-11-20T22:07:46+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "Presidium soviético declara acusações 'fictícias'",
+      "texto": "Resolução do Presidium do Conselho de Ministros da URSS afirma que as acusações contra os EUA eram fictícias e manda cessar sua publicação. É a contestação interna mais forte, vinda do próprio lado acusador.",
+      "tipo_registro": "contestacao",
+      "data_inicio": "1953-05-02",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "2 MAI 1953",
+      "local": "Moscou · URSS",
+      "lat": 55.75,
+      "lon": 37.62,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Resolution of the Presidium of the USSR Council of Ministers about Letters to the Ambassador of the USSR in the PRC, V.V. Kuznetsov and to the Charge d'Affaires for the USSR in the DPRK, S.P. Suzdalev",
+        "entidade": "Wilson Center Digital Archive",
+        "url": "https://digitalarchive.wilsoncenter.org/document/112030",
+        "tipo_fonte": "primaria",
+        "data_documento": "1953-05-02",
+        "trecho_de_suporte": "The spread in the press of information about the use by the Americans of bacteriological weapons in Korea was based on false information. The accusations against the Americans were fictitious.",
+        "data_acesso": "2026-11-20T22:07:51+00:00"
+      }
+    },
+    {
+      "id": "m07",
+      "seq": 7,
+      "titulo": "Documentos soviéticos vêm a público",
+      "texto": "Doze documentos soviéticos de 1953, obtidos por um jornal japonês, foram publicados com análises de Kathryn Weathersby e Milton Leitenberg no Boletim 11 do CWIHP. Foi a primeira evidência soviética sobre o caso.",
+      "tipo_registro": "verificacao",
+      "data_inicio": "1998",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1998",
+      "local": "Washington · EUA",
+      "lat": 38.9,
+      "lon": -77.04,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Cold War International History Project Bulletin, Issue 11 – New Evidence on the Korean War",
+        "entidade": "Woodrow Wilson International Center for Scholars",
+        "url": "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/CWIHP_Bulletin_11.pdf",
+        "tipo_fonte": "academica",
+        "data_documento": "1998",
+        "trecho_de_suporte": "These remarkable documents provide the first Soviet evidence yet to emerge regarding the longstanding allegations that the United States employed bacteriological weapons during the Korean War.",
+        "data_acesso": "2026-11-20T22:07:55+00:00"
+      }
+    },
+    {
+      "id": "m08",
+      "seq": 8,
+      "titulo": "Endicott e Hagerman contestam os documentos",
+      "texto": "Os historiadores Stephen Endicott e Edward Hagerman, autores de livro que sustenta as acusações, publicaram resposta questionando a interpretação dos 12 documentos soviéticos. A divergência acadêmica sobre o caso permanece.",
+      "tipo_registro": "contestacao",
+      "data_inicio": "1998",
+      "data_fim": null,
+      "precisao_temporal": "aproximada",
+      "data_exibicao": "C. 1998–1999",
+      "local": "Toronto · Canadá",
+      "lat": 43.77,
+      "lon": -79.5,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "The Soviets and allegations of biological warfare in the Korean War",
+        "entidade": "York University (página de Stephen Endicott)",
+        "url": "https://www.yorku.ca/sendicot/12SovietDocuments.htm",
+        "tipo_fonte": "academica",
+        "data_documento": null,
+        "trecho_de_suporte": "Some scholars have concluded that the 12 newly released Soviet documents prove that the charges against the United States 'were contrived and fraudulent.' ... What Do The Soviet 'Documents' Reveal About the Biological Warfare Allegations?",
+        "data_acesso": "2026-11-20T22:08:00+00:00"
+      }
+    },
+    {
+      "id": "m09",
+      "seq": 9,
+      "titulo": "Leitenberg: 'teatro político' sino-soviético",
+      "texto": "Em estudo do CWIHP, Leitenberg combinou os documentos soviéticos com publicações chinesas para concluir que as acusações foram uma grande encenação política. A análise acadêmica consolida a tese da fabricação.",
+      "tipo_registro": "verificacao",
+      "data_inicio": "2016-03",
+      "data_fim": null,
+      "precisao_temporal": "mes",
+      "data_exibicao": "MAR 2016",
+      "local": "Washington · EUA",
+      "lat": 38.9,
+      "lon": -77.04,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "China's False Allegations of the Use of Biological Weapons by the United States during the Korean War",
+        "entidade": "Wilson Center – Cold War International History Project",
+        "url": "https://www.wilsoncenter.org/publication/chinas-false-allegations-the-use-biological-weapons-the-united-states-during-the-korean",
+        "tipo_fonte": "academica",
+        "data_documento": "2016-03",
+        "trecho_de_suporte": "Milton Leitenberg argues on the basis Soviet documents and recent Chinese-language publications that the Korean War-era allegations that the US conducted biological warfare (BW) were a grand piece of political theater.",
+        "data_acesso": "2026-11-20T22:08:05+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://digitalarchive.wilsoncenter.org/document/112026",
+      "titulo": "Explanatory Note from Lt. Gen. V.N. Razuvaev to L.P. Beria"
+    },
+    {
+      "url": "https://sites.ecu.edu/cwis/2022/01/false-alarm-communist-allegations-of-biological-warfare-in-the-korean-war",
+      "titulo": "“False Alarm:” Communist Allegations of Biological warfare in the Korean war"
+    },
+    {
+      "url": "https://digitalarchive.wilsoncenter.org/document/112030",
+      "titulo": "Resolution of the Presidium of the USSR Council of Ministers about Letters to the Ambassador of the USSR in the PRC, V.V. Kuznetsov and to the Charge d’Affaires for the USSR in the DPRK, S.P. Suzdalev"
+    },
+    {
+      "url": "https://wilsoncenter.org/sites/default/files/media/documents/publication/CWIHP_Bulletin_11.pdf",
+      "titulo": "Issue 11 Woodrow Wilson International Center for Scholars,"
+    },
+    {
+      "url": "https://wilsoncenter.org/publication/chinas-false-allegations-the-use-biological-weapons-the-united-states-during-the-korean",
+      "titulo": "China’s False Allegations of the Use of Biological Weapons by the United States during the Korean War"
+    },
+    {
+      "url": "https://wilsoncenter.org/sites/default/files/media/documents/publication/CWIHPBulletin11_p4.pdf",
+      "titulo": "New Evidence on the Korean War"
+    },
+    {
+      "url": "https://digitalarchive.wilsoncenter.org/document/123246",
+      "titulo": "Wilson Center Digital Archive"
+    },
+    {
+      "url": "https://digitalarchive.wilsoncenter.org/collection/250/korean-war-biological-warfare-allegations",
+      "titulo": "Korean War Biological Warfare Allegations"
+    },
+    {
+      "url": "https://digitalarchive.umd.edu/document/explanatory-note-lieutenant-selivanov-lp-beria",
+      "titulo": "Explanatory Note from Lieutenant Selivanov to L.P. Beria"
+    },
+    {
+      "url": "https://counterpunch.org/2021/04/09/new-revelations-on-germ-warfare-its-time-for-a-reckoning-with-our-history-from-the-korean-war",
+      "titulo": "New Revelations on Germ Warfare: It’s Time for a Reckoning with Our History from the Korean War - CounterPunch.org"
+    },
+    {
+      "url": "https://kayej.substack.com/p/a-real-flood-of-bacteria-and-germs",
+      "titulo": "“A real flood of bacteria and germs” — Communications Intelligence and Charges of U.S. Germ Warfare during the Korean War"
+    },
+    {
+      "url": "https://yorku.ca/sendicot/12SovietDocuments.htm",
+      "titulo": "The Soviets and allegations of biological warfare in the Korean War"
+    },
+    {
+      "url": "https://sdonline.org/issue/76/biological-warfare-%E2%80%9Choax%E2%80%9D-thesis",
+      "titulo": "On the Biological Warfare “Hoax” Thesis"
+    },
+    {
+      "url": "https://counterpunch.org/2018/02/13/99697",
+      "titulo": "Russian Historiography of the Korean War - CounterPunch.org"
+    },
+    {
+      "url": "https://counterpunch.org/2021/09/03/a-real-flood-of-bacteria-and-germs-communications-intelligence-and-charges-of-u-s-germ-warfare-during-the-korean-war",
+      "titulo": "“A Real Flood of Bacteria and Germs”: Communications Intelligence and Charges of U.S. Germ Warfare During the Korean War - CounterPunch.org"
+    },
+    {
+      "url": "https://kayej.substack.com/p/new-revelations-on-germ-warfare-its",
+      "titulo": "New Revelations on Germ Warfare: It’s Time for a Reckoning with Our History from the Korean War"
+    },
+    {
+      "url": "https://cudl.lib.cam.ac.uk/view/MS-NRI-00002-00005-00015-00001",
+      "titulo": "Joseph Needham : Joseph Needham's 'Notes on International Commission on Bacteriological Warfare in China and Korea 1952'"
+    },
+    {
+      "url": "https://archivesearch.lib.cam.ac.uk/repositories/21/archival_objects/329370",
+      "titulo": "China 1952 (International Scientific Commission), 1951 - 1985"
+    },
+    {
+      "url": "https://nri.cam.ac.uk/wp-content/uploads/2025/05/JN_IWM_archive_catalogue_1995.pdf",
+      "titulo": "JOSEPH NEEDHAM CH FRS"
+    },
+    {
+      "url": "https://kayej.substack.com/p/us-anthrax-bombings-of-china-during",
+      "titulo": "U.S. Anthrax Bombings of China During the Korean War: A Concealed War Crime"
+    },
+    {
+      "url": "https://centreforscientificarchives.co.uk/catalogues/needham_joseph_chemical_biological_warfare_01_compressed-pdf",
+      "titulo": "NEEDHAM, Joseph v1 - Centre for Scientific Archives"
+    },
+    {
+      "url": "https://mronline.org/2017/09/11/a-lost-document-from-the-cold-war",
+      "titulo": "A lost document from the Cold War - MR Online"
+    },
+    {
+      "url": "https://mronline.org/2018/02/21/the-long-suppressed-korean-war-report-on-u-s-use-of-biological-weapons-released-at-last",
+      "titulo": "The long-suppressed Korean War report on U.S. use of biological weapons released at last"
+    },
+    {
+      "url": "https://greanvillepost.com/2025/10/21/the-long-suppressed-korean-war-report-on-u-s-use-of-biological-weapons-released-at-last",
+      "titulo": "The long-suppressed Korean War report on U.S. use of biological weapons released at last"
+    },
+    {
+      "url": "https://kayej.substack.com/p/debunking-the-debunkers-part-3-the",
+      "titulo": "Debunking the Debunkers, Part 3: The Purported Memoir of Dr. Wu Zhili"
+    },
+    {
+      "url": "https://sdonline.org/issue/73/biological-warfare-korean-war-allegations-and-cover",
+      "titulo": "Biological Warfare in the Korean War: Allegations and Cover-up"
+    },
+    {
+      "url": "https://wilsoncenter.org/sites/default/files/media/documents/publication/cwihp_wp_78_china_false_bw_allegations_korean_war_march_16.pdf",
+      "titulo": "China's False Allegations of the Use of Biological Weapons ..."
+    },
+    {
+      "url": "https://lithub.com/inside-the-quest-for-documents-that-could-resolve-a-cold-war-mystery",
+      "titulo": "Inside the Quest for Documents That Could Resolve a Cold War Mystery ‹ Literary Hub"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allegations_of_biological_warfare_in_the_Korean_War",
+      "titulo": "Allegations of biological warfare in the Korean War"
+    },
+    {
+      "url": "https://cissm.umd.edu/sites/default/files/2019-07/leitenberg_biological_weapons_korea.pdf",
+      "titulo": "Chapter 6 False Allegations of U.S. Biological Weapons ..."
+    },
+    {
+      "url": "https://wiki-mirror.cla.umn.edu/wiki/Allegations_of_biological_warfare_in_the_Korean_War",
+      "titulo": "Allegations of biological warfare in the Korean War"
+    },
+    {
+      "url": "https://libertarianinstitute.org/articles/report-u-s-dropped-plague-infected-fleas-on-north-korea-in-march-1952",
+      "titulo": "Report: U.S. Dropped Plague-infected Fleas on North Korea in March 1952"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sinchon_Massacre",
+      "titulo": "Sinchon Massacre"
+    },
+    {
+      "url": "https://digitallibrary.un.org/record/481767?ln=en&v=pdf",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pak_Hon-yong",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 0,
+    "consultas_checagem": 0,
+    "fontes": 35,
+    "marcos": 9,
+    "marcos_matriz": 0,
+    "rejeitados": 0,
+    "duracao_s": 95.6,
+    "tokens": {
+      "entrada": 16,
+      "saida": 9453,
+      "cache": 104109,
+      "cache_gravado": 33929
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:08:18+00:00",
+  "ultima_revisao": "2026-11-20T22:08:18+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D003",
+  "classe_preliminar": "D/C",
+  "epoca": "1950s",
+  "regiao": "URSS/China/Coreia",
+  "status_editorial": "ia_revisao_pendente"
+}

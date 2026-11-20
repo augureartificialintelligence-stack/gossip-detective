@@ -7,6 +7,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 PUBLICO = RAIZ / "public"
 DADOS = RAIZ / "dados"
 INVESTIGACOES = DADOS / "investigacoes"
+COLECOES = DADOS / "colecoes"  # dossiês dos catálogos editoriais, publicados para todos os usuários
 
 
 def _carregar_env(caminho: Path) -> None:
@@ -33,6 +34,23 @@ MAX_BUSCAS = int(os.environ.get("GD_MAX_BUSCAS", "15"))
 MAX_LEITURAS = int(os.environ.get("GD_MAX_LEITURAS", "8"))
 MAX_TURNOS = int(os.environ.get("GD_MAX_TURNOS", "16"))
 INVESTIGACOES_SIMULTANEAS = int(os.environ.get("GD_SIMULTANEAS", "2"))
+# Preços de tabela (US$ por milhão de tokens; busca na web por unidade) para estimar o custo de cada missão.
+# Gravação em cache = 1,25 x entrada (TTL de 5 min). Atualize se o modelo ou os preços mudarem.
+PRECOS = {
+    "claude-opus-5-5": {"entrada": 4.0, "saida": 20.0, "cache_leitura": 0.20, "cache_gravacao": 5.0},
+}
+PRECO_BUSCA = 0.01
+
+
+def custo_estimado(estatisticas: dict, modelo: str = MODELO) -> float:
+    precos = PRECOS.get(modelo, PRECOS["claude-opus-5-5"])
+    t = estatisticas.get("tokens", {})
+    return round(
+        (t.get("entrada", 0) * precos["entrada"] + t.get("saida", 0) * precos["saida"]
+         + t.get("cache", 0) * precos["cache_leitura"] + t.get("cache_gravado", 0) * precos["cache_gravacao"]) / 1e6
+        + estatisticas.get("buscas", 0) * PRECO_BUSCA, 4)
+
+
 # Google Fact Check Tools API (checagens publicadas; gratuita). Sem a chave, tudo segue só com a busca da IA.
 GOOGLE_FACTCHECK_KEY = os.environ.get("GOOGLE_FACTCHECK_KEY", "")
 # Radar de tendências: validade do cache, buscas por atualização e atualização automática ao abrir a central.

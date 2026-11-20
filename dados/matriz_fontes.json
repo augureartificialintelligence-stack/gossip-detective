@@ -1,0 +1,841 @@
+{
+  "origem": "REVELATIO_MATRIZ_FONTES_V1.md",
+  "fontes": [
+    {
+      "id": "F001",
+      "nome": "Mimikama",
+      "url": "https://www.mimikama.org/",
+      "dominio": "mimikama.org",
+      "prefixo": "mimikama.org",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Checagem; validar idioma e evidências específicas"
+    },
+    {
+      "id": "F002",
+      "nome": "Poynter / IFCN",
+      "url": "https://www.poynter.org/ifcn/",
+      "dominio": "poynter.org",
+      "prefixo": "poynter.org/ifcn",
+      "funcoes": [
+        "M",
+        "D"
+      ],
+      "cuidado": "Rede/metodologia, não fonte primária universal"
+    },
+    {
+      "id": "F003",
+      "nome": "Snopes",
+      "url": "https://www.snopes.com/",
+      "dominio": "snopes.com",
+      "prefixo": "snopes.com",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Ver também https://www.snopes.com/fact-check-ratings/"
+    },
+    {
+      "id": "F004",
+      "nome": "FBI Counterintelligence",
+      "url": "https://www.fbi.gov/investigate/counterintelligence",
+      "dominio": "fbi.gov",
+      "prefixo": "fbi.gov/investigate/counterintelligence",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Posição governamental dos EUA; conferir documentos e contrapontos"
+    },
+    {
+      "id": "F005",
+      "nome": "US Cyber Command",
+      "url": "https://www.cybercom.mil/",
+      "dominio": "cybercom.mil",
+      "prefixo": "cybercom.mil",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Comunicação militar institucional"
+    },
+    {
+      "id": "F006",
+      "nome": "EU DisinfoLab",
+      "url": "https://www.disinfo.eu/",
+      "dominio": "disinfo.eu",
+      "prefixo": "disinfo.eu",
+      "funcoes": [
+        "V",
+        "D",
+        "C"
+      ],
+      "cuidado": "Pesquisa de operações; hub https://www.disinfo.eu/doppelganger-hub/"
+    },
+    {
+      "id": "F007",
+      "nome": "Wikipedia — campanhas políticas atribuídas à Rússia",
+      "url": "https://en.wikipedia.org/wiki/List_of_political_disinformation_website_campaigns_in_Russia",
+      "dominio": "en.wikipedia.org",
+      "prefixo": "en.wikipedia.org/wiki/List_of_political_disinformation_website_campaigns_in_Russia",
+      "funcoes": [
+        "D"
+      ],
+      "cuidado": "Índice de pistas; verificar cada fonte original"
+    },
+    {
+      "id": "F008",
+      "nome": "Wikipedia — citogenesis",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:List_of_citogenesis_incidents",
+      "dominio": "en.wikipedia.org",
+      "prefixo": "en.wikipedia.org/wiki/Wikipedia:List_of_citogenesis_incidents",
+      "funcoes": [
+        "D",
+        "M"
+      ],
+      "cuidado": "Pistas de circularidade; não comprovação autônoma"
+    },
+    {
+      "id": "F009",
+      "nome": "Wikipedia — disinformation attack",
+      "url": "https://en.wikipedia.org/wiki/Disinformation_attack",
+      "dominio": "en.wikipedia.org",
+      "prefixo": "en.wikipedia.org/wiki/Disinformation_attack",
+      "funcoes": [
+        "D",
+        "C"
+      ],
+      "cuidado": "Definições e bibliografia; validar fora da enciclopédia aberta"
+    },
+    {
+      "id": "F010",
+      "nome": "Reuters Fact Check",
+      "url": "https://www.reuters.com/fact-check/",
+      "dominio": "reuters.com",
+      "prefixo": "reuters.com/fact-check",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Conferir evidência e data da alegação"
+    },
+    {
+      "id": "F011",
+      "nome": "FactCheck.org",
+      "url": "https://www.factcheck.org/",
+      "dominio": "factcheck.org",
+      "prefixo": "factcheck.org",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Especialmente afirmações políticas dos EUA"
+    },
+    {
+      "id": "F012",
+      "nome": "Full Fact",
+      "url": "https://fullfact.org/",
+      "dominio": "fullfact.org",
+      "prefixo": "fullfact.org",
+      "funcoes": [
+        "V",
+        "M"
+      ],
+      "cuidado": "Foco britânico e metodologia"
+    },
+    {
+      "id": "F013",
+      "nome": "PolitiFact",
+      "url": "https://www.politifact.com/",
+      "dominio": "politifact.com",
+      "prefixo": "politifact.com",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Escala própria; conferir justificativa"
+    },
+    {
+      "id": "F014",
+      "nome": "OpenSecrets",
+      "url": "https://www.opensecrets.org/",
+      "dominio": "opensecrets.org",
+      "prefixo": "opensecrets.org",
+      "funcoes": [
+        "C",
+        "D"
+      ],
+      "cuidado": "Financiamento político; identificar dados de origem"
+    },
+    {
+      "id": "F015",
+      "nome": "UC Berkeley Library guides",
+      "url": "https://guides.lib.berkeley.edu/",
+      "dominio": "guides.lib.berkeley.edu",
+      "prefixo": "guides.lib.berkeley.edu",
+      "funcoes": [
+        "D",
+        "M"
+      ],
+      "cuidado": "Guias e links; não substituem o acervo original"
+    },
+    {
+      "id": "F016",
+      "nome": "Washington Post Fact Checker",
+      "url": "https://www.washingtonpost.com/politics/fact-checker/",
+      "dominio": "washingtonpost.com",
+      "prefixo": "washingtonpost.com/politics/fact-checker",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Jornalismo; considerar acesso restrito e método"
+    },
+    {
+      "id": "F017",
+      "nome": "Duke Reporters' Lab",
+      "url": "https://reporterslab.org/fact-checking/",
+      "dominio": "reporterslab.org",
+      "prefixo": "reporterslab.org/fact-checking",
+      "funcoes": [
+        "M",
+        "D"
+      ],
+      "cuidado": "Base de verificadores / ClaimReview"
+    },
+    {
+      "id": "F018",
+      "nome": "IFCN Code of Principles",
+      "url": "https://ifcncodeofprinciples.poynter.org/",
+      "dominio": "ifcncodeofprinciples.poynter.org",
+      "prefixo": "ifcncodeofprinciples.poynter.org",
+      "funcoes": [
+        "M"
+      ],
+      "cuidado": "Consultar lista e validade de signatários"
+    },
+    {
+      "id": "F019",
+      "nome": "Museum of Hoaxes",
+      "url": "https://hoaxes.org/",
+      "dominio": "hoaxes.org",
+      "prefixo": "hoaxes.org",
+      "funcoes": [
+        "D",
+        "C"
+      ],
+      "cuidado": "Excelente descoberta; buscar documentos primários"
+    },
+    {
+      "id": "F020",
+      "nome": "UNESCO",
+      "url": "https://www.unesco.org/",
+      "dominio": "unesco.org",
+      "prefixo": "unesco.org",
+      "funcoes": [
+        "M",
+        "C",
+        "D"
+      ],
+      "cuidado": "Verificar link e existência de cada recurso sugerido"
+    },
+    {
+      "id": "F021",
+      "nome": "EUvsDisinfo",
+      "url": "https://euvsdisinfo.eu/",
+      "dominio": "euvsdisinfo.eu",
+      "prefixo": "euvsdisinfo.eu",
+      "funcoes": [
+        "D",
+        "V",
+        "C"
+      ],
+      "cuidado": "Projeto com enquadramento institucional europeu; contraprovas"
+    },
+    {
+      "id": "F022",
+      "nome": "Agência Lupa",
+      "url": "https://www.agencialupa.org/",
+      "dominio": "agencialupa.org",
+      "prefixo": "agencialupa.org",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Brasil; verificar autoria e documentos"
+    },
+    {
+      "id": "F023",
+      "nome": "Wikipedia — lista de fact-checking sites",
+      "url": "https://en.wikipedia.org/wiki/List_of_fact-checking_websites",
+      "dominio": "en.wikipedia.org",
+      "prefixo": "en.wikipedia.org/wiki/List_of_fact-checking_websites",
+      "funcoes": [
+        "D"
+      ],
+      "cuidado": "Diretório de descoberta, não certificação"
+    },
+    {
+      "id": "F024",
+      "nome": "AFP Fact Check",
+      "url": "https://factcheck.afp.com/",
+      "dominio": "factcheck.afp.com",
+      "prefixo": "factcheck.afp.com",
+      "funcoes": [
+        "V",
+        "D"
+      ],
+      "cuidado": "Ver também https://www.afp.com/en/our-offer/afp-fact-check"
+    },
+    {
+      "id": "F025",
+      "nome": "Google Fact Check Explorer",
+      "url": "https://toolbox.google.com/factcheck/explorer",
+      "dominio": "toolbox.google.com",
+      "prefixo": "toolbox.google.com/factcheck/explorer",
+      "funcoes": [
+        "D"
+      ],
+      "cuidado": "Agregador; não verifica por conta própria"
+    },
+    {
+      "id": "F026",
+      "nome": "BBC Verify",
+      "url": "https://www.bbc.com/news/bbcverify",
+      "dominio": "bbc.com",
+      "prefixo": "bbc.com/news/bbcverify",
+      "funcoes": [
+        "V",
+        "D",
+        "C"
+      ],
+      "cuidado": "Checar material de suporte e atualizações"
+    },
+    {
+      "id": "F027",
+      "nome": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/",
+      "dominio": "britannica.com",
+      "prefixo": "britannica.com",
+      "funcoes": [
+        "C",
+        "D"
+      ],
+      "cuidado": "Contextualização histórica e biografias"
+    },
+    {
+      "id": "F028",
+      "nome": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/",
+      "dominio": "plato.stanford.edu",
+      "prefixo": "plato.stanford.edu",
+      "funcoes": [
+        "C",
+        "D"
+      ],
+      "cuidado": "Filosofia e conceitos"
+    },
+    {
+      "id": "F029",
+      "nome": "Oxford English Dictionary",
+      "url": "https://www.oed.com/",
+      "dominio": "oed.com",
+      "prefixo": "oed.com",
+      "funcoes": [
+        "C",
+        "P"
+      ],
+      "cuidado": "História lexical; parte do acervo é pago"
+    },
+    {
+      "id": "F030",
+      "nome": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/",
+      "dominio": "merriam-webster.com",
+      "prefixo": "merriam-webster.com",
+      "funcoes": [
+        "C",
+        "D"
+      ],
+      "cuidado": "Etimologia e usos históricos"
+    },
+    {
+      "id": "F031",
+      "nome": "Dicionário Houaiss",
+      "url": "https://houaiss.uol.com.br/",
+      "dominio": "houaiss.uol.com.br",
+      "prefixo": "houaiss.uol.com.br",
+      "funcoes": [
+        "C",
+        "D"
+      ],
+      "cuidado": "Língua portuguesa; verificar condições de acesso"
+    },
+    {
+      "id": "F032",
+      "nome": "Michaelis",
+      "url": "https://michaelis.uol.com.br/",
+      "dominio": "michaelis.uol.com.br",
+      "prefixo": "michaelis.uol.com.br",
+      "funcoes": [
+        "C",
+        "D"
+      ],
+      "cuidado": "Língua portuguesa"
+    },
+    {
+      "id": "F033",
+      "nome": "Library of Congress",
+      "url": "https://www.loc.gov/",
+      "dominio": "loc.gov",
+      "prefixo": "loc.gov",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Jornais, fotografias, manuscritos"
+    },
+    {
+      "id": "F034",
+      "nome": "U.S. National Archives",
+      "url": "https://www.archives.gov/",
+      "dominio": "archives.gov",
+      "prefixo": "archives.gov",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Documentos governamentais e guerra"
+    },
+    {
+      "id": "F035",
+      "nome": "UK National Archives",
+      "url": "https://www.nationalarchives.gov.uk/",
+      "dominio": "nationalarchives.gov.uk",
+      "prefixo": "nationalarchives.gov.uk",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Inteligência, diplomacia e guerra"
+    },
+    {
+      "id": "F036",
+      "nome": "British Library",
+      "url": "https://www.bl.uk/",
+      "dominio": "bl.uk",
+      "prefixo": "bl.uk",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Periódicos, livros e manuscritos"
+    },
+    {
+      "id": "F037",
+      "nome": "Gallica / BnF",
+      "url": "https://gallica.bnf.fr/",
+      "dominio": "gallica.bnf.fr",
+      "prefixo": "gallica.bnf.fr",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Imprensa e documentos franceses"
+    },
+    {
+      "id": "F038",
+      "nome": "Europeana",
+      "url": "https://www.europeana.eu/",
+      "dominio": "europeana.eu",
+      "prefixo": "europeana.eu",
+      "funcoes": [
+        "D",
+        "P"
+      ],
+      "cuidado": "Coleções culturais de instituições europeias"
+    },
+    {
+      "id": "F039",
+      "nome": "Internet Archive",
+      "url": "https://archive.org/",
+      "dominio": "archive.org",
+      "prefixo": "archive.org",
+      "funcoes": [
+        "D",
+        "P"
+      ],
+      "cuidado": "Edições digitalizadas; verificar proveniência"
+    },
+    {
+      "id": "F040",
+      "nome": "Wayback Machine",
+      "url": "https://web.archive.org/",
+      "dominio": "web.archive.org",
+      "prefixo": "web.archive.org",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Capturas de páginas, não autoria original"
+    },
+    {
+      "id": "F041",
+      "nome": "HathiTrust",
+      "url": "https://www.hathitrust.org/",
+      "dominio": "hathitrust.org",
+      "prefixo": "hathitrust.org",
+      "funcoes": [
+        "D",
+        "P"
+      ],
+      "cuidado": "Livros e periódicos históricos"
+    },
+    {
+      "id": "F042",
+      "nome": "Chronicling America",
+      "url": "https://www.loc.gov/programs/chronicling-america/",
+      "dominio": "loc.gov",
+      "prefixo": "loc.gov/programs/chronicling-america",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Jornais dos EUA"
+    },
+    {
+      "id": "F043",
+      "nome": "Hemeroteca Digital Brasileira / BN",
+      "url": "https://bndigital.bn.gov.br/hemeroteca-digital/",
+      "dominio": "bndigital.bn.gov.br",
+      "prefixo": "bndigital.bn.gov.br/hemeroteca-digital",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Jornais brasileiros e propagação"
+    },
+    {
+      "id": "F044",
+      "nome": "Arquivo Nacional do Brasil",
+      "url": "https://www.gov.br/arquivonacional/pt-br",
+      "dominio": "gov.br",
+      "prefixo": "gov.br/arquivonacional/pt-br",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Documentos históricos nacionais"
+    },
+    {
+      "id": "F045",
+      "nome": "Biblioteca Nacional do Brasil",
+      "url": "https://www.bn.gov.br/",
+      "dominio": "bn.gov.br",
+      "prefixo": "bn.gov.br",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Acervos, publicações e impressos"
+    },
+    {
+      "id": "F046",
+      "nome": "Museu do Holocausto dos EUA",
+      "url": "https://encyclopedia.ushmm.org/",
+      "dominio": "encyclopedia.ushmm.org",
+      "prefixo": "encyclopedia.ushmm.org",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Propaganda nazista, Holocausto, guerra"
+    },
+    {
+      "id": "F047",
+      "nome": "Imperial War Museums",
+      "url": "https://www.iwm.org.uk/",
+      "dominio": "iwm.org.uk",
+      "prefixo": "iwm.org.uk",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Propaganda e enganos militares"
+    },
+    {
+      "id": "F048",
+      "nome": "National WWII Museum",
+      "url": "https://www.nationalww2museum.org/",
+      "dominio": "nationalww2museum.org",
+      "prefixo": "nationalww2museum.org",
+      "funcoes": [
+        "C",
+        "P"
+      ],
+      "cuidado": "Segunda Guerra Mundial"
+    },
+    {
+      "id": "F049",
+      "nome": "NASA",
+      "url": "https://www.nasa.gov/",
+      "dominio": "nasa.gov",
+      "prefixo": "nasa.gov",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Astronomia e tecnologia espacial"
+    },
+    {
+      "id": "F050",
+      "nome": "NOAA",
+      "url": "https://www.noaa.gov/",
+      "dominio": "noaa.gov",
+      "prefixo": "noaa.gov",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Ciências terrestres e clima"
+    },
+    {
+      "id": "F051",
+      "nome": "NIH / PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "dominio": "pubmed.ncbi.nlm.nih.gov",
+      "prefixo": "pubmed.ncbi.nlm.nih.gov",
+      "funcoes": [
+        "D",
+        "P"
+      ],
+      "cuidado": "Literatura biomédica; artigos precisam avaliação"
+    },
+    {
+      "id": "F052",
+      "nome": "Cochrane",
+      "url": "https://www.cochrane.org/",
+      "dominio": "cochrane.org",
+      "prefixo": "cochrane.org",
+      "funcoes": [
+        "C",
+        "V"
+      ],
+      "cuidado": "Revisões sistemáticas de saúde"
+    },
+    {
+      "id": "F053",
+      "nome": "OMS / WHO",
+      "url": "https://www.who.int/",
+      "dominio": "who.int",
+      "prefixo": "who.int",
+      "funcoes": [
+        "C",
+        "P"
+      ],
+      "cuidado": "Diretrizes e dados de saúde global"
+    },
+    {
+      "id": "F054",
+      "nome": "Fiocruz",
+      "url": "https://portal.fiocruz.br/",
+      "dominio": "portal.fiocruz.br",
+      "prefixo": "portal.fiocruz.br",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Pesquisa e saúde pública brasileira"
+    },
+    {
+      "id": "F055",
+      "nome": "CERN",
+      "url": "https://home.cern/",
+      "dominio": "home.cern",
+      "prefixo": "home.cern",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Física e experimentação"
+    },
+    {
+      "id": "F056",
+      "nome": "IPCC",
+      "url": "https://www.ipcc.ch/",
+      "dominio": "ipcc.ch",
+      "prefixo": "ipcc.ch",
+      "funcoes": [
+        "C",
+        "P"
+      ],
+      "cuidado": "Avaliação científica do clima"
+    },
+    {
+      "id": "F057",
+      "nome": "ONU",
+      "url": "https://www.un.org/",
+      "dominio": "un.org",
+      "prefixo": "un.org",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Resoluções e declarações oficiais"
+    },
+    {
+      "id": "F058",
+      "nome": "UN Digital Library",
+      "url": "https://digitallibrary.un.org/",
+      "dominio": "digitallibrary.un.org",
+      "prefixo": "digitallibrary.un.org",
+      "funcoes": [
+        "P",
+        "D"
+      ],
+      "cuidado": "Atas, resoluções e registros diplomáticos"
+    },
+    {
+      "id": "F059",
+      "nome": "Tribunal Internacional de Justiça",
+      "url": "https://www.icj-cij.org/",
+      "dominio": "icj-cij.org",
+      "prefixo": "icj-cij.org",
+      "funcoes": [
+        "P"
+      ],
+      "cuidado": "Decisões e peças processuais"
+    },
+    {
+      "id": "F060",
+      "nome": "OSCE",
+      "url": "https://www.osce.org/",
+      "dominio": "osce.org",
+      "prefixo": "osce.org",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Eleições, segurança e relatórios de observação"
+    },
+    {
+      "id": "F061",
+      "nome": "DFRLab / Atlantic Council",
+      "url": "https://dfrlab.org/",
+      "dominio": "dfrlab.org",
+      "prefixo": "dfrlab.org",
+      "funcoes": [
+        "D",
+        "C"
+      ],
+      "cuidado": "Investigações de redes e desinformação; checar método"
+    },
+    {
+      "id": "F062",
+      "nome": "Bellingcat",
+      "url": "https://www.bellingcat.com/",
+      "dominio": "bellingcat.com",
+      "prefixo": "bellingcat.com",
+      "funcoes": [
+        "D",
+        "C",
+        "V"
+      ],
+      "cuidado": "Investigação OSINT; confirmar artefatos originais"
+    },
+    {
+      "id": "F063",
+      "nome": "Citizen Lab / University of Toronto",
+      "url": "https://citizenlab.ca/",
+      "dominio": "citizenlab.ca",
+      "prefixo": "citizenlab.ca",
+      "funcoes": [
+        "C",
+        "P"
+      ],
+      "cuidado": "Vigilância, infraestrutura e campanhas digitais"
+    },
+    {
+      "id": "F064",
+      "nome": "GDELT Project",
+      "url": "https://www.gdeltproject.org/",
+      "dominio": "gdeltproject.org",
+      "prefixo": "gdeltproject.org",
+      "funcoes": [
+        "D"
+      ],
+      "cuidado": "Dados de cobertura de mídia; não valida veracidade"
+    },
+    {
+      "id": "F065",
+      "nome": "Crossref",
+      "url": "https://www.crossref.org/",
+      "dominio": "crossref.org",
+      "prefixo": "crossref.org",
+      "funcoes": [
+        "D"
+      ],
+      "cuidado": "DOI e metadados; não garante conteúdo"
+    },
+    {
+      "id": "F066",
+      "nome": "WorldCat",
+      "url": "https://search.worldcat.org/",
+      "dominio": "search.worldcat.org",
+      "prefixo": "search.worldcat.org",
+      "funcoes": [
+        "D"
+      ],
+      "cuidado": "Localizar edições bibliográficas"
+    },
+    {
+      "id": "F067",
+      "nome": "Google Books",
+      "url": "https://books.google.com/",
+      "dominio": "books.google.com",
+      "prefixo": "books.google.com",
+      "funcoes": [
+        "D",
+        "P"
+      ],
+      "cuidado": "Ocorrências textuais; OCR requer revisão"
+    },
+    {
+      "id": "F068",
+      "nome": "Europe PMC",
+      "url": "https://europepmc.org/",
+      "dominio": "europepmc.org",
+      "prefixo": "europepmc.org",
+      "funcoes": [
+        "D",
+        "P"
+      ],
+      "cuidado": "Literatura científica biomédica"
+    },
+    {
+      "id": "F069",
+      "nome": "Internet Shakespeare Editions / Folger",
+      "url": "https://www.folger.edu/",
+      "dominio": "folger.edu",
+      "prefixo": "folger.edu",
+      "funcoes": [
+        "P",
+        "C"
+      ],
+      "cuidado": "Pesquisa textual e história de termos"
+    },
+    {
+      "id": "F070",
+      "nome": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "dominio": "commons.wikimedia.org",
+      "prefixo": "commons.wikimedia.org",
+      "funcoes": [
+        "D"
+      ],
+      "cuidado": "Rastrear mídia e origem; conferir licença e procedência"
+    }
+  ]
+}

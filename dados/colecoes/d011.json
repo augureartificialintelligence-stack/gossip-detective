@@ -1,0 +1,534 @@
+{
+  "id": "d011",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Operation Titanic: paraquedistas falsos na Normandia (1944, França)",
+  "titulo": "Operação Titanic: bonecos-paraquedistas na Normandia (1944)",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "Os bonecos-paraquedistas foram reais e causaram confusão alemã em 6 de junho de 1944. O tamanho exato do efeito, como o desvio do 915º Regimento, é interpretaçã",
+  "sintese": "Na noite de 5 para 6 de junho de 1944, a RAF e o SAS lançaram cerca de 400 bonecos (“Ruperts”) em quatro áreas para enganar a Wehrmacht. Comandos alemães reagiram a parte dos lançamentos, mas Speidel logo baixou o alerta. O alcance tático exato, os números de mortos e de zonas variam entre as fontes.",
+  "limites": "O limite de buscas foi atingido cedo. Não consegui consultar diretamente documentos primários (arquivos da RAF, The National Archives, diários de guerra alemães, interceptações Enigma) nem os livros de Barbier, Holt e Ramsey. Os efeitos táticos vêm de síntese enciclopédica (Wikipedia, fonte de descoberta) e de um museu. A página arquivada da RAF e um obituário no Independent apareceram como pistas, mas não puderam ser lidos.",
+  "perspectivas": [
+    {
+      "titulo": "Execução do engano",
+      "texto": "O lançamento de cerca de 400 bonecos com dispositivos de ruído e equipes do 2º SAS por quatro esquadrões da RAF é consistente entre o museu institucional e a síntese historiográfica. Um exemplar não usado sobrevive em acervo.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Efeito decisivo sobre Omaha",
+      "texto": "A afirmação de que Titanic IV desviou um Kampfgruppe do 915º Regimento para longe de Omaha e Gold vem de historiadores (Ramsey, Holt). Ela é plausível e muito repetida, mas não foi conferida aqui em documento alemão. Textos populares tendem a ampliar o efeito, e o alerta foi reduzido por Speidel.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Detalhes divergentes",
+      "texto": "As fontes divergem em números: 400 ou 500 bonecos, três ou quatro zonas, 8 ou 11 homens do SAS mortos ou executados. Essas diferenças não afetam o fato central, mas pedem cautela.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Natureza do caso",
+      "texto": "Foi um engano militar dirigido a um adversário em guerra, dentro da Operação Bodyguard. Não foi desinformação contra a população civil, e a autoria aliada (RAF/SAS) é declarada e não contestada.",
+      "sustentacao": "documentada"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Lançamento dos “Ruperts” na noite do Dia D",
+      "texto": "Na madrugada de 6 de junho de 1944, esquadrões do RAF No. 3 Group lançaram cerca de 400 bonecos-paraquedistas (“Ruperts”), com dispositivos de ruído e equipes do 2º SAS, longe das zonas de salto reais. É o fato central: um engano militar contra a Wehrmacht, parte da Operação Bodyguard.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-06-05",
+      "data_fim": "1944-06-06",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "5–6 JUN 1944",
+      "local": "Normandia · França",
+      "lat": 49.1,
+      "lon": 0.1,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation 'Titanic' – Dummy paratroopers in World War Two",
+        "entidade": "Air Force Museum of New Zealand",
+        "url": "https://airforcemuseum.co.nz/blog/operation-titanic-dummy-paratroopers-in-world-war-two/",
+        "tipo_fonte": "institucional",
+        "data_documento": "2019-06-06",
+        "trecho_de_suporte": "The operation was to be carried out by four squadrons of No. 3 Group RAF – Nos. 138, 161, 90 and 149 – flying Hudson, Halifax and Stirling aircraft in the early hours of 6 June 1944... Around 400 ‘Ruperts’ were dropped around the drop zones in Normandy and also further north in France.",
+        "data_acesso": "2026-11-20T22:14:44+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Titanic I simula divisão aerotransportada perto de Yvetot",
+      "texto": "Ao norte do Sena, perto de Yvetot, Titanic I simulou o salto de uma divisão inteira. Segundo a síntese enciclopédica (baseada em Barbier e Holt), interceptações Enigma mostram um comandante alemão relatando um grande desembarque ao norte de Le Havre.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-06-06",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "6 JUN 1944",
+      "local": "Yvetot · França",
+      "lat": 49.617,
+      "lon": 0.754,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Titanic",
+        "entidade": "Wikipedia (síntese de Barbier 2007 e Holt 2004)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Titanic",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Titanic I simulated the drop of an airborne division north of the Seine river near Yvetot... Enigma intercepts from the area of Titanic I revealed that the German commander was reporting a major landing up the coast from Le Havre.",
+        "data_acesso": "2026-11-20T22:14:49+00:00"
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Titanic IV e o desvio do 915º Regimento",
+      "texto": "Perto de Marigny (Manche), 200 bonecos e duas equipes do SAS teriam levado um Kampfgruppe do 915º Regimento de Granadeiros, reserva da 352ª Divisão, a vasculhar bosques em vez de seguir para Omaha e Gold. É a afirmação de efeito mais citada, sustentada por historiadores (Ramsey, Holt), não por documento primário aqui consultado.",
+      "tipo_registro": "interpretacao_retrospectiva",
+      "data_inicio": "1944-06-06",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "6 JUN 1944",
+      "local": "Marigny · França",
+      "lat": 49.1,
+      "lon": -1.24,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Titanic",
+        "entidade": "Wikipedia (síntese de Ramsey e Holt)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Titanic",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The dummies and SAS teams of Titanic IV diverted a Kampfgruppe from the 915th Grenadier Regiment, the 352nd Infantry Division reserve away from the Omaha and Gold beaches... were employed searching woods instead of heading to the invasion beaches.",
+        "data_acesso": "2026-11-20T22:14:54+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Alerta alemão, recuo de Speidel e a 12ª SS em Lisieux",
+      "texto": "Às 2h, unidades alemãs relataram paraquedistas a leste de Caen e nas áreas de Coutances, Valognes e Saint-Lô. Speidel baixou o alerta ao saber que eram bonecos, mas Rundstedt enviou a 12ª SS Panzer a um suposto pouso perto de Lisieux que só tinha bonecos de Titanic III. O efeito do engano foi real, mas parcial.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-06-06",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "6 JUN 1944",
+      "local": "Lisieux · França",
+      "lat": 49.146,
+      "lon": 0.226,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Titanic",
+        "entidade": "Wikipedia (síntese de Barbier 2007)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Titanic",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "General Hans Speidel decreased the level of alert when it was reported only dummy parachutists had been found. However, Gerd von Rundstedt ordered the 12th SS Panzerdivision Hitlerjugend to deal with a supposed parachute landing on the coast near Lisieux which was found to consist solely of dummies from Titanic III.",
+        "data_acesso": "2026-11-20T22:15:00+00:00"
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "Um “Rupert” intacto reaparece em Lyneham",
+      "texto": "No início dos anos 1980, bonecos nunca usados foram achados numa caixa nos depósitos da RAF Lyneham; um deles foi doado ao museu da Força Aérea da Nova Zelândia. É uma evidência material de que os objetos existiram, mas não prova o efeito do engano.",
+      "tipo_registro": "memoria_historica",
+      "data_inicio": "1980",
+      "data_fim": "1985",
+      "precisao_temporal": "aproximada",
+      "data_exibicao": "INÍCIO DÉC. 1980",
+      "local": "RAF Lyneham · Inglaterra",
+      "lat": 51.507,
+      "lon": -1.966,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation 'Titanic' – Dummy paratroopers in World War Two",
+        "entidade": "Air Force Museum of New Zealand",
+        "url": "https://airforcemuseum.co.nz/blog/operation-titanic-dummy-paratroopers-in-world-war-two/",
+        "tipo_fonte": "institucional",
+        "data_documento": "2019-06-06",
+        "trecho_de_suporte": "He was discovered in the early 1980s, packed in a box with several comrades, in the Air Dispatch Squadron stores at RAF Lyneham in England... Not long after his re-discovery, he was offered to the Air Force Museum of New Zealand (objeto 1985/067).",
+        "data_acesso": "2026-11-20T22:15:05+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "75 anos depois: o museu aponta registros alemães",
+      "texto": "No 75º aniversário do Dia D, o museu neozelandês afirma que documentos alemães mostram tropas desviadas para enfrentar a ameaça fantasma. O texto, porém, fala em 11 mortos do SAS, enquanto a síntese baseada em Barbier fala em 8 homens que não voltaram, uma divergência de detalhe que segue em aberto.",
+      "tipo_registro": "publicacao",
+      "data_inicio": "2019-06-06",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "6 JUN 2019",
+      "local": "Christchurch · Nova Zelândia",
+      "lat": -43.53,
+      "lon": 172.55,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation 'Titanic' – Dummy paratroopers in World War Two",
+        "entidade": "Air Force Museum of New Zealand",
+        "url": "https://airforcemuseum.co.nz/blog/operation-titanic-dummy-paratroopers-in-world-war-two/",
+        "tipo_fonte": "institucional",
+        "data_documento": "2019-06-06",
+        "trecho_de_suporte": "documentary evidence from German records reveals troops reacted to and diverted forces to meet the phantom threat... 11 SAS soldiers were killed in the operation, or later executed by the Germans.",
+        "data_acesso": "2026-11-20T22:15:13+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://airforcemuseum.co.nz/blog/operation-titanic-dummy-paratroopers-in-world-war-two",
+      "titulo": "Operation 'Titanic' - Dummy paratroopers in World War Two - Air Force Museum of New Zealand"
+    },
+    {
+      "url": "https://atlasobscura.com/articles/object-of-intrigue-the-dummy-paratroopers-of-wwii",
+      "titulo": "Object of Intrigue: The Dummy Paratroopers of WWII - Atlas Obscura"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Titanic",
+      "titulo": "Operation Titanic"
+    },
+    {
+      "url": "https://coffeeordie.com/paradummies",
+      "titulo": "Operation Titanic: How Wild Goose Chases, Paradummies, and the SAS Faked Out the Germans on D-Day"
+    },
+    {
+      "url": "https://twz.com/28402/explosive-filled-dummies-and-other-ruses-helped-clear-the-way-for-real-paratroopers-on-d-day",
+      "titulo": "Explosive-Filled Dummies And Other Ruses Helped Clear The Way For Real Paratroopers On D-Day"
+    },
+    {
+      "url": "https://taskandpurpose.com/video/dday-titanic-sas-fake-paratroopers",
+      "titulo": "Operation Titanic: How the SAS and hundreds of fake paratroopers tricked the Nazis on D-Day"
+    },
+    {
+      "url": "https://blog.forceswarrecords.com/old-wwii-d-day-paradummy-found-residing-in-garden-shed",
+      "titulo": "The WW2 D-Day Paradummies that fooled the Germans"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/D-Day_naval_deceptions",
+      "titulo": "D-Day naval deceptions"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Samwest",
+      "titulo": "Operation Samwest"
+    },
+    {
+      "url": "https://dday-overlord.com/en/d-day/air-operations/titanic",
+      "titulo": "Operation Titanic"
+    },
+    {
+      "url": "https://iwm.org.uk/history/d-days-parachuting-dummies-and-inflatable-tanks",
+      "titulo": "Operation Fortitude - D-Day’s Deception Strategy"
+    },
+    {
+      "url": "https://theddaystory.com/d-day-in-80-objects/object-77-rupert-paradummy-used-for-d-day-deception",
+      "titulo": "Object 77"
+    },
+    {
+      "url": "https://beachesofnormandy.com/articles/Deception_on_DDay?id=a4bcf14c98",
+      "titulo": "Deception on D-Day"
+    },
+    {
+      "url": "https://beachesofnormandy.com/articles/Deception_on_DDay?id=93d07f854a",
+      "titulo": "Deception on D-Day"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paradummy",
+      "titulo": "Paradummy"
+    },
+    {
+      "url": "https://mammothmemory.net/history/world-war-ii/important-facts-of-world-war-ii/rupert.html",
+      "titulo": "Rupert - World War II History"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Operation_Titanic",
+      "titulo": "Operation Titanic"
+    },
+    {
+      "url": "https://everand.com/book/528906232/The-SAS-in-Occupied-France-1-SAS-Operations-June-to-October-1944",
+      "titulo": "The SAS in Occupied France by Gavin Mortimer (Ebook) - Read free for 30 days"
+    },
+    {
+      "url": "https://airborne-museum.org/en/fiche-timeline/night-of-the-5-to-6-june-1944",
+      "titulo": "Night of the 5 to 6 June 1944"
+    },
+    {
+      "url": "https://d-dayrevisited.co.uk/d-day-history/d-day-landings/operation-overlord",
+      "titulo": "Operation Overlord"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_SAS_operations",
+      "titulo": "List of SAS operations"
+    },
+    {
+      "url": "https://historicalfirearms.info/post/87923286385/operation-titanic-the-d-day-deceptions-on-the",
+      "titulo": "Historical Firearms - Operation Titanic & The D-Day Deceptions On the..."
+    },
+    {
+      "url": "https://worldwar2-sof.com/welcome-to-world-war-2-special-forces-com/which-special-forces-operations-took-place-in-world-war-2/which-special-forces-operations-took-place-in-1944/which-special-forces-operations-took-place-in-june-1944/operation-overlord/operation-neptune/operations-special-forces-operation-neptune/operation-titanic",
+      "titulo": "Operation Titanic - Special Forces in World War 2"
+    },
+    {
+      "url": "https://codenames.info/operation/titanic",
+      "titulo": "Titanic"
+    },
+    {
+      "url": "https://grokipedia.com/page/Operation_Titanic",
+      "titulo": "Operation Titanic — Grokipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Bodyguard",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Royal_Air_Force",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special_Air_Service",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Drop_zone",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedi/",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Military_deception",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Normandy",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/England",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pas-de-Calais",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allies_of_World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Second_World_War",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._3_Group_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/London_Controlling_Section",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Fortitude",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Overlord",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/David_Strangeways",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/21st_Army_Group",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Supreme_Headquarters_Allied_Expeditionary_Force",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ops_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hessian_fabric",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Douglas_Fairbanks_Jr",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Peter_Fleming_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sound-on-film",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wire_recording",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chaff_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._138_Squadron_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._161_Squadron_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Handley_Page_Halifax",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lockheed_Hudson",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._90_Squadron_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._149_Squadron_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Short_Stirling",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/M._R._D._Foot",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special_Air_Service_Troops",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paddy_Mayne",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Captain_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lieutenant",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mortar_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seine_river",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yvetot",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yerville",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Doudeville",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seine-Maritime",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fauville",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eure",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dives_River",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Calvados_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Maltot",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Baron-sur-Odon",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Caen",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marigny,_Manche",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Manche",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saint-L%C3%B4",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bergen-Belsen_concentration_camp",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 3,
+    "consultas_checagem": 0,
+    "fontes": 124,
+    "marcos": 6,
+    "marcos_matriz": 0,
+    "rejeitados": 0,
+    "duracao_s": 206.5,
+    "tokens": {
+      "entrada": 34,
+      "saida": 9300,
+      "cache": 341507,
+      "cache_gravado": 33757
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:15:24+00:00",
+  "ultima_revisao": "2026-11-20T22:15:24+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D011",
+  "classe_preliminar": "M",
+  "epoca": "1944",
+  "regiao": "França",
+  "status_editorial": "ia_revisao_pendente"
+}

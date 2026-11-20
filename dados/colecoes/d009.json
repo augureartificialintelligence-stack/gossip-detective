@@ -1,0 +1,614 @@
+{
+  "id": "d009",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Operation Barclay: dissimulação aliada no Mediterrâneo (1943, Mediterrâneo)",
+  "titulo": "Operation Barclay: o engano aliado que apontou a Grécia para esconder a Sicília (1943)",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "Barclay existiu e foi um engano militar aliado contra o comando do Eixo, não fake news contra civis. O efeito sobre Hitler está documentado; o peso exato desse ",
+  "sintese": "Em 1943, os Aliados montaram Barclay para fazer o Eixo esperar desembarques na Grécia e na Sardenha, e não na Sicília. Para isso usaram um exército fictício no Cairo, o caso Mincemeat, agentes duplos e sabotagem na Grécia. Decifrações Ultra indicam que Hitler acreditou e mandou reforços para os Bálcãs. Ainda se discute quanto pesou o engano e quanto pesavam os medos que ele já tinha.",
+  "limites": "Não consegui abrir na íntegra os documentos primários de Kew. O dossiê WO 106/5921 foi consultado só pelo catálogo, e os decriptos Ultra e o diário de Dönitz chegaram até mim por obras secundárias (Smyth, Macintyre e Howard, via Wikipedia). O PDF do DTIC não abriu por completo, e a data de publicação do estudo não foi confirmada. Fontes como History of War e The Past são de divulgação. A pesquisa foi interrompida pelo limite de buscas, então não consultei arquivos alemães, IWM nem a história oficial britânica.",
+  "perspectivas": [
+    {
+      "titulo": "Barclay enganou o Alto Comando alemão",
+      "texto": "Segundo os relatos baseados nas decifrações Ultra, os alemães leram as cartas de Mincemeat. Em 14 de maio, Hitler discordou de Mussolini sobre a Sicília, e a 1ª Divisão Panzer foi enviada para Salonica.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Hitler já temia os Bálcãs",
+      "texto": "Fontes dizem que Barclay reforçou um medo que Hitler já tinha, em vez de criá-lo. Por isso, o mérito exclusivo do engano é relativizado, e a History of War diz apenas que ele 'provavelmente' ajudou.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Von Roenne teria percebido a farsa",
+      "texto": "Ben Macintyre levanta a hipótese de que o analista alemão von Roenne percebeu o engano e o deixou passar de propósito. É uma interpretação sobre intenção, sem prova documental conclusiva nas fontes consultadas.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Mincemeat como sinônimo de Barclay",
+      "texto": "A memória popular, com o livro de 1953 e os filmes de 1956 e 2021, reduz Barclay ao cadáver. Mas as fontes mostram um plano maior: o 12º Exército fictício, o agente 'Gilbert' e a Operação Animals.",
+      "sustentacao": "documentada"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Mincemeat nasce como parte de Barclay",
+      "texto": "Montagu e Cholmondeley apresentam ao Comitê XX o plano Mincemeat, já enquadrado no plano geral Barclay para sugerir Sardenha ou Grécia em vez da Sicília. Marca o início documentado do componente mais famoso do engano.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-02-04",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "4 FEV 1943",
+      "local": "Londres · Reino Unido",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "The corpse that fooled Hitler",
+        "entidade": "The Past (Current Publishing)",
+        "url": "https://the-past.com/feature/the-corpse-that-fooled-hitler/",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The deception was to be called Operation Barclay... As a part of Barclay, it was now given its own name: Operation Mincemeat. On 4 February 1943, the two men put their proposal before the XX Committee.",
+        "data_acesso": "2026-11-20T22:11:45+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Documentos plantados de Mincemeat no Arquivo Nacional",
+      "texto": "O Arquivo Nacional britânico guarda o dossiê WO 106/5921, com cópias dos documentos de Mincemeat, datado de fevereiro a abril de 1943, na subsérie Mediterrâneo. É o registro primário catalogado do material usado no engano.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1943-02",
+      "data_fim": "1943-04",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "FEV–ABR 1943",
+      "local": "Kew · Londres · Reino Unido (acervo)",
+      "lat": 51.4808,
+      "lon": -0.2795,
+      "grau_geografico": "ponto_exato",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation MINCEMEAT: copies of documents made available to press (WO 106/5921)",
+        "entidade": "The National Archives, Kew",
+        "url": "https://discovery.nationalarchives.gov.uk/details/record?catid=5435220&catln=6",
+        "tipo_fonte": "primaria",
+        "data_documento": "1943-02/1943-04",
+        "trecho_de_suporte": "Reference: WO 106/5921 · Description: Operation MINCEMEAT: copies of documents made available to press · Date: 1943 Feb.-Apr. · Held by: The National Archives, Kew. Subseries within WO 106 - MEDITERRANEAN.",
+        "data_acesso": "2026-11-20T22:11:50+00:00",
+        "matriz_id": "F035",
+        "matriz_funcoes": [
+          "P",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Corpo de \"Major Martin\" lançado ao mar em Huelva",
+      "texto": "O submarino HMS Seraph solta, às 4h15, o corpo com cartas falsas indicando Grécia e Sardenha como alvos e a Sicília como finta. O engano passa da preparação à execução diante de território espanhol.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-04-30",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "30 ABR 1943",
+      "local": "Costa de Huelva · Espanha",
+      "lat": 37.2614,
+      "lon": -6.9447,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Mincemeat",
+        "entidade": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Seraph... arrived just off the coast of Huelva on 29 April... at 4:15 am on 30 April, Seraph surfaced... lowered the body into the water. Correspondence... suggested that the Allies planned to invade Greece and Sardinia, with Sicily as merely the target of a feint.",
+        "data_acesso": "2026-11-20T22:11:55+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Ultra confirma que os alemães leram as cartas",
+      "texto": "Decifração Ultra de 14 de maio mostra que a informação chegou aos alemães; no mesmo dia, Hitler discorda de Mussolini sobre a Sicília e ordena reforços, como a 1ª Divisão Panzer para Salonica (ordem interceptada em 21 de maio). É a principal evidência de efeito do engano.",
+      "tipo_registro": "verificacao",
+      "data_inicio": "1943-05-14",
+      "data_fim": "1943-05-21",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "14–21 MAI 1943",
+      "local": "Local não identificado",
+      "lat": null,
+      "lon": null,
+      "grau_geografico": "desconhecido",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Mincemeat",
+        "entidade": "Wikipedia (citando Smyth 2010 e Macintyre 2010)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Final proof that the Germans had been passed the information... came on 14 May when a German communication was decrypted by the Ultra source... He ordered that the experienced 1st Panzer Division be transferred from France to Salonika... intercepted by GC&CS on 21 May.",
+        "data_acesso": "2026-11-20T22:12:00+00:00"
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "\"Gilbert\" alimenta a farsa a partir do Norte da África",
+      "texto": "O agente duplo francês \"Gilbert\", ex-Abwehr, entra em operação e convence os alemães de que a frota de invasão se formava em Bizerte. Mostra que Barclay usou também canais de agentes, não só o cadáver.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-06-10",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "10 JUN 1943",
+      "local": "Norte da África",
+      "lat": 34.0,
+      "lon": 9.0,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Barclay",
+        "entidade": "History of War (historyofwar.org)",
+        "url": "https://www.historyofwar.org/articles/operation_barclay.html",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The French supported the deception operation with one of their best double agents, code named 'Gilbert'... He became operational on 10 June 1943, and successfully convinced the Germans that the invasion fleet was being formed at Bizerte.",
+        "data_acesso": "2026-11-20T22:12:04+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "Operação Animals: sabotagem real na Grécia",
+      "texto": "SOE e guerrilheiros gregos (incluindo o ELAS) atacam ferrovias e estradas para simular a preparação de um desembarque na Grécia. Acrescenta ações físicas reais ao engano de Barclay.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-06-21",
+      "data_fim": "1943-07-11",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "21 JUN–11 JUL 1943",
+      "local": "Grécia central e setentrional",
+      "lat": 39.5,
+      "lon": 22.0,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Animals",
+        "entidade": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Operation_Animals",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The operation took place between 21 June and 11 July 1943 and included an organized campaign of sabotage in Greece, to deceive the Axis Powers into believing that Greece was the target of an Allied amphibious landing, instead of Sicily.",
+        "data_acesso": "2026-11-20T22:12:09+00:00"
+      }
+    },
+    {
+      "id": "m07",
+      "seq": 7,
+      "titulo": "Doze Exército fictício no Egito",
+      "texto": "A 'A' Force de Dudley Clarke, no Cairo, inventa um 12º Exército britânico com doze divisões, supostamente pronto para invadir a Grécia. Esse exército de fachada foi o eixo da ameaça falsa aos Bálcãs.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1943",
+      "local": "Cairo · Egito",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Twelfth Army (United Kingdom)",
+        "entidade": "Wikipedia (citando Howard)",
+        "url": "https://en.wikipedia.org/wiki/Twelfth_Army_(United_Kingdom)",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The Twelfth Army moniker was originally used by Advanced Headquarters 'A' Force, a Cairo-based deception department created by Dudley Clarke, for a formation used in Operation Barclay... this army had twelve divisions under its control and was located in Egypt.",
+        "data_acesso": "2026-11-20T22:12:14+00:00"
+      }
+    },
+    {
+      "id": "m09",
+      "seq": 9,
+      "titulo": "Estudo militar dos EUA avalia Barclay",
+      "texto": "Estudo de caso no acervo DTIC descreve Barclay como o plano geral de engano para desviar a atenção da Sicília e Mincemeat como só uma parte dele, avaliado como sucesso. Mostra a leitura doutrinária posterior do caso.",
+      "tipo_registro": "interpretacao_retrospectiva",
+      "data_inicio": "1943",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1943 (ESTUDO POSTERIOR)",
+      "local": "Mar Mediterrâneo",
+      "lat": 37.0,
+      "lon": 15.0,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Case Study: Operation MINCEMEAT",
+        "entidade": "Defense Technical Information Center (DTIC)",
+        "url": "https://apps.dtic.mil/sti/tr/pdf/ADA536824.pdf",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "In 1943, Operation BARCLAY was the overall Allied deception plan conducted against the Germans to divert attention from the real target, Sicily (Operation HUSKY)... While only one part of BARCLAY, MINCEMEAT was a notable success.",
+        "data_acesso": "2026-11-20T22:12:22+00:00"
+      }
+    },
+    {
+      "id": "m08",
+      "seq": 8,
+      "titulo": "Montagu torna o caso público em livro",
+      "texto": "Ewen Montagu, um dos planejadores, publica a história de Mincemeat; o livro vira filme em 1956. Inicia a memória pública do engano, centrada no cadáver e não no plano Barclay inteiro.",
+      "tipo_registro": "memoria_historica",
+      "data_inicio": "1953",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1953",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Mincemeat",
+        "entidade": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Ewen Montagu, wrote a history in 1953. Montagu's book formed the basis for the 1956 British film The Man Who Never Was.",
+        "data_acesso": "2026-11-20T22:12:18+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://military-history.fandom.com/wiki/Operation_Barclay",
+      "titulo": "Operation Barclay"
+    },
+    {
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA536824.pdf",
+      "titulo": "Case Study: Operation MINCEMEAT - DTIC"
+    },
+    {
+      "url": "https://historyofwar.org/articles/operation_barclay.html",
+      "titulo": "Operation Barclay"
+    },
+    {
+      "url": "https://the-past.com/feature/the-corpse-that-fooled-hitler",
+      "titulo": "The corpse that fooled Hitler"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Barclay",
+      "titulo": "Operation Barclay"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Animals",
+      "titulo": "Operation Animals"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://nationalinterest.org/blog/buzz/how-dead-body-sort-of-defeated-nazi-germany-world-war-ii-hk-101926",
+      "titulo": "How a Dead Body (Sort of) Defeated Nazi Germany in World War II - The National Interest"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Twelfth_Army_(United_Kingdom)",
+      "titulo": "Twelfth Army (United Kingdom)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Twelfth_Army_",
+      "titulo": ""
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Twelfth_Army_(United_Kingdom)",
+      "titulo": "Twelfth Army (United Kingdom)"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Twelfth_Army_",
+      "titulo": ""
+    },
+    {
+      "url": "https://kids.kiddle.co/Operation_Barclay",
+      "titulo": "Operation Barclay facts for kids"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dudley_Clarke",
+      "titulo": "Dudley Clarke"
+    },
+    {
+      "url": "https://tomcubbage.com/history/David-Mure-Deception.pdf",
+      "titulo": "dudley w. clarke, the birth of \"a\" force, and allied deception ..."
+    },
+    {
+      "url": "https://reference.org/facts/British_Twelfth_Army/8qfLqwcK",
+      "titulo": "Twelfth Army (United Kingdom) - Reference.org"
+    },
+    {
+      "url": "https://grokipedia.com/page/Dudley_Clarke",
+      "titulo": "Dudley Clarke — Grokipedia"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Operation_Mincemeat",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://military.com/british-intelligence-gave-a-dead-man-fake-invasion-plans-hitler-fell-for-it",
+      "titulo": "Operation Mincemeat: How a Dead Man Helped Fool Hitler"
+    },
+    {
+      "url": "https://cradleofaviation.org/history/history/historical_events/operation-mincemeat.html",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/record?catid=5435220&catln=6",
+      "titulo": "Operation MINCEMEAT: copies of documents made available to press"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/File:UK_National_Archives_-_WO_1065921.jpg",
+      "titulo": "File:UK National Archives - WO 1065921.jpg"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Waterfall",
+      "titulo": "Operation Waterfall"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Balkans",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cyrenaica",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special_Operations_Executive",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Andartes",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allied_invasion_of_Sicily",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Disinformation",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Second_World_War",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tramp",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rat_poison",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Royal_Marines",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Captain_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Acting_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Major_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/William_Martin_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allies_of_World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sardinia",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Feint",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trout_memo",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rear_Admiral",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Henry_Godfrey",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Naval_Intelligence_Division_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ian_Fleming",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/American_military",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spain_during_World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Abwehr",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ultra_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Duff_Cooper",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ewen_Montagu",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Man_Who_Never_Was_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Man_Who_Never_Was",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fly_fishing",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ben_Macintyre",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lieutenant_commander",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Personal_assistant",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Axis_powers",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/U-boat",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Richard_Meinertzhagen",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Alam_el_Halfa",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scout_car",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/90th_Light_Infantry_Division_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gibraltar",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/C%C3%A1diz",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mark_W._Clark",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allied_Expeditionary_Force",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Noel_Mason-MacFarlane",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Torch",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tarifa",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charles_Cholmondeley_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trojan_Horse",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trojan_War",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flight_lieutenant",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Royal_Air_Force",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 3,
+    "consultas_checagem": 0,
+    "fontes": 333,
+    "marcos": 9,
+    "marcos_matriz": 1,
+    "rejeitados": 0,
+    "duracao_s": 101.7,
+    "tokens": {
+      "entrada": 24,
+      "saida": 9983,
+      "cache": 193446,
+      "cache_gravado": 36506
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:12:34+00:00",
+  "ultima_revisao": "2026-11-20T22:12:34+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D009",
+  "classe_preliminar": "M",
+  "epoca": "1943",
+  "regiao": "Mediterrâneo",
+  "status_editorial": "ia_revisao_pendente"
+}

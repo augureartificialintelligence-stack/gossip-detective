@@ -36,6 +36,11 @@ def main() -> None:
         _gravar(DESTINO / "casos" / f"{caso['id']}.json", caso)
     for caso in verificados:
         _gravar(DESTINO / "casos" / f"{caso['id']}.json", caso)
+    colecoes = arquivo.colecoes_publicadas()
+    for colecao in colecoes:
+        for item in colecao["itens"]:
+            _gravar(DESTINO / "casos" / f"{item['id']}.json", arquivo.carregar_caso(item["id"]))
+    _gravar(DESTINO / "colecoes.json", {"colecoes": colecoes})
 
     _gravar(DESTINO / "status.json", {"ia_disponivel": False, "versao": VERSAO, "checagens_google": False, "demo": True})
     _gravar(DESTINO / "casos.json", {
@@ -52,7 +57,7 @@ def main() -> None:
         "atualizando": False, "erro": None, "ia_disponivel": False, "validade_horas": config.TENDENCIAS_HORAS,
     })
     print(f"Demonstração gerada em {DESTINO}: {len(verificados)} dossiês verificados, {len(investigacoes)} investigações, "
-          f"{len(trends['itens'])} trends.")
+          f"{sum(len(c['itens']) for c in colecoes)} casos do Arquivo REVELATIO, {len(trends['itens'])} trends.")
 
 
 if __name__ == "__main__":

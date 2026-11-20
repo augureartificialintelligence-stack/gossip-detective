@@ -12,3 +12,5 @@ dados/avaliacoes.json
 docs/*.jpeg
 docs/*.jpg
 docs/*.png
+# registros internos do executor de missões (custos e log)
+dados/colecoes/_*

@@ -4,7 +4,7 @@ O prompt e a lista de ferramentas são estáticos (sem datas nem IDs) para que o
 seja reaproveitado pelo cache de prompt entre investigações.
 """
 
-from . import config
+from . import config, fontes
 from .esquema import (
     CLASSIFICACOES, GRAUS_GEO, PRECISOES, RELACOES, SUSTENTACOES, TIPOS_ALEGACAO,
     TIPOS_FONTE, TIPOS_REGISTRO, LIMITE_MARCOS,
@@ -33,6 +33,10 @@ Regras inegociáveis:
 - Se não encontrar registros suficientes, diga isso com a classificação "sem_registros_suficientes". Uma investigação curta e honesta vale mais que um rastro preenchido à força.
 
 Estilo: português do Brasil, claro para qualquer idade, sem humilhar quem pergunta. Texto de cada marco: 1 a 2 frases curtas que digam o que aconteceu e o que esse registro acrescenta à construção cronológica do caso (a central monta a síntese encadeando esses textos, data a data, até o veredito). Síntese: curta, até 60 palavras, sem anunciar a classificação (a central a mostra à parte). data_exibicao em maiúsculas curtas, como "25 AGO 1835", "NOV 1920", "1835–1900" ou "SÉC. XIX"."""
+
+
+# Matriz editorial de fontes REVELATIO: onde pesquisar primeiro e como pesar cada fonte (texto estático, cacheável).
+SISTEMA += fontes.texto_prompt()
 
 
 def _anulavel(tipo: str) -> list[str]:

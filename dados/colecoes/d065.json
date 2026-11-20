@@ -1,0 +1,594 @@
+{
+  "id": "d065",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Pizzagate: conspiração sobre pizzaria e políticos (2016, EUA)",
+  "titulo": "Pizzagate: a falsa rede de abuso infantil na pizzaria Comet Ping Pong (2016, EUA)",
+  "tipo_alegacao": "rumor",
+  "classificacao": "refutada",
+  "veredito": "Não há evidência de rede de abuso na Comet Ping Pong; a teoria foi desmentida por checadores e pela polícia, e a única violência documentada partiu de quem acre",
+  "sintese": "Nascido em boatos de outubro de 2016 e transformado em teoria detalhada num fórum pró-Trump do Reddit em 4 de novembro, o Pizzagate foi desmentido pela Snopes, banido do Reddit e levou a um ataque armado à pizzaria. Alex Jones se retratou e o atirador foi condenado. A autoria e a intenção iniciais seguem sem comprovação.",
+  "limites": "Por limite de ferramentas, não li diretamente os documentos judiciais (DOJ/tribunal), a reportagem original do Washington Post de 4 dez. 2016 nem o fio original do Reddit; o tuíte de 30 out. e o ataque vêm de verbete da Wikipedia, que serve como fonte de descoberta. Não há registro anterior localizado que prove a origem absoluta. Não verifiquei documentos sobre eventual amplificação estrangeira.",
+  "perspectivas": [
+    {
+      "titulo": "Conteúdo da alegação: refutado",
+      "texto": "Snopes (2016), a polícia de D.C. (que chamou o caso de 'fictício', segundo a Wikipedia) e a AP (2023) não encontraram base para a existência da rede. O atirador também não achou nada na pizzaria.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Origem e autoria: incertas (boato B)",
+      "texto": "Os registros mais antigos localizados são um tuíte anônimo (30 out.) e um fio no Reddit (4 nov.). Mostram onde a teoria circulou, não quem a criou nem com que intenção; o vínculo entre os dois é inferido.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Amplificadores e responsabilização",
+      "texto": "A responsabilidade jurídica estabelecida se limita ao atirador (condenação em 2017). A retratação de Alex Jones é um reconhecimento público de que ele promoveu a teoria, mas não é uma condenação judicial por criá-la.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Hipótese de interferência estrangeira",
+      "texto": "A Wikipedia menciona que o FBI examinou ameaças ligadas ao Pizzagate em 2017 dentro da apuração sobre interferência russa. Nesta investigação, não localizei atribuição técnica, sanção ou decisão judicial que comprove essa autoria.",
+      "sustentacao": "sem_sustentacao"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Tuíte atribui ao NYPD boato sobre \"rede de pedofilia\"",
+      "texto": "Uma conta no Twitter afirmou, sem provas, que haveria \"rumores no NYPD\" de que e-mails ligariam Hillary Clinton a uma rede de pedofilia. É o registro mais antigo localizado nesta investigação do núcleo da narrativa, ainda sem mencionar a pizzaria.",
+      "tipo_registro": "primeiro_registro_localizado",
+      "data_inicio": "2016-10-30",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "30 OUT 2016",
+      "local": "Local não identificado",
+      "lat": null,
+      "lon": null,
+      "grau_geografico": "desconhecido",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Pizzagate conspiracy theory",
+        "entidade": "Wikipedia (fonte de descoberta, F007/F009)",
+        "url": "https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "On October 30, 2016, a white supremacist [account] ... falsely claimed that the New York City Police Department (NYPD) had [discovered a pedophilia ring linked to Clinton]; tweet: 'Rumors stirring in the NYPD that [Huma]'s emails point to a pedophila ring'.",
+        "data_acesso": "2026-11-20T20:00:07+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Fio no Reddit liga a teoria à pizzaria Comet Ping Pong",
+      "texto": "Um usuário publicou no fórum pró-Trump r/The_Donald o resumo \"Comet Ping Pong - Pizzagate Summary\", que, segundo a Snopes, deu início à versão detalhada da teoria. É aqui que a narrativa ganha o nome e passa a mirar a pizzaria de Washington.",
+      "tipo_registro": "publicacao",
+      "data_inicio": "2016-11-04",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "4 NOV 2016",
+      "local": "Local não identificado",
+      "lat": null,
+      "lon": null,
+      "grau_geografico": "desconhecido",
+      "relacao_com_anterior": "hipotese",
+      "fonte": {
+        "titulo": "Is Comet Ping Pong Pizzeria Home to a Child Abuse Ring Led by Hillary Clinton?",
+        "entidade": "Snopes",
+        "url": "https://www.snopes.com/fact-check/pizzagate-conspiracy/",
+        "tipo_fonte": "checagem",
+        "data_documento": "2016-11-21",
+        "trecho_de_suporte": "On 4 November 2016, Reddit user u/DumbScribblyUnctious published a thread titled \"Comet Ping Pong - Pizzagate Summary\" to subreddit r/The_Donald ... which appears to have touched off a complex and detailed conspiracy",
+        "data_acesso": "2026-11-20T20:00:12+00:00",
+        "matriz_id": "F003",
+        "matriz_funcoes": [
+          "V",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Reddit remove o fórum r/pizzagate",
+      "texto": "O Reddit baniu o fórum dedicado à teoria por violar sua regra contra divulgar dados pessoais de terceiros. A reportagem registra o assédio real sofrido pelo dono da Comet Ping Pong.",
+      "tipo_registro": "contestacao",
+      "data_inicio": "2016-11",
+      "data_fim": "2016-11-27",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "NOV 2016",
+      "local": "Estados Unidos",
+      "lat": 39.8,
+      "lon": -98.6,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Reddit removes 'Pizzagate' subforum",
+        "entidade": "The Columbian",
+        "url": "https://www.columbian.com/news/2016/nov/27/reddit-removes-pizzagate-subforum/",
+        "tipo_fonte": "jornalistica",
+        "data_documento": "2016-11-27",
+        "trecho_de_suporte": "Citing its policy against posting the personal information of others, Reddit has banned the \"Pizzagate\" conspiracy board. ... It has also led to some very real harassment of the people caught up in the theory, including the owner of the Comet Ping Pong pizzeria, James Alefantis.",
+        "data_acesso": "2026-11-20T20:00:21+00:00"
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Snopes classifica a alegação como falsa",
+      "texto": "A Snopes verificou a alegação de que os e-mails de Podesta revelavam uma rede de pedofilia operando por meio da pizzaria e a classificou como falsa. É a primeira verificação independente localizada.",
+      "tipo_registro": "verificacao",
+      "data_inicio": "2016-11-21",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "21 NOV 2016",
+      "local": "Estados Unidos",
+      "lat": 39.8,
+      "lon": -98.6,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "FACT CHECK: Is Comet Ping Pong Pizzeria Home to a Child Abuse Ring Led by Hillary Clinton?",
+        "entidade": "Snopes",
+        "url": "https://www.snopes.com/fact-check/pizzagate-conspiracy/",
+        "tipo_fonte": "checagem",
+        "data_documento": "2016-11-21",
+        "trecho_de_suporte": "Alegação: The 'Podesta e-mails' revealed the existence of a secret society of pedophiles operating through a pizza place loosely connected to Clinton associate David Brock. Veredito: False. Published Nov. 21, 2016.",
+        "data_acesso": "2026-11-20T20:00:16+00:00",
+        "matriz_id": "F003",
+        "matriz_funcoes": [
+          "V",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "Homem armado dispara dentro da Comet Ping Pong",
+      "texto": "Edgar Maddison Welch, da Carolina do Norte, foi à pizzaria para \"investigar\" a teoria e disparou um fuzil no local; nenhuma rede de abuso foi encontrada. O boato on-line resultou em violência física.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "2016-12-04",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "4 DEZ 2016",
+      "local": "Washington, D.C. · EUA",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Pizzagate conspiracy theory (cita Washington Post, 4 dez. 2016: 'N.C. man told police he went to D.C. pizzeria with assault rifle to self-investigate election-related conspiracy theory')",
+        "entidade": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Edgar Maddison Welch, a 28-year-old man from Salisbury, North Carolina, arrived at Comet Ping Pong and fired three shots from an AR-15-style rifle... [ref. Washington Post, December 4, 2016]",
+        "data_acesso": "2026-11-20T20:00:26+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "Alex Jones se desculpa por promover o Pizzagate",
+      "texto": "O apresentador do InfoWars pediu desculpas à pizzaria e ao dono pelo papel do programa na divulgação da teoria falsa, após cobrança de retratação. Um dos maiores amplificadores recua publicamente.",
+      "tipo_registro": "contestacao",
+      "data_inicio": "2017-03-24",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "24 MAR 2017",
+      "local": "Estados Unidos",
+      "lat": 39.8,
+      "lon": -98.6,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Conspiracy Theorist Alex Jones Apologizes For Promoting 'Pizzagate'",
+        "entidade": "NPR",
+        "url": "https://www.npr.org/sections/thetwo-way/2017/03/26/521545788/conspiracy-theorist-alex-jones-apologizes-for-promoting-pizzagate",
+        "tipo_fonte": "jornalistica",
+        "data_documento": "2017-03-26",
+        "trecho_de_suporte": "Alex Jones has apologized to the Washington, D.C. pizzeria Comet Ping Pong and its owner James Alefantis for his show's role in promoting the false \"pizzagate\" conspiracy theory... Alefantis... wrote to Jones in February asking for several retractions.",
+        "data_acesso": "2026-11-20T20:00:31+00:00"
+      }
+    },
+    {
+      "id": "m07",
+      "seq": 7,
+      "titulo": "Atirador condenado a quatro anos de prisão",
+      "texto": "A juíza federal Ketanji Brown Jackson condenou Welch a quatro anos por transporte interestadual de arma e agressão com arma perigosa. A Justiça estabelece a autoria do ataque, não a da teoria.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "2017-06-22",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "22 JUN 2017",
+      "local": "Washington, D.C. · EUA",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "'Pizzagate' shooter sentenced to 4 years in prison, judge describes 'breathtaking' recklessness",
+        "entidade": "ABC News",
+        "url": "https://abcnews.com/amp/US/pizzagate-shooter-sentenced-years-prison-judge-describes-breathtaking/story?id=48213928",
+        "tipo_fonte": "jornalistica",
+        "data_documento": "2017-06-22",
+        "trecho_de_suporte": "Welch received four years for a federal charge of interstate transportation of a firearm and ammunition and two years for a District of Columbia charge of assault with a dangerous weapon... an unfounded conspiracy theory dubbed \"Pizzagate\"",
+        "data_acesso": "2026-11-20T20:00:36+00:00"
+      }
+    },
+    {
+      "id": "m08",
+      "seq": 8,
+      "titulo": "Teoria ressurge e AP reafirma que é falsa",
+      "texto": "Em 2023 o Pizzagate voltou a circular, agora com a falsa alegação de que um especialista que desmentira a teoria havia sido preso. A AP Fact Check classificou essa alegação como falsa, o que mostra que a narrativa continua se renovando sete anos depois.",
+      "tipo_registro": "verificacao",
+      "data_inicio": "2023-11-29",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "29 NOV 2023",
+      "local": "Estados Unidos",
+      "lat": 39.8,
+      "lon": -98.6,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "'Pizzagate' conspiracy theory revived online. Here's the facts",
+        "entidade": "AP News",
+        "url": "https://apnews.com/article/fact-check-pizzagate-conspiracy-elon-musk-ABC-657657139374",
+        "tipo_fonte": "checagem",
+        "data_documento": "2023-11-29",
+        "trecho_de_suporte": "Alegação: An expert who debunked the 'pizzagate' conspiracy theory has been jailed for possessing child sexual abuse images. Veredito: False.",
+        "data_acesso": "2026-11-20T20:00:41+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://apnews.com/article/fact-check-pizzagate-conspiracy-elon-musk-ABC-657657139374",
+      "titulo": "‘Pizzagate’ conspiracy theory revived online. Here's the facts"
+    },
+    {
+      "url": "https://snopes.com/fact-check/pizzagate-conspiracy",
+      "titulo": "FACT CHECK: Is Comet Ping Pong Pizzeria Home to a Child Abuse ..."
+    },
+    {
+      "url": "https://snopes.com/fact-check/ketanji-brown-jackson-pizzagate",
+      "titulo": "Was Ketanji Brown Jackson the Judge in the 'Pizzagate' Case?"
+    },
+    {
+      "url": "https://abcnews.com/amp/US/pizzagate-shooter-sentenced-years-prison-judge-describes-breathtaking/story?id=48213928",
+      "titulo": "'Pizzagate' shooter sentenced to 4 years in prison, judge describes 'breathtaking' recklessness - ABC News"
+    },
+    {
+      "url": "https://supremecourt.gov/opinions/URLs_Cited/OT2020/20-1063/20-1063-1.pdf",
+      "titulo": "HOURLY NEWS N LIVE PLAYLIST WAMU 88.5 On Air Now LISTE DONATE The Two-Way"
+    },
+    {
+      "url": "https://meme.com/memes/pizzagate",
+      "titulo": "Pizzagate: The 2016 Conspiracy Theory Explained"
+    },
+    {
+      "url": "https://npr.org/2025/01/10/g-s1-42040/pizzagate-gunman-killed-police-north-carolina",
+      "titulo": "'Pizzagate' gunman killed by police in North Carolina, authorities say : NPR"
+    },
+    {
+      "url": "https://seasidesignal.com/2026/11/20/2020-election-merkley-bids-for-a-third-term-in-the-u-s-senate",
+      "titulo": "2020 Election: Merkley bids for a third term in the U.S. Senate"
+    },
+    {
+      "url": "https://foxnews.com/politics/pizzagate-gunman-sentenced-to-4-years-in-prison",
+      "titulo": "pizzagate gunman sentenced to 4 years in prison"
+    },
+    {
+      "url": "https://amp.cbc.ca/news/world/pizzagate-edgar-welch-sentence-1.4173523",
+      "titulo": "pizzagate edgar welch sentence 1.4173523"
+    },
+    {
+      "url": "https://npr.org/sections/thetwo-way/2017/06/22/533941689/pizzagate-gunman-sentenced-to-4-years-in-prison",
+      "titulo": "'Pizzagate' Gunman Sentenced To 4 Years In Prison"
+    },
+    {
+      "url": "https://cbc.ca/1.4173523",
+      "titulo": "www.cbc.ca"
+    },
+    {
+      "url": "https://nbcnews.com/news/us-news/pizzagate-gunman-edgar-maddison-welch-sentenced-four-years-prison-n775621",
+      "titulo": "'Pizzagate' Gunman Edgar Maddison Welch Sentenced to Four Years in Prison"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Edgar_Maddisson_Welch",
+      "titulo": "Pizzagate conspiracy theory"
+    },
+    {
+      "url": "https://abcnews.com/US/pizzagate-shooter-sentenced-years-prison-judge-describes-breathtaking/story?id=48213928",
+      "titulo": "'Pizzagate' shooter sentenced to 4 years in prison, judge describes 'breathtaking' recklessness - ABC News"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory",
+      "titulo": "Pizzagate conspiracy theory"
+    },
+    {
+      "url": "https://abc.net.au/news/2017-06-23/pizzagate-gunman-sentenced-to-jail/8645234",
+      "titulo": "Pizzagate gunman Edgar Maddison Welch jailed after acting on restaurant conspiracy theory - ABC News"
+    },
+    {
+      "url": "https://courthousenews.com/pizzagate-shooter-gets-4-year-prison-stretch",
+      "titulo": "Pizzagate Shooter Gets 4-Year Prison Stretch"
+    },
+    {
+      "url": "https://justice.gov/usao-dc/pr/north-carolina-man-sentenced-four-year-prison-term-armed-assault-northwest-washington",
+      "titulo": "north carolina man sentenced four year prison term armed assault northwest washington"
+    },
+    {
+      "url": "https://knowyourmeme.com/memes/pizzagate",
+      "titulo": "Pizzagate"
+    },
+    {
+      "url": "https://steemit.com/pizzagate/@fuckcensorship/the-truth-has-no-bias-the-real-origins-of-r-pizzagate-and-the-pizzagate-pedogate-movement-part-1",
+      "titulo": "The Truth Has No Bias: The Real Origins Of /r/Pizzagate & The Pizzagate/Pedogate Movement. (Part 1) — Steemit"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Podesta_emails",
+      "titulo": "Podesta emails"
+    },
+    {
+      "url": "https://conspiracytheory.net/theory/pizzagate-modern-satanic-panic",
+      "titulo": "Pizzagate — Modern Satanic Panic / Spirit Cooking"
+    },
+    {
+      "url": "https://grokipedia.com/page/pizzagate_conspiracy_theory",
+      "titulo": "Pizzagate conspiracy theory — Grokipedia"
+    },
+    {
+      "url": "https://britannica.com/topic/Pizzagate",
+      "titulo": "britannica.com"
+    },
+    {
+      "url": "https://politifact.com/article/2016/dec/05/how-pizzagate-went-fake-news-real-problem-dc-busin",
+      "titulo": "how pizzagate went fake news real problem dc busin"
+    },
+    {
+      "url": "https://aceofswordsconspiracies.substack.com/p/pizzagate-clinton-and-podesta-what",
+      "titulo": "#Pizzagate, Clinton, & Podesta: What is it, and is it credible?"
+    },
+    {
+      "url": "https://washingtontimes.com/news/2017/mar/25/alex-jones-conspiracy-theorist-apologizes-comet-pi",
+      "titulo": "Alex Jones, conspiracy theorist, apologizes to Comet Ping Pong for peddling Pizzagate claims"
+    },
+    {
+      "url": "https://ideastream.org/2017-03-26/conspiracy-theorist-alex-jones-apologizes-for-promoting-pizzagate",
+      "titulo": "Conspiracy Theorist Alex Jones Apologizes For Promoting 'Pizzagate'"
+    },
+    {
+      "url": "https://washingtonpost.com/lifestyle/style/so-sorry-alex-jones-your-pizzagate-apology-doesnt-change-a-thing/2017/03/28/7ab546da-1303-11e7-9e4f-09aa75d3ec57_story.html",
+      "titulo": "So sorry, Alex Jones. Your ‘Pizzagate’ apology doesn’t change a thing. - The Washington Post"
+    },
+    {
+      "url": "https://washingtonpost.com/lifestyle/style/conspiracy-theorist-alex-jones-backs-off-pizzagate-claims/2017/03/24/6f0246fe-10cd-11e7-ab07-07d9f521f6b5_story.html",
+      "titulo": "Conspiracy theorist Alex Jones backs off ‘Pizzagate’ claims - The Washington Post"
+    },
+    {
+      "url": "https://npr.org/sections/thetwo-way/2017/03/26/521545788/conspiracy-theorist-alex-jones-apologizes-for-promoting-pizzagate",
+      "titulo": "Conspiracy Theorist Alex Jones Apologizes For Promoting 'Pizzagate'"
+    },
+    {
+      "url": "https://fortune.com/2017/03/25/infowars-alex-jones-pizzagate",
+      "titulo": "infowars alex jones pizzagate"
+    },
+    {
+      "url": "https://dc.fortune.com/2017/03/25/infowars-alex-jones-pizzagate",
+      "titulo": "infowars alex jones pizzagate"
+    },
+    {
+      "url": "https://aol.com/2017-03-25-infowars-alex-jones-issues-apology-over-pizzagate-conspiracy-theory-22011558.html",
+      "titulo": "Infowars' Alex Jones issues apology over Pizzagate conspiracy theory"
+    },
+    {
+      "url": "https://huggingface.co/datasets/2nji/makebelieve-480/viewer",
+      "titulo": "huggingface.co"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki//r/pizzagate",
+      "titulo": "Controversial Reddit communities"
+    },
+    {
+      "url": "https://columbian.com/news/2016/nov/27/reddit-removes-pizzagate-subforum",
+      "titulo": "Reddit removes 'Pizzagate' subforum"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Voat",
+      "titulo": "Voat"
+    },
+    {
+      "url": "https://reddit.pizzagate.hackliberty.org/",
+      "titulo": "/r/Pizzagate Archive"
+    },
+    {
+      "url": "https://themillenniumreport.com/2016/11/pedophiles-exposed-reddit-bans-pizzagate-sub-reddit",
+      "titulo": "PEDOPHILES EXPOSED? Reddit Bans PizzaGate Sub-Reddit"
+    },
+    {
+      "url": "https://macro.economicblogs.org/zerohedge/2016/11/durden-reddit-bans-pizzagate-dont-witchhunts",
+      "titulo": "Reddit Bans \"Pizzagate\" - \"We Don't Want Witchhunts On Our Site\" - Macro"
+    },
+    {
+      "url": "https://fortune.com/2016/11/24/reddit-steve-huffman-pizzagate",
+      "titulo": "reddit steve huffman pizzagate"
+    },
+    {
+      "url": "https://i.sli.mg/1MqPHA.png",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Conspiracy_theory",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Viral_phenomenon",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/New_York_City_Police_Department",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pedophilia",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Democratic_Party_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Anthony_Weiner",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Washington,_D.C._police",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Podesta",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hillary_Clinton",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Campaign_manager",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Phishing",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/WikiLeaks",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Human-trafficking",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Child_sex_ring",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Comet_Ping_Pong",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alt-right",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Conservatism_in_the_United_States",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hillary_Clinton_email_controversy",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Social_media",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/4chan",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/8chan",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/North_Carolina",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/QAnon",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Human_sacrifice",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Epstein_files",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Far-right",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TikTok",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/White_supremacy",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Human_trafficking",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Satanic_ritual_abuse",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Watergate_scandal",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_fake_news_websites",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Your_News_Wire",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 6,
+    "leituras": 3,
+    "consultas_checagem": 1,
+    "fontes": 510,
+    "marcos": 8,
+    "marcos_matriz": 2,
+    "rejeitados": 0,
+    "duracao_s": 128.5,
+    "tokens": {
+      "entrada": 28,
+      "saida": 10163,
+      "cache": 244308,
+      "cache_gravado": 32235
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T20:00:53+00:00",
+  "ultima_revisao": "2026-11-20T20:00:53+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D065",
+  "classe_preliminar": "B/D",
+  "epoca": "2016",
+  "regiao": "EUA",
+  "status_editorial": "ia_revisao_pendente"
+}

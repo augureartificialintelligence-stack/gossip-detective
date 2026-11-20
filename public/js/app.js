@@ -183,7 +183,7 @@
     $("conta").title = usuario.email;
     $("conta").classList.remove("hidden");
     $("btnSair").classList.toggle("hidden", S.demo);
-    await Promise.all([carregarCasos(), carregarBombando(), S.mapaPronto]);
+    await Promise.all([carregarCasos(), carregarBombando(), carregarColecoes(), S.mapaPronto]);
     carregarTendencias();
     clearInterval(S.bombandoTimer);
     S.bombandoTimer = setInterval(carregarBombando, 60000); // traz as pesquisas novas de outros usuários
@@ -277,6 +277,44 @@
     document.querySelectorAll("#menuLateral .ml-item").forEach((b) => {
       b.parentElement.classList.toggle("hidden", Boolean(q) && !b.dataset.busca.includes(q));
     });
+  }
+
+  // ------------------------------------------------------------ Arquivo REVELATIO (coleções editoriais publicadas)
+
+  async function carregarColecoes() {
+    try {
+      S.colecoes = (await (await api("api/colecoes")).json()).colecoes;
+    } catch (_) { return; }
+    S.colecaoAtiva = S.colecaoAtiva || "desinformacao";
+    const publicadas = S.colecoes.reduce((n, c) => n + c.itens.length, 0);
+    $("arqContagem").textContent = `${publicadas} DE ${S.colecoes.reduce((n, c) => n + c.total, 0)} CASOS PUBLICADOS`;
+    document.querySelectorAll(".arq-abas [data-colecao]").forEach((aba) => {
+      const c = S.colecoes.find((x) => x.id === aba.dataset.colecao);
+      aba.querySelector("[data-contagem]").textContent = c ? `${c.itens.length}/${c.total}` : "";
+    });
+    renderizarColecao();
+  }
+
+  function renderizarColecao() {
+    const colecao = (S.colecoes || []).find((c) => c.id === S.colecaoAtiva);
+    document.querySelectorAll(".arq-abas [data-colecao]").forEach((aba) =>
+      aba.setAttribute("aria-selected", String(aba.dataset.colecao === S.colecaoAtiva)));
+    const q = normalizar($("arqFiltro").value);
+    const itens = (colecao ? colecao.itens : []).filter((i) => !q || normalizar(`${i.catalogo_id} ${i.titulo} ${i.pergunta} ${i.regiao}`).includes(q));
+    if (!itens.length) {
+      $("arqGrade").replaceChildren(el("li", { className: "arq-vazio", textContent: colecao && colecao.itens.length
+        ? "Nenhum caso corresponde ao filtro." : "Os casos desta coleção estão sendo investigados e aparecem aqui assim que forem publicados." }));
+      return;
+    }
+    $("arqGrade").replaceChildren(...itens.map((i) => {
+      const b = el("button", { type: "button", className: "arq-card", title: i.pergunta },
+        el("span", { className: "arq-id", textContent: i.catalogo_id }),
+        el("span", { className: "arq-titulo", textContent: i.titulo }),
+        el("span", { className: "arq-meta", textContent: `${i.epoca} · ${i.regiao}` }));
+      b.disabled = S.emCurso;
+      b.onclick = () => { if (!S.emCurso) { abrirCaso(i.id); document.querySelector(".map-panel").scrollIntoView({ behavior: reduzMovimento ? "auto" : "smooth" }); } };
+      return el("li", {}, b);
+    }));
   }
 
   // ------------------------------------------------------------ faixas rolantes: Trends e Bombando
@@ -400,7 +438,7 @@
     $("btnAbortar").classList.remove("hidden");
     $("btnPular").classList.toggle("hidden", tipo === "ia");
     $("pergunta").disabled = true;
-    document.querySelectorAll(".mode, .ml-item, .ticker-item").forEach((b) => (b.disabled = true));
+    document.querySelectorAll(".mode, .ml-item, .ticker-item, .arq-card").forEach((b) => (b.disabled = true));
 
     S.inicio = Date.now();
     clearInterval(S.cronometro);
@@ -423,7 +461,7 @@
     $("btnAbortar").classList.add("hidden");
     $("btnPular").classList.add("hidden");
     $("pergunta").disabled = false;
-    document.querySelectorAll(".ml-item, .ticker-item").forEach((b) => (b.disabled = false));
+    document.querySelectorAll(".ml-item, .ticker-item, .arq-card").forEach((b) => (b.disabled = false));
     document.querySelectorAll(".mode").forEach((b) => (b.disabled = b.dataset.modo === "ia" && !S.iaDisponivel));
   }
 
@@ -604,7 +642,8 @@
   function criarCartao(m) {
     const corpo = el("div", { className: "r-corpo" },
       m.texto ? el("p", { textContent: m.texto }) : null,
-      el("div", { className: "r-fonte" }, linkSeguro(m.fonte.url, `${m.fonte.entidade} ↗`)));
+      el("div", { className: "r-fonte" }, linkSeguro(m.fonte.url, `${m.fonte.entidade} ↗`),
+        m.fonte.matriz_id ? el("span", { className: "r-matriz", textContent: m.fonte.matriz_id, title: "Fonte da matriz REVELATIO" }) : null));
     corpo.hidden = true;
     const cab = el("button", { type: "button", className: "r-cab" },
       el("span", { className: "r-num" }),
@@ -794,6 +833,11 @@
 
   function renderizarDossie(c) {
     $("dossie").classList.remove("hidden");
+    const selo = $("vSeloEditorial");
+    selo.classList.toggle("hidden", !c.catalogo_id);
+    selo.textContent = c.catalogo_id
+      ? `ARQUIVO REVELATIO · ${c.catalogo_id}${c.status_editorial === "ia_revisao_pendente" ? " · gerado por IA, revisão editorial pendente" : ""}`
+      : "";
     $("vPergunta").textContent = c.pergunta;
     $("vTitulo").textContent = c.titulo;
     renderizarLinhaSintese(c);
@@ -965,6 +1009,8 @@
     };
     $("btnMenu").onclick = () => ($("menuLateral").classList.contains("aberto") ? fecharMenu() : abrirMenu());
     $("navHistorico").onclick = abrirMenu;
+    document.querySelectorAll(".arq-abas [data-colecao]").forEach((aba) => (aba.onclick = () => { S.colecaoAtiva = aba.dataset.colecao; renderizarColecao(); }));
+    $("arqFiltro").oninput = renderizarColecao;
     $("btnTopo").onclick = () => scrollTo({ top: 0, behavior: reduzMovimento ? "auto" : "smooth" });
     addEventListener("scroll", () => $("btnTopo").classList.toggle("hidden", scrollY < 500), { passive: true });
     $("btnFecharMenu").onclick = fecharMenu;

@@ -1,0 +1,436 @@
+{
+  "id": "d007",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Operation Mincemeat: documentos falsos junto a cadáver (1943, Reino Unido/Espanha)",
+  "titulo": "Operation Mincemeat: o cadáver com documentos falsos (Huelva, 1943)",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "A operação foi real: um engano militar britânico que pôs um cadáver com documentos falsos na costa da Espanha para desviar a atenção alemã da Sicília. Ainda há ",
+  "sintese": "Em 30 de abril de 1943, a inteligência britânica pôs no mar, perto de Huelva, um corpo com cartas forjadas que apontavam a Grécia e a Sardenha como alvos. Decifrações indicam que os alemães foram enganados antes da invasão da Sicília. Desde 1996, a identificação aceita é Glyndwr Michael. A tese de que seria John Melville, do HMS Dasher, segue sendo contestada.",
+  "limites": "As ferramentas de busca falharam durante a pesquisa, e não foi possível ler os arquivos originais (como o WO 106/5921, no National Archives) nem fontes espanholas ou alemãs. Vários marcos se apoiam em museus e textos secundários. Não confirmamos a data do artigo do History News Network contra a tese do Dasher. A Britannica diz que o corpo foi lançado em 29 de abril, e outras fontes dizem 30 de abril: provavelmente é a diferença entre a noite do lançamento e a madrugada.",
+  "perspectivas": [
+    {
+      "titulo": "Engano militar, não fake news",
+      "texto": "Foi uma desinformação dirigida a um inimigo em guerra, planejada pela inteligência britânica. A autoria é de Estado, assumida pelo próprio chefe da operação (Montagu, 1953) e confirmada por arquivos oficiais. O alvo não era a população civil.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Corpo de Glyndwr Michael",
+      "texto": "Os arquivos britânicos noticiados em 1996 e a correspondência de Montagu identificam o corpo como o de um sem-teto galês morto por envenenamento. É a versão mais aceita entre historiadores, como Ben Macintyre.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Corpo de John Melville (HMS Dasher)",
+      "texto": "Defensores dizem que o corpo seria de um marinheiro morto na explosão do HMS Dasher, em março de 1943. A tese chegou ao Parlamento em 2023, mas não encontramos documento primário que a comprove. Um debate parlamentar mostra que a tese existe, não que ela seja verdadeira.",
+      "sustentacao": "sem_sustentacao"
+    },
+    {
+      "titulo": "Tamanho do impacto",
+      "texto": "Mensagens decifradas mostram reforços alemães enviados à Grécia e à Sardenha. Ainda assim, é difícil medir o efeito exato da Mincemeat sozinha, porque ela fazia parte de um plano maior de engano, a Operação Barclay.",
+      "sustentacao": "parcial"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Corpo lançado ao mar perto de Huelva",
+      "texto": "O submarino britânico HMS Seraph soltou ao largo de Huelva o corpo de Glyndwr Michael, vestido como o fictício \"Major William Martin\" e levando documentos falsos. É o ato central do engano militar.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-04-30",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "30 ABR 1943",
+      "local": "Golfo de Huelva · Espanha",
+      "lat": 37.2,
+      "lon": -6.95,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Mincemeat",
+        "entidade": "World War II Database (ww2db.com)",
+        "url": "https://ww2db.com/battle_spec.php?battle_id=279",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "30 Apr 1943 · The body of Glyndwr Michael was put into the sea from British submarine HMS Seraph off Huelva, Spain; posed as Major William Martin, the body carried false documents intended to mislead the Germans.",
+        "data_acesso": "2026-11-20T20:00:19+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Pescador encontra o \"Major Martin\"",
+      "texto": "Na mesma manhã, o corpo chegou à costa de Huelva e foi achado por um pescador. Huelva foi escolhida de propósito, para que os papéis chegassem a agentes alemães na Espanha neutra.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-04-30",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "30 ABR 1943",
+      "local": "Huelva · Espanha",
+      "lat": 37.2614,
+      "lon": -6.9447,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Secret Agents, Secret Armies: Operation Mincemeat",
+        "entidade": "The National WWII Museum",
+        "url": "https://www.nationalww2museum.org/war/articles/secret-agents-secret-armies-operation-mincemeat",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "The body washed ashore in Huelva, Spain and was discovered by fisherman the morning of April 30, 1943. Huelva was chosen as the place for 'Martin' to be discovered for several reasons.",
+        "data_acesso": "2026-11-20T20:00:23+00:00",
+        "matriz_id": "F048",
+        "matriz_funcoes": [
+          "C",
+          "P"
+        ]
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Decifrações mostram que o engano funcionou",
+      "texto": "Exames mostraram que os documentos tinham sido lidos, e mensagens alemãs decifradas indicaram reforços enviados à Grécia e à Sardenha. É a evidência de efeito sobre o alvo militar, embora o tamanho exato do impacto seja debatido.",
+      "tipo_registro": "verificacao",
+      "data_inicio": "1943-05",
+      "data_fim": "1943-07",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "MAI–JUL 1943",
+      "local": "Mediterrâneo (Grécia e Sardenha)",
+      "lat": 38.5,
+      "lon": 16.0,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Mincemeat",
+        "entidade": "Cradle of Aviation Museum",
+        "url": "https://www.cradleofaviation.org/history/history/historical_events/operation-mincemeat.html",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "Upon forensic examination, it was evident the documents had been read, and decrypted German messages revealed that the ruse had worked: German reinforcements were shifted to Greece and Sardinia, and Sicily was left vulnerable.",
+        "data_acesso": "2026-11-20T20:00:28+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Invasão aliada da Sicília",
+      "texto": "Menos de três meses depois do lançamento do corpo, os Aliados iniciaram a Operação Husky. É o alvo real que os documentos falsos buscavam esconder.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-07-10",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "10 JUL 1943",
+      "local": "Sicília · Itália",
+      "lat": 37.6,
+      "lon": 14.0,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "The Strange Tale of Operation Mincemeat",
+        "entidade": "Erskine (instituição britânica de apoio a veteranos)",
+        "url": "https://www.erskine.org.uk/news/the-strange-tale-of-operation-mincemeat",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "On 10 July 1943, less than three months after Operation Mincemeat, Allied forces launched Operation Husky, the invasion of Sicily.",
+        "data_acesso": "2026-11-20T20:00:32+00:00"
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "Montagu publica \"The Man Who Never Was\"",
+      "texto": "Ewen Montagu, chefe da operação, lançou seu relato, que revelou o plano ao público mas protegeu o nome verdadeiro do morto. O sigilo sobre a identidade abriu espaço para teorias posteriores.",
+      "tipo_registro": "publicacao",
+      "data_inicio": "1953",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1953",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "The Man Who Never Was (book)",
+        "entidade": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Man_Who_Never_Was_(book)",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The Man Who Never Was is a 1953 book by Ewen Montagu about the World War II Operation Mincemeat. Publisher: Evans Brothers, J.B. Lippincott. Publication place: United Kingdom.",
+        "data_acesso": "2026-11-20T20:00:37+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "Arquivos revelam Glyndwr Michael",
+      "texto": "Documentos dos arquivos públicos britânicos, noticiados pelo Daily Telegraph, apontaram o corpo como do galês Glyndwr Michael, sem-teto morto por veneno de rato. Vira a identificação mais aceita.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1996",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1996",
+      "local": "Kew, Londres · Reino Unido",
+      "lat": 51.481,
+      "lon": -0.279,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Whose body?",
+        "entidade": "Charles Glass (jornalista)",
+        "url": "https://www.charlesglass.net/whose-body/",
+        "tipo_fonte": "jornalistica",
+        "data_documento": null,
+        "trecho_de_suporte": "Macintyre has relied on Montagu's private correspondence and on documents in the National Archives at Kew, first reported by the Daily Telegraph in 1996, for his contention that the corpse was that of Glyndwr Michael.",
+        "data_acesso": "2026-11-20T20:00:41+00:00"
+      }
+    },
+    {
+      "id": "m07",
+      "seq": 7,
+      "titulo": "Teoria do HMS Dasher chega ao Parlamento",
+      "texto": "Em debate na Câmara dos Comuns, foi dito que muitos acreditam que o corpo era do marinheiro John Melville, morto no HMS Dasher. O registro prova que a tese foi defendida, não que ela seja verdadeira.",
+      "tipo_registro": "contestacao",
+      "data_inicio": "2023-03-27",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "27 MAR 2023",
+      "local": "Westminster, Londres · Reino Unido",
+      "lat": 51.4995,
+      "lon": -0.1248,
+      "grau_geografico": "ponto_exato",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "HMS Dasher – Hansard, House of Commons",
+        "entidade": "UK Parliament (Hansard)",
+        "url": "https://hansard.parliament.uk/commons/2023-03-27/debates/FCEFB673-BC05-439A-B0B6-12C850249F51/HMSDasher",
+        "tipo_fonte": "primaria",
+        "data_documento": "2023-03-27",
+        "trecho_de_suporte": "Although many still speculate and disagree as to the real identity of the man who never was, many absolutely believe that it was indeed Mr John Melville.",
+        "data_acesso": "2026-11-20T20:00:46+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://cradleofaviation.org/history/history/historical_events/operation-mincemeat.html",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://military.com/british-intelligence-gave-a-dead-man-fake-invasion-plans-hitler-fell-for-it",
+      "titulo": "Operation Mincemeat: How a Dead Man Helped Fool Hitler"
+    },
+    {
+      "url": "https://beachesofnormandy.com/articles/Operation_Mincemeat?id=2d0e35e1cc",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://ww2db.com/battle_spec.php?battle_id=279",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/William_Martin_(Royal_Marines_officer)",
+      "titulo": "William Martin (Royal Marines officer)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/William_Martin_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat_(film)",
+      "titulo": "Operation Mincemeat (film)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://allthatsinteresting.com/operation-mincemeat",
+      "titulo": "The True Story Of Operation Mincemeat, The British Plot That Used Fake Documents And A Drifter's Corpse To Fool The Nazis"
+    },
+    {
+      "url": "https://warhistoryonline.com/world-war-ii/operation-mincemeat.html",
+      "titulo": "Operation Mincemeat: How a Dead Body and a False Identity Helped the Allied Invasion of Sicily"
+    },
+    {
+      "url": "https://thomasejohnson.substack.com/p/operation-mincemeat-the-corpse-that",
+      "titulo": "Operation Mincemeat: The Corpse That Lied Its Way Into History"
+    },
+    {
+      "url": "https://iwm.org.uk/file-download/download/public/23600",
+      "titulo": "Blockbuster tales of spying and deception to go on display ..."
+    },
+    {
+      "url": "https://amht.org.uk/spies-lies-deception-and-a-racing-driver",
+      "titulo": "Spies, Lies & Deception... and a racing driver"
+    },
+    {
+      "url": "https://spotterup.com/operation-mincemeat-how-a-corpse-fooled-the-nazis",
+      "titulo": "Operation Mincemeat: How a Corpse Fooled the Nazis • Spotter Up"
+    },
+    {
+      "url": "https://iwm.org.uk/events/iwm-in-conversation-operation-mincemeat",
+      "titulo": "IWM In Conversation: Operation Mincemeat"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat_(musical)",
+      "titulo": "Operation Mincemeat (musical)"
+    },
+    {
+      "url": "https://tracesofwar.com/articles/4805/Operation-Mincemeat.htm",
+      "titulo": "Operation Mincemeat - TracesOfWar.com"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bill_Jewell",
+      "titulo": "Bill Jewell"
+    },
+    {
+      "url": "https://irishbrigade.co.uk/countdown-to-husky-operation-mincemeat",
+      "titulo": "Countdown to Husky: Operation Mincemeat"
+    },
+    {
+      "url": "https://nationalinterest.org/blog/buzz/how-dead-body-sort-of-defeated-nazi-germany-world-war-ii-hk-101926",
+      "titulo": "How a Dead Body (Sort of) Defeated Nazi Germany in World War II - The National Interest"
+    },
+    {
+      "url": "https://secretscotland.org.uk/index.php/Secrets/OperationMincemeat",
+      "titulo": "Secret Scotland - Operation Mincemeat"
+    },
+    {
+      "url": "https://historycollection.com/operation-mincemeat-ww2-true-story",
+      "titulo": "Operation Mincemeat: How a Corpse Fooled Hitler Into Abandoning Sicily"
+    },
+    {
+      "url": "https://nationalww2museum.org/war/articles/secret-agents-secret-armies-operation-mincemeat",
+      "titulo": "Secret Agents, Secret Armies: Operation Mincemeat"
+    },
+    {
+      "url": "https://history.co.uk/article/operation-mincemeat",
+      "titulo": "Operation mincemeat: WW2's most successful deception"
+    },
+    {
+      "url": "https://britannica.com/today-in-history/April-29-James-Bond-writer-spy",
+      "titulo": "Today in History April 29"
+    },
+    {
+      "url": "https://history.com/articles/what-was-operation-mincemeat",
+      "titulo": "What Was Operation Mincemeat?"
+    },
+    {
+      "url": "https://britannica.com/event/Operation-Mincemeat-WWII-1943",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://army.togetherweserved.com/dispatches-articles/72/627/Operation+Mincemeat+-+A+Turning+Point+in+WWII",
+      "titulo": "Operation Mincemeat - A Turning Point in WWII - U.S. Army Veterans"
+    },
+    {
+      "url": "https://wearethemighty.com/articles/the-real-man-behind-the-fake-body-used-in-operation-mincemeat",
+      "titulo": "The real man behind the fake body used in ‘Operation Mincemeat’"
+    },
+    {
+      "url": "https://sevenseasclub.org.uk/index.php/2021/12/24/operation-mincemeat",
+      "titulo": "Operation Mincemeat - The Seven Seas Club (1922) Limited"
+    },
+    {
+      "url": "https://theconspiratory.com/theory/operation-mincemeat",
+      "titulo": "Operation Mincemeat: the WWII corpse that fooled Hitler"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Glynd%C5%B5r",
+      "titulo": "Glynd%C5%B5r"
+    },
+    {
+      "url": "https://historynewsnetwork.org/article/121819",
+      "titulo": "Historian claims to have finally identified wartime 'Man Who Never Was' — History News Network"
+    },
+    {
+      "url": "https://hansard.parliament.uk/commons/2023-03-27/debates/FCEFB673-BC05-439A-B0B6-12C850249F51/HMSDasher",
+      "titulo": "HMS Dasher - Hansard - UK Parliament"
+    },
+    {
+      "url": "https://charlesglass.net/whose-body",
+      "titulo": "Whose body?"
+    },
+    {
+      "url": "https://sof.news/history/wwii-mystery-hms-dasher-and-the-man-who-never-was",
+      "titulo": "WWII Mystery: HMS Dasher and “The Man Who Never Was”"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Man_Who_Never_Was_(book)",
+      "titulo": "The Man Who Never Was (book)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Man_Who_Never_Was_",
+      "titulo": ""
+    },
+    {
+      "url": "https://carynschulenberg.com/2019/04/the-man-who-never-was",
+      "titulo": "The Man Who Never Was |"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/David_Scott_(Royal_Navy_officer)",
+      "titulo": "David Scott (Royal Navy officer)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/David_Scott_",
+      "titulo": ""
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Operation_Mincemeat",
+      "titulo": "Operation Mincemeat"
+    },
+    {
+      "url": "https://erskine.org.uk/news/the-strange-tale-of-operation-mincemeat",
+      "titulo": "The real story of Operation Mincemeat"
+    },
+    {
+      "url": "https://obscurehistories.substack.com/p/operation-mincemeat-how-the-allies",
+      "titulo": "Operation Mincemeat: How the Allies Fooled the Nazis about the Mediterranean Invasion"
+    },
+    {
+      "url": "https://kids.kiddle.co/Operation_Mincemeat",
+      "titulo": "Operation Mincemeat facts for kids"
+    },
+    {
+      "url": "https://warhistorynetwork.com/groups/north-africa-and-italian-campaign/forum/topics/9-july-1943-operation-mincemeat-and-its-effect-on-the-invasion-of",
+      "titulo": "9 July 1943: Operation Mincemeat and the Invasion of Sicily - The North Africa and Italian Campaigns - War History Network"
+    },
+    {
+      "url": "https://evsnudge.com/operation-mincemeat",
+      "titulo": "Operation Mincemeat"
+    }
+  ],
+  "estatisticas": {
+    "buscas": 10,
+    "leituras": 2,
+    "consultas_checagem": 1,
+    "fontes": 48,
+    "marcos": 7,
+    "marcos_matriz": 1,
+    "rejeitados": 0,
+    "duracao_s": 132.8,
+    "tokens": {
+      "entrada": 36,
+      "saida": 10025,
+      "cache": 340277,
+      "cache_gravado": 36703
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T20:00:58+00:00",
+  "ultima_revisao": "2026-11-20T20:00:58+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D007",
+  "classe_preliminar": "M",
+  "epoca": "1943",
+  "regiao": "Reino Unido/Espanha",
+  "status_editorial": "ia_revisao_pendente"
+}

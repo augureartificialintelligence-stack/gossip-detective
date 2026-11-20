@@ -41,6 +41,7 @@
     <a href="#secTrends">TRENDS</a>
     <a href="#secMapa">INVESTIGAÇÃO</a>
     <a href="#secCronograma">CRONOGRAMA</a>
+    <a href="#secArquivo">ARQUIVO</a>
     <button type="button" id="navHistorico">HISTÓRICO</button>
   </nav>
 </header>
@@ -159,6 +160,7 @@
     <div class="veredito">
       <div class="veredito-selo" aria-hidden="true">?</div>
       <div>
+        <p class="selo-editorial hidden" id="vSeloEditorial"></p>
         <p class="mini" id="vPergunta"></p>
         <h2 id="vTitulo"></h2>
       </div>
@@ -205,6 +207,20 @@
       </form>
       <ul class="comentarios" id="comentarios"></ul>
     </section>
+  </section>
+
+  <section class="panel arquivo-revelatio" id="secArquivo" aria-labelledby="arqTitulo">
+    <div class="panel-title"><span id="arqTitulo">ARQUIVO REVELATIO</span><span class="tag" id="arqContagem"></span></div>
+    <div class="arq-topo">
+      <div class="arq-abas" role="tablist" aria-label="Coleções">
+        <button type="button" role="tab" id="abaDesinformacao" data-colecao="desinformacao" aria-selected="true" aria-controls="arqGrade">
+          100 DESINFORMAÇÃO <i data-contagem></i></button>
+        <button type="button" role="tab" id="abaHoaxes" data-colecao="hoaxes" aria-selected="false" aria-controls="arqGrade">
+          100 HOAXES <i data-contagem></i></button>
+      </div>
+      <input type="search" class="arq-filtro" id="arqFiltro" placeholder="Filtrar casos…" aria-label="Filtrar casos da coleção">
+    </div>
+    <ol class="arq-grade" id="arqGrade" role="tabpanel"></ol>
   </section>
 </main>
 

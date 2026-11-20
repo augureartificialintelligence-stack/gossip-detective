@@ -1,0 +1,459 @@
+{
+  "id": "d013",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Operation Glimmer: outra frota simulada por radar (1944, Canal da Mancha)",
+  "titulo": "Operation Glimmer: a frota fantasma do radar diante de Boulogne (Dia D, 1944)",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "A Glimmer existiu: na madrugada de 6 de junho de 1944, bombardeiros e lanchas britânicas simularam por radar uma frota rumo a Boulogne. Já a ideia de que ela se",
+  "sintese": "Na madrugada do Dia D, Stirlings do 218º Esquadrão da RAF lançaram tiras metálicas (\"Window\") perto de Boulogne. Embaixo delas, lanchas com bloqueadores de sinal e balões refletores simulavam uma frota nos radares alemães. Os alemães reagiram, com aviões de reconhecimento e ataques aos bombardeiros. Mas não está comprovado que isso tenha mudado decisões alemãs.",
+  "limites": "A busca na web foi interrompida pelo limite de uso de ferramentas. Os três marcos se apoiam em verbetes da Wikipedia (fonte de descoberta, não de prova), que resumem Barbier (2007), Holt (2004) e outros autores. Não consultei os livros nem documentos primários: relatórios do 218º Esquadrão, registros do Almirantado e da London Controlling Section no UK National Archives, ou diários de guerra alemães. Esses documentos ainda precisam ser checados.",
+  "perspectivas": [
+    {
+      "titulo": "A operação aconteceu como descrita",
+      "texto": "A data (5 para 6 de junho de 1944), os Stirlings do 218º Esquadrão, o lançamento de Window perto de Boulogne e as 12 lanchas HDML com bloqueadores e balões aparecem de forma igual nos resumos baseados em Barbier e Holt.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Eficácia: confusão sim, desvio de tropas não provado",
+      "texto": "Houve reação alemã (reconhecimento aéreo e ataques aos bombardeiros), que agradou ao Comando de Bombardeiros da RAF. Barbier, porém, diz que o mau tempo e a complexidade deixam incerto o sucesso. Não aparece efeito decisivo comprovado.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Glimmer manteve divisões Panzer no Pas-de-Calais",
+      "texto": "O verbete do 218º Esquadrão liga a operação à permanência da 116ª Divisão Panzer no Pas-de-Calais. Essa permanência faz parte do plano maior de engano Bodyguard/Fortitude. Atribuí-la à Glimmer especificamente não tem evidência causal nas fontes consultadas.",
+      "sustentacao": "sem_sustentacao"
+    },
+    {
+      "titulo": "Engano militar, não fake news",
+      "texto": "A Glimmer foi um engano tático contra radares inimigos em tempo de guerra, planejado pela London Controlling Section e pela Ops (B). Não foi uma mentira espalhada para enganar a população civil. Autoria e intenção constam no próprio planejamento militar aliado.",
+      "sustentacao": "documentada"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Stirlings do 218 Sqn lançam Window perto de Boulogne",
+      "texto": "Na madrugada do Dia D, Stirlings do Esquadrão 218 da RAF lançaram tiras metálicas (\"Window\") perto de Boulogne. Nos radares alemães, isso devia parecer uma frota se aproximando do Pas-de-Calais, longe da Normandia. É o núcleo da alegação.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-06-05",
+      "data_fim": "1944-06-06",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "5–6 JUN 1944",
+      "local": "Ao largo de Boulogne-sur-Mer · França (Canal da Mancha)",
+      "lat": 50.73,
+      "lon": 1.5,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Overlord",
+        "entidade": "Wikipedia (inglês)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Overlord",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "218 Squadron RAF also dropped \"window\" near Boulogne-sur-Mer in Operation Glimmer. [Taxable: 617 Squadron dropped window, interpreted by German radar operators as a naval convoy approaching Cap d'Antifer.]",
+        "data_acesso": "2026-11-20T22:13:49+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Lanchas HDML completam a ilusão e alemães reagem",
+      "texto": "Embaixo da nuvem de Window, 12 lanchas HDML com bloqueadores de sinal, rádios e balões refletores de radar simularam a frota. Ao contrário da Taxable, a Glimmer provocou reação alemã: aviões de reconhecimento e ataques aos bombardeiros.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-06-06",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "6 JUN 1944",
+      "local": "Canal da Mancha, rumo ao Pas-de-Calais",
+      "lat": 50.8,
+      "lon": 1.4,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "D-Day naval deceptions (Operations Taxable, Glimmer and Big Drum)",
+        "entidade": "Wikipedia (inglês), com base em Barbier (2007), pp. 110–111",
+        "url": "https://en.wikipedia.org/wiki/Operation_Glimmer",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The air operations for Glimmer were conducted by No. 218 \"Gold Coast\" Squadron... six Short Stirling bombers... 12 HDMLs equipped with jamming gear, radios and radar-reflecting balloons... Glimmer elicited more response from German forces than Taxable including reconnaissance planes sent to investigate the \"fleet\".",
+        "data_acesso": "2026-11-20T22:13:55+00:00"
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Historiadora Mary Barbier relativiza o efeito",
+      "texto": "No livro \"D-Day Deception\", de 2007, a historiadora Mary Barbier avalia que o mau tempo e a complexidade das operações deixam incerto o sucesso delas. A reação à Glimmer animou o Comando de Bombardeiros, mas não há prova de que tenha mudado decisões alemãs.",
+      "tipo_registro": "interpretacao_retrospectiva",
+      "data_inicio": "2007",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "2007",
+      "local": "Westport · EUA (local de edição)",
+      "lat": 41.14,
+      "lon": -73.36,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "D-Day naval deceptions — seção de avaliação (cita Barbier, D-Day Deception, Greenwood, 2007)",
+        "entidade": "Wikipedia (inglês)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Glimmer",
+        "tipo_fonte": "secundaria",
+        "data_documento": "2007",
+        "trecho_de_suporte": "The reaction to Glimmer was more encouraging. The attacks on the bomber squadrons indicated, at least to the satisfaction of RAF Bomber Command, that the Germans believed a genuine threat existed... According to historian Mary Barbier, the adverse conditions and complexity...",
+        "data_acesso": "2026-11-20T22:14:02+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Overlord",
+      "titulo": "Operation Overlord"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Glimmer",
+      "titulo": "D-Day naval deceptions"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/D-Day_naval_deceptions",
+      "titulo": "D-Day naval deceptions"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._218_(Gold_Coast)_Squadron_RAF",
+      "titulo": "No. 218 (Gold Coast) Squadron RAF"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._218_",
+      "titulo": ""
+    },
+    {
+      "url": "https://quora.com/What-was-the-codename-for-the-D-Day-invasion-of-Normandy",
+      "titulo": "What was the codename for the D-Day invasion of Normandy? - Quora"
+    },
+    {
+      "url": "https://histru.bournemouth.ac.uk/Oral_History/Talking_About_Technology/radar_research/fooling_the_enemy.html",
+      "titulo": "Radar Jamming - Fooling the enemy"
+    },
+    {
+      "url": "https://tracesofwar.nl/articles/8176/Misleidingsoperaties-tijdens-D-Day-door-RAF-Bomber-Command-Operaties-Glimmer-Taxable-en-Titanic.htm",
+      "titulo": "Misleidingsoperaties tijdens D-Day door RAF Bomber Command (Operaties Glimmer, Taxable en Titanic) - TracesOfWar.nl"
+    },
+    {
+      "url": "https://218squadron.wordpress.com/no-218-gold-coast-squadron-short-stirlings-1942-1944",
+      "titulo": "No.218 (Gold Coast) Squadron Short Stirling’s 1942-1944"
+    },
+    {
+      "url": "https://windermeresun.com/2018/06/06/remembering-d-day-74-years-later",
+      "titulo": "Remembering D-Day, 74 Years Later - Windermere Sun-For Healthier/Happier/More Sustainable Living"
+    },
+    {
+      "url": "https://historic-uk.com/HistoryUK/HistoryUK/HistoryofBritain/D-Day-Deceptions",
+      "titulo": "The D-Day Deceptions: a Masterclass in Subterfuge - Historic UK"
+    },
+    {
+      "url": "https://beachesofnormandy.com/articles/Deception_on_DDay?id=93d07f854a",
+      "titulo": "Deception on D-Day"
+    },
+    {
+      "url": "https://internationalbcc.co.uk/about-ibcc/news/d-day-and-bomber-command",
+      "titulo": "D-Day and Bomber Command - International Bomber Command Centre"
+    },
+    {
+      "url": "https://beachesofnormandy.com/articles/Deception_on_DDay?id=a4bcf14c98",
+      "titulo": "Deception on D-Day"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Titanic",
+      "titulo": "Operation Titanic"
+    },
+    {
+      "url": "https://warhistory.org/article/jamming-operations-for-d-day",
+      "titulo": "‘Jamming’ operations for D-Day - WarHistory.org"
+    },
+    {
+      "url": "https://dday.center/operation-overlord/all-d-day-operations/operation-glimmer",
+      "titulo": "Operation Glimmer: The Deceptive Naval Mission That Fooled German Forces"
+    },
+    {
+      "url": "https://iwm.org.uk/history/d-days-parachuting-dummies-and-inflatable-tanks",
+      "titulo": "Operation Fortitude - D-Day’s Deception Strategy"
+    },
+    {
+      "url": "https://rafbf.org/news-and-stories/news/d-day-80-history-operation-taxable",
+      "titulo": "D-Day 80: The History of Operation Taxable"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/D-Day_naval_deceptions",
+      "titulo": "D-Day naval deceptions"
+    },
+    {
+      "url": "https://dday.center/operation-overlord/all-d-day-operations/operation-taxable",
+      "titulo": "Operation Taxable: The Brilliant Deception Strategy That Fooled Nazi Forces"
+    },
+    {
+      "url": "https://grokipedia.com/page/D-Day_naval_deceptions",
+      "titulo": "D-Day naval deceptions — Grokipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Military_deception",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Bodyguard",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Normandy",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/RAF_Bomber_Command",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/La_Poterie-Cap-d",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pas-de-Calais",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normandy",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/London_Controlling_Section",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/First_United_States_Army_Group",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Fortitude",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/England",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/D-Day",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seetakt_radar",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Telecommunications_Research_Establishment",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chaff_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cap_d",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Royal_Air_Force",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Corner_reflector",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Harbour_Defence_Motor_Launch",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/RAF_Marine_Branch",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Avro_Lancaster",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._617_Squadron_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Newhaven,_East_Sussex",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._218_Squadron_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wing_commander_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Short_Stirling",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lieutenant_Commander",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Reconnaissance",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hiroshi_%C5%8Cshima",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Squadron_Leader",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Les_Munro",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ISBN_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/9781473835054",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-275-99479-2",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-1-84603-429-9",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paul_Brickhill",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Dam_Busters_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/0-237-44886-6",
+      "titulo": ""
+    },
+    {
+      "url": "https://archive.org/details/deceiversalliedm00holt",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charles_Scribner",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/0-7432-5042-7",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jon_Latimer",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-1-58567-381-0",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-00-741324-9",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-297-85704-4",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rupert_Allason",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-8108-7377-3",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Antony_Beevor",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-14-195926-9",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operati",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gold_Coast_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ghana",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dover",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Airco_DH.9",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/No._57_Squadron_RAF",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/RAF_Upper_Heyford",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hawker_Hind",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 3,
+    "consultas_checagem": 0,
+    "fontes": 276,
+    "marcos": 3,
+    "marcos_matriz": 0,
+    "rejeitados": 0,
+    "duracao_s": 78.2,
+    "tokens": {
+      "entrada": 24,
+      "saida": 6269,
+      "cache": 190609,
+      "cache_gravado": 26233
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:14:14+00:00",
+  "ultima_revisao": "2026-11-20T22:14:14+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D013",
+  "classe_preliminar": "M",
+  "epoca": "1944",
+  "regiao": "Canal da Mancha",
+  "status_editorial": "ia_revisao_pendente"
+}

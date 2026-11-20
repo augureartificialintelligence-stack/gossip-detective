@@ -30,10 +30,49 @@ def carregar_caso(caso_id: str) -> dict | None:
             return caso
     if not _ID_VALIDO.match(caso_id):
         return None
-    caminho = config.INVESTIGACOES / f"{caso_id}.json"
-    if not caminho.is_file():
-        return None
-    return json.loads(caminho.read_text(encoding="utf-8"))
+    for pasta in (config.INVESTIGACOES, config.COLECOES):
+        caminho = pasta / f"{caso_id}.json"
+        if caminho.is_file():
+            return json.loads(caminho.read_text(encoding="utf-8"))
+    return None
+
+
+# ---------------------------------------------------------------- coleções editoriais (catálogos REVELATIO)
+
+
+def catalogos() -> list[dict]:
+    """Fichas dos catálogos (dados/catalogos.json, importado de docs/ por ferramentas/importar_catalogos.py)."""
+    try:
+        return json.loads((config.DADOS / "catalogos.json").read_text(encoding="utf-8"))["colecoes"]
+    except (OSError, json.JSONDecodeError, KeyError):
+        return []
+
+
+def salvar_colecao(caso: dict) -> None:
+    config.COLECOES.mkdir(parents=True, exist_ok=True)
+    with _trava:
+        (config.COLECOES / f"{caso['id']}.json").write_text(json.dumps(caso, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def colecoes_publicadas() -> list[dict]:
+    """Coleções com as fichas já investigadas, na ordem do catálogo (as pendentes não aparecem)."""
+    saida = []
+    for colecao in catalogos():
+        itens = []
+        for ficha in colecao["itens"]:
+            caminho = config.COLECOES / f"{ficha['id'].lower()}.json"
+            if not caminho.is_file():
+                continue
+            try:
+                caso = json.loads(caminho.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            itens.append({
+                "id": caso["id"], "catalogo_id": ficha["id"], "titulo": caso["titulo"], "pergunta": caso["pergunta"],
+                "epoca": ficha["epoca"], "regiao": ficha["regiao"], "status_editorial": caso.get("status_editorial", ""),
+            })
+        saida.append({"id": colecao["id"], "titulo": colecao["titulo"], "total": len(colecao["itens"]), "itens": itens})
+    return saida
 
 
 def _investigacoes():

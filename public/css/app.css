@@ -118,9 +118,10 @@ a { color: var(--hud); }
    e o cronograma documental ocupa a coluna da direita inteira. */
 .console {
   grid-template-columns: minmax(0, 1fr) 380px;
-  grid-template-areas: "cmd cmd" "mapa rastros" "dossie dossie";
+  grid-template-areas: "cmd cmd" "mapa rastros" "dossie dossie" "arquivo arquivo";
 }
-.console.concluida { grid-template-areas: "cmd cmd" "dossie rastros" "mapa rastros"; }
+.console.concluida { grid-template-areas: "cmd cmd" "dossie rastros" "mapa rastros" "arquivo arquivo"; }
+.arquivo-revelatio { grid-area: arquivo; }
 .command { grid-area: cmd; }
 .map-panel { grid-area: mapa; }
 .rastros { grid-area: rastros; }
@@ -481,6 +482,38 @@ button.ls-data:hover { color: #fff; text-decoration: underline; }
 .com-data { font-size: 13px; color: var(--dim); margin-left: auto; }
 .comentarios p { margin: 4px 0 0; font-size: 15.5px; color: var(--muted); overflow-wrap: anywhere; }
 
+/* Arquivo REVELATIO: coleções editoriais publicadas */
+.arq-topo { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
+.arq-abas { display: flex; background: #141414; }
+.arq-abas button {
+  border: 0; border-left: 1px solid var(--line-2); background: none; padding: 10px 18px; color: #fff;
+  font: 700 15px var(--fonte); letter-spacing: .1em;
+}
+.arq-abas button:first-child { border-left: 0; }
+.arq-abas button[aria-selected="true"] { background: var(--faixa); color: var(--hud); }
+.arq-abas i { font-style: normal; font-weight: 600; font-size: 13px; color: var(--muted); margin-left: 6px; }
+.arq-filtro {
+  flex: 0 1 320px; margin-left: auto; padding: 9px 16px; background: #000; border: 1px solid #ffffff8c; border-radius: 999px;
+  font: 500 15px var(--fonte); color: #fff;
+}
+.arq-filtro:focus { outline: none; border-color: #fff; }
+.arq-grade { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 8px; }
+.arq-card {
+  width: 100%; height: 100%; display: grid; gap: 4px; align-content: start; text-align: left; padding: 12px 14px;
+  border: 0; border-top: 2px solid var(--line-2); background: var(--panel-2);
+}
+.arq-card:hover:not(:disabled) { border-top-color: var(--hud); background: var(--faixa); }
+.arq-card:disabled { opacity: .45; cursor: not-allowed; }
+.arq-id { font: 700 12.5px var(--fonte); letter-spacing: .14em; color: var(--hud); }
+.arq-titulo { font: 600 17px/1.25 var(--fonte); color: #fff; }
+.arq-meta { font-size: 13.5px; color: var(--dim); }
+.arq-vazio { grid-column: 1 / -1; padding: 22px; border: 1px dashed var(--line-2); color: var(--muted); text-align: center; }
+.selo-editorial { margin: 0 0 4px; font: 700 12px var(--fonte); letter-spacing: .14em; color: var(--amber); text-transform: uppercase; }
+.r-matriz {
+  display: inline-block; margin-left: 8px; padding: 0 5px; border: 1px solid var(--hud-dim); color: var(--hud);
+  font: 700 11px var(--fonte); letter-spacing: .08em; vertical-align: 1px;
+}
+
 /* rodapé: faixa cinza centralizada */
 .rodape { margin: 28px 0 0; padding: 20px 28px; background: var(--banda); color: #fff; font-size: 16px; text-align: center; }
 .rodape b { letter-spacing: .08em; }
@@ -533,8 +566,8 @@ button.ls-data:hover { color: #fff; text-decoration: underline; }
 
 /* ------------------------------------------------------------ responsivo */
 @media (max-width: 1080px) {
-  .console { grid-template-columns: minmax(0, 1fr); grid-template-areas: "cmd" "mapa" "rastros" "dossie"; }
-  .console.concluida { grid-template-areas: "cmd" "dossie" "rastros" "mapa"; }
+  .console { grid-template-columns: minmax(0, 1fr); grid-template-areas: "cmd" "mapa" "rastros" "dossie" "arquivo"; }
+  .console.concluida { grid-template-areas: "cmd" "dossie" "rastros" "mapa" "arquivo"; }
   .rastros { contain: none; height: 460px; }
   .subtitulo { display: none; }
   .marca { font-size: 38px; }

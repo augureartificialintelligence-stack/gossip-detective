@@ -1,0 +1,544 @@
+{
+  "id": "d005",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Operação Fortitude: exércitos fictícios antes do Dia D (1944, Reino Unido/França)",
+  "titulo": "Operação Fortitude: exércitos fictícios antes do Dia D",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "Os exércitos fictícios da Fortitude existiram como engano militar aliado contra a Alemanha; o tamanho exato do efeito vem sobretudo de avaliações britânicas.",
+  "sintese": "Em 1944, os Aliados inventaram ameaças contra a Noruega (Quarto Exército na Escócia) e o Pas-de-Calais (FUSAG de Patton). Em 9 de junho, o agente duplo GARBO reforçou a ideia de que a Normandia era só uma distração. Os números exatos de divisões retidas e o peso de cada parte do engano dependem de fontes oficiais britânicas.",
+  "limites": "A cota de buscas acabou cedo. Não consegui ler a página do IWM nem a da Wikipedia na íntegra, e também não pesquisei a historiografia crítica (por exemplo, sobre o efeito real da Fortitude North). A cifra de 19 divisões de infantaria e 2 blindadas vem do MI5, que cita a história oficial, e não foi conferida em registros alemães. Não registrei o relatório pós-guerra de Hesketh porque nenhuma fonte recuperada trazia a data dele.",
+  "perspectivas": [
+    {
+      "titulo": "Engano militar, não fake news cívica",
+      "texto": "Fortitude foi um engano de guerra dirigido ao comando militar alemão, com exércitos inexistentes, rádio falso e agentes duplos. Não foi desinformação voltada à população civil. A autoria é aliada e assumida oficialmente.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Efeito decisivo segundo fontes britânicas",
+      "texto": "O MI5 e a história oficial dizem que os alemães mantiveram 21 divisões no Pas-de-Calais em julho e agosto, e que von Rundstedt vetou a transferência pedida por Rommel. São fontes institucionais sobre o próprio sucesso e podem tender a valorizá-lo.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Alcance da Fortitude North",
+      "texto": "Matérias como a do Scotsman dizem que o exército fantasma da Escócia ajudou a desviar Hitler. O efeito específico sobre as tropas alemãs na Noruega não foi verificado nesta investigação.",
+      "sustentacao": "parcial"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Fortitude: duas ameaças falsas dentro do plano Bodyguard",
+      "texto": "Os Aliados montaram a Operação Fortitude, parte do plano maior Bodyguard. A Fortitude North simulava um ataque à Noruega e a Fortitude South, uma invasão no Pas-de-Calais, longe da Normandia. É o marco que define o que exatamente o engano tentava fazer.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944",
+      "data_fim": "1944-06",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "1944",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.5,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "D-Day's Parachuting Dummies and Inflatable Tanks",
+        "entidade": "Imperial War Museums",
+        "url": "https://www.iwm.org.uk/history/second-world-war/d-day/parachuting-dummies-and-inflatable-tanks",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "The D-Day deception plan was codenamed Operation 'Fortitude' and was part of a larger overall deception strategy – Operation 'Bodyguard'. 'Fortitude North' was meant to fool the Germans into thinking that the Allies would launch an attack on Norway, and 'Fortitude South' ... in the Pas de Calais.",
+        "data_acesso": "2026-11-20T22:10:18+00:00",
+        "matriz_id": "F047",
+        "matriz_funcoes": [
+          "P",
+          "C"
+        ]
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "GARBO diz que a Normandia é só uma distração",
+      "texto": "Três dias após o Dia D, o agente duplo GARBO, controlado pelo MI5, enviou aos alemães uma mensagem dizendo que o desembarque na Normandia era uma distração e que o ataque principal viria no Pas-de-Calais. O Arquivo Nacional britânico guarda a tradução alemã dessa mensagem.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1944-06-09",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "9 JUN 1944",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.5,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Overlord and D-Day",
+        "entidade": "The National Archives (UK)",
+        "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/second-world-war/operation-overlord-and-d-day/",
+        "tipo_fonte": "primaria",
+        "data_documento": "1944-06",
+        "trecho_de_suporte": "In this translation of a message received by the German authorities, GARBO suggests that the landings in Normandy were designed as a diversion and that the main assault was due to take place to the east, in the Pas de Calais area.",
+        "data_acesso": "2026-11-20T22:10:35+00:00",
+        "matriz_id": "F035",
+        "matriz_funcoes": [
+          "P",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "O \"Quarto Exército\" britânico que nunca existiu",
+      "texto": "Na Fortitude North, um Quarto Exército britânico fictício foi apresentado como se estivesse concentrado em torno de Stirling e Dundee, com planadores e navios visíveis para o reconhecimento alemão. É a ameaça falsa contra a Noruega.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1944",
+      "local": "Escócia (Stirling e Dundee) · Reino Unido",
+      "lat": 56.3,
+      "lon": -3.5,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Scotland's Fourth Army and one of the greatest deceptions of Second World War",
+        "entidade": "The Scotsman",
+        "url": "https://www.scotsman.com/news/opinion/columnists/scotlands-fourth-army-and-one-of-the-greatest-deceptions-of-second-world-war-4657131",
+        "tipo_fonte": "jornalistica",
+        "data_documento": null,
+        "trecho_de_suporte": "MacLeod's Fourth Army never existed. ... Fortitude North was a ghost army, based around Stirling and Dundee. MacLeod's team left gliders on Scottish airfields to be spotted by German spy planes. Ships were massed in East Coast harbours.",
+        "data_acesso": "2026-11-20T22:10:24+00:00"
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "FUSAG: o grupo de exércitos fictício de Patton",
+      "texto": "No verão de 1944, Patton assumiu o First US Army Group (FUSAG), um comando que só existia no papel, criado para fazer os alemães esperarem o ataque principal no Pas-de-Calais. É o núcleo da Fortitude South.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1944",
+      "local": "Sudeste da Inglaterra (Kent e Essex) · Reino Unido",
+      "lat": 51.3,
+      "lon": 0.8,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "General George S. Patton",
+        "entidade": "The National WWII Museum",
+        "url": "https://www.nationalww2museum.org/war/articles/general-george-s-patton-world-war-ii",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "In the summer of 1944, Patton took command of the First US Army Group (FUSAG), a fictitious Army group meant to deceive German commanders into thinking that an Allied cross-channel attack would take place in Pas-de-Calais, France",
+        "data_acesso": "2026-11-20T22:10:28+00:00",
+        "matriz_id": "F048",
+        "matriz_funcoes": [
+          "C",
+          "P"
+        ]
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "Divisões alemãs retidas no Pas-de-Calais",
+      "texto": "Segundo o MI5, em julho e agosto os alemães mantiveram 2 divisões blindadas e 19 de infantaria no Pas-de-Calais à espera de uma invasão. Isso mostra o efeito do engano; o peso exato desse efeito vem da avaliação dos próprios serviços britânicos e da história oficial.",
+      "tipo_registro": "interpretacao_retrospectiva",
+      "data_inicio": "1944-07",
+      "data_fim": "1944-08",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "JUL–AGO 1944",
+      "local": "Pas-de-Calais · França",
+      "lat": 50.5,
+      "lon": 2.3,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Agent GARBO",
+        "entidade": "MI5 – Security Service",
+        "url": "https://www.mi5.gov.uk/history/world-war-ii/agent-garbo",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "The Germans accepted this claim, the culmination of Operation FORTITUDE, as accurate. It deceived them so completely that throughout July and August, they kept two armoured divisions and 19 infantry divisions in the Pas de Calais in anticipation of an invasion.",
+        "data_acesso": "2026-11-20T22:10:40+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "Arquivos do caso GARBO vêm a público",
+      "texto": "Em janeiro de 1999, o MI5 transferiu os arquivos do caso GARBO, mantidos por seu oficial Tomás Harris, para o Public Record Office (hoje The National Archives). Isso permitiu checar o engano em documentos de época, e não só em relatos de memória.",
+      "tipo_registro": "memoria_historica",
+      "data_inicio": "1999-01",
+      "data_fim": null,
+      "precisao_temporal": "mes",
+      "data_exibicao": "JAN 1999",
+      "local": "Kew, Londres · Reino Unido",
+      "lat": 51.48,
+      "lon": -0.28,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Agent GARBO",
+        "entidade": "MI5 – Security Service",
+        "url": "https://www.mi5.gov.uk/history/world-war-ii/agent-garbo",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "The Security Service released Tomás Harris's case files on GARBO to the Public Records Office (now The National Archives) in January 1999.",
+        "data_acesso": "2026-11-20T22:10:44+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://nationalww2museum.org/war/articles/general-george-s-patton-world-war-ii",
+      "titulo": "General George S. Patton"
+    },
+    {
+      "url": "https://nationalww2museum.org/sites/default/files/2017-07/2016-17-school-previsit-packet.pdf",
+      "titulo": "Updated 5/16 Pre and Post-Visit Activities"
+    },
+    {
+      "url": "https://nationalww2museum.org/war/podcasts/secret-wwii-spies-special-ops/part-5-d-day-and-deception",
+      "titulo": "Part 5: D-Day and Deception"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/First_United_States_Army_Group",
+      "titulo": "First United States Army Group"
+    },
+    {
+      "url": "https://nationalww2museum.org/war/articles/d-day-spies",
+      "titulo": "Secret Agents, Secret Armies: The D-Day Misfit Spies"
+    },
+    {
+      "url": "https://nationalww2museum.org/war/podcasts/secret-wwii-attack-pearl-harbor/part-5-d-day-and-deception",
+      "titulo": "Part 5: D-Day and Deception"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/52nd_Infantry_Regiment_(United_States)",
+      "titulo": "52nd Infantry Regiment (United States)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/52nd_Infantry_Regiment_",
+      "titulo": ""
+    },
+    {
+      "url": "https://nationalww2museum.org/sites/default/files/2023-10/Spy%20Museum%20Brochure_Sept26_DigitalSpreads.pdf",
+      "titulo": "ESPIONAGE & INTELLIGENCE: MAY 6 - MAY 13, 2024"
+    },
+    {
+      "url": "https://nationalww2museum.org/contributors/walter-wolf-iii",
+      "titulo": "Walter Wolf III"
+    },
+    {
+      "url": "https://iwm.org.uk/history/second-world-war/d-day/parachuting-dummies-and-inflatable-tanks",
+      "titulo": "Operation Fortitude - D-Day’s Deception Strategy"
+    },
+    {
+      "url": "https://iwm.org.uk/collections/item/object/1500004552",
+      "titulo": "Strategic and operational deception in the Second World War"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/R_Force",
+      "titulo": "R Force"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Fortitude",
+      "titulo": "Operation Fortitude"
+    },
+    {
+      "url": "https://nhd.org/wp-content/uploads/2024/12/DeceptionandDoubleAgents.pdf",
+      "titulo": "Deception and Double Agents: The Success of Operation ..."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Roger_Fleetwood-Hesketh",
+      "titulo": "Roger Fleetwood-Hesketh"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ops_(B)",
+      "titulo": "Ops (B)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ops_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Royal_Flush",
+      "titulo": "Operation Royal Flush"
+    },
+    {
+      "url": "https://mi5.gov.uk/history/world-war-ii/agent-garbo",
+      "titulo": "Agent GARBO"
+    },
+    {
+      "url": "https://thamesandhudson.com/blogs/all-news-features/garbo-mi5-s-most-extraordinary-double-agent",
+      "titulo": "GARBO: MI5’s Most Extraordinary Double Agent"
+    },
+    {
+      "url": "https://agentgarbo.com/timeline/operation-fortitude",
+      "titulo": "Operation Fortitude - Agent Garbo"
+    },
+    {
+      "url": "https://nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/second-world-war/operation-overlord-and-d-day",
+      "titulo": "Operation Overlord and D-Day - The National Archives"
+    },
+    {
+      "url": "https://d-dayinfo.org/en/preparation/garbo-double-agent",
+      "titulo": "GARBO: double agent in the interest of D-day and Operation Overlord"
+    },
+    {
+      "url": "https://epdf.pub/d-day-deception-operation-fortitude-and-the-normandy-invasion.html",
+      "titulo": "D-day deception: Operation Fortitude and the Normandy invasion - PDF Free Download"
+    },
+    {
+      "url": "https://vdoc.pub/documents/d-day-deception-operation-fortitude-and-the-normandy-invasion-7e8ge3m3c1v0",
+      "titulo": "D-day Deception: Operation Fortitude And The Normandy Invasion [PDF] [7e8ge3m3c1v0]"
+    },
+    {
+      "url": "https://grokipedia.com/page/Operation_Fortitude",
+      "titulo": "Operation Fortitude — Grokipedia"
+    },
+    {
+      "url": "https://britannica.com/event/Operation-Fortitude",
+      "titulo": "Operation Fortitude"
+    },
+    {
+      "url": "https://britannica.com/topic/How-did-Operation-Fortitude-deceive-Germany-about-the-location-of-the-Allied-invasion",
+      "titulo": "How did Operation Fortitude deceive Germany about the location of the Allied invasion?"
+    },
+    {
+      "url": "https://britannica.com/topic/How-did-Colossus-help-confirm-that-Operation-Fortitude-was-successful",
+      "titulo": "How did Colossus help confirm that Operation Fortitude was successful?"
+    },
+    {
+      "url": "https://culturefrontier.com/operation-fortitude",
+      "titulo": "Operation Fortitude: The Deception That Saved D-Day"
+    },
+    {
+      "url": "https://wikiwand.com/en/Operation_Fortitude",
+      "titulo": "Operation Fortitude - Wikiwand"
+    },
+    {
+      "url": "https://codenames.info/operation/fortitude",
+      "titulo": "Fortitude"
+    },
+    {
+      "url": "https://malevus.com/operation-fortitude",
+      "titulo": "Operation Fortitude: A Distraction for the 1944 D-Day Landings - Malevus"
+    },
+    {
+      "url": "https://scotsman.com/news/opinion/columnists/scotlands-fourth-army-and-one-of-the-greatest-deceptions-of-second-world-war-4657131",
+      "titulo": "Scotland’s Fourth Army and one of the greatest deceptions of Second World War"
+    },
+    {
+      "url": "https://eastlothianatwar.co.uk/Deception%20Plans.html",
+      "titulo": "Fighting Back - Deception Plans"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fourth_Army_(United_Kingdom)",
+      "titulo": "Fourth Army (United Kingdom)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fourth_Army_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/108th_Light_Anti-Aircraft_Regiment,_Royal_Artillery",
+      "titulo": "108th Light Anti-Aircraft Regiment, Royal Artillery"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/186th_Field_Regiment,_Royal_Artillery",
+      "titulo": "186th Field Regiment, Royal Artillery"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/76th_Infantry_Division_(United_Kingdom)",
+      "titulo": "76th Infantry Division (United Kingdom)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/76th_Infantry_Division_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/80th_Infantry_(Reserve)_Division_(United_Kingdom)",
+      "titulo": "80th Infantry (Reserve) Division (United Kingdom)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/80th_Infantry_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/55th_Infantry_Division_(United_States)",
+      "titulo": "55th Infantry Division (United States)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/55th_Infantry_Division_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Graffham",
+      "titulo": "Operation Graffham"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fourteenth_United_States_Army",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Military_deception",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lieutenant-Colonel",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Officer_of_the_Order_of_the_British_Empire",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wik",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/technology/Colossus-computer",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/British_Army",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scotland",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/52nd_",
+      "titulo": ""
+    },
+    {
+      "url": "https://cdn.britannica.com/90/234790-050-A1BEF706/Dummy-tank-decoy-world-war-II.jpg",
+      "titulo": ""
+    },
+    {
+      "url": "https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/",
+      "titulo": ""
+    },
+    {
+      "url": "https://premium.britannica.com/premium-membership?utm_source=premium&utm_medium=global-nav&utm_campaign=blue-evergreen-header",
+      "titulo": ""
+    },
+    {
+      "url": "https://premium.britannica.com/premium-membership?utm_source=premium&utm_medium=global-nav-mobile&utm_campaign=blue-evergreen",
+      "titulo": ""
+    },
+    {
+      "url": "https://premium.britannica.com/premium-membership?utm_source=premium&utm_medium=nav-login-box&utm_campaign=evergreen",
+      "titulo": ""
+    },
+    {
+      "url": "https://premium.britannica.com/premium-membership?utm_source=premium&utm_medium=hamburger-menu&utm_campaign=bdpremium",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/History-Society",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/Science-Tech",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/Biographies",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/Animals-Nature",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/Geography-Travel",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/Arts-Culture",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/procon",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/money",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/quiz/browse",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/videos",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/on-this-day",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/dictionary",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/new-articles",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/browse/World-History",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/browse/Philosophy-Religion",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/browse/Politics-Law-Government",
+      "titulo": ""
+    },
+    {
+      "url": "https://britannica.com/browse/Lifestyles-Social-Issues",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 3,
+    "consultas_checagem": 0,
+    "fontes": 135,
+    "marcos": 6,
+    "marcos_matriz": 3,
+    "rejeitados": 0,
+    "duracao_s": 105.6,
+    "tokens": {
+      "entrada": 28,
+      "saida": 8942,
+      "cache": 306418,
+      "cache_gravado": 40848
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:10:54+00:00",
+  "ultima_revisao": "2026-11-20T22:10:54+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D005",
+  "classe_preliminar": "M",
+  "epoca": "1944",
+  "regiao": "Reino Unido/França",
+  "status_editorial": "ia_revisao_pendente"
+}

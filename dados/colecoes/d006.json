@@ -1,0 +1,519 @@
+{
+  "id": "d006",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Operation Bodyguard: plano aliado abrangente de enganos (1944, Europa)",
+  "titulo": "Operation Bodyguard: o guarda-chuva aliado de enganos de 1944",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "O Bodyguard existiu como estratégia aliada de engano para toda a Europa em 1944, abrangendo o Fortitude e outros subplanos. A aprovação data do fim de 1943. O t",
+  "sintese": "O plano surgiu do trabalho do London Controlling Section, foi discutido em Teerã e aprovado como Bodyguard no fim de 1943, envolvendo também os soviéticos. Seu braço principal, o Fortitude, simulou ameaças a Calais e à Noruega. Há divergência sobre a data exata da aprovação (6 ou 25 dez. 1943), e a dimensão do efeito vem de análises feitas depois da guerra.",
+  "limites": "O limite de ferramentas impediu ler o PDF da DTIC e as fichas completas dos Arquivos Nacionais britânicos (vieram vazias); usamos trechos dos resultados de busca. Não consultamos o texto original do plano (série CAB/WO), nem a história oficial de Michael Howard ou fontes alemãs. Dois marcos se apoiam na Wikipedia, que serve como pista e não como prova.",
+  "perspectivas": [
+    {
+      "titulo": "Plano abrangente para a Europa",
+      "texto": "Bodyguard reunia vários subplanos (Fortitude North/South, Zeppelin, Ironside, Copperhead etc.) e envolvia coordenação com a URSS, segundo registros do arquivo britânico FO 954 e do IWM.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Data de aprovação divergente",
+      "texto": "O mesmo verbete fala em aprovação em 6 dez. 1943, quando Bevan recebeu as ordens finais em Teerã/Cairo, e em aprovação formal no Natal de 1943. Para resolver é preciso ver o documento original.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Tamanho do sucesso",
+      "texto": "A retenção de forças alemãs em Calais por cerca de sete semanas é atribuída em parte ao engano. Essa é uma inferência retrospectiva, e outros fatores também pesaram nas decisões alemãs.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Não é 'fake news'",
+      "texto": "Foi um engano militar dirigido ao comando inimigo, com autoria aliada documentada, e não desinformação cívica contra a população.",
+      "sustentacao": "documentada"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Estratégia de engano apresentada em Teerã",
+      "texto": "Na Conferência de Teerã (fim de nov. 1943), os líderes aliados fecharam a invasão através do Canal, e o plano de engano para cobri-la entrou em pauta. Este é o ponto de partida documentado do plano que depois se chamaria Bodyguard.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-11-28",
+      "data_fim": "1943-12-01",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "28 NOV–1 DEZ 1943",
+      "local": "Teerã · Irã",
+      "lat": 35.6892,
+      "lon": 51.389,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Fortitude - Strategic Deception",
+        "entidade": "Defense Technical Information Center (DTIC)",
+        "url": "https://apps.dtic.mil/sti/tr/pdf/ADA404434.pdf",
+        "tipo_fonte": "academica",
+        "data_documento": null,
+        "trecho_de_suporte": "...Europe in the first half of 1944 during the Tehran Conference held in November 1943. … The goal of BODYGUARD was to deceive Hitler... The Allied leaders decided to conduct the cross-channel invasion of Hitler's Fortress Europe",
+        "data_acesso": "2026-11-20T22:10:21+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Plano aprovado com o nome Bodyguard",
+      "texto": "O rascunho do London Controlling Section (Plan Jael), concluído em Londres por John Bevan, foi aprovado como Bodyguard no Natal de 1943. O nome remete à frase de Churchill em Teerã sobre a verdade \"escoltada por um guarda-costas de mentiras\". O mesmo artigo também cita 6 dez. 1943 como data de aprovação, uma divergência ainda não resolvida.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1943-12-25",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "25 DEZ 1943",
+      "local": "Londres · Reino Unido",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Bodyguard",
+        "entidade": "Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Bodyguard",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Furnished with the final details of Overlord, Bevan returned to London to complete the draft. The deception strategy, now codenamed Bodyguard, was approved on Christmas Day 1943.",
+        "data_acesso": "2026-11-20T22:10:26+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Fortitude: o braço do Dia D dentro do Bodyguard",
+      "texto": "Segundo o Imperial War Museums, o Fortitude, plano de engano do Dia D (6 jun. 1944), fazia parte do Bodyguard. Ele simulou ameaças à Noruega e ao Pas-de-Calais com o exército fictício FUSAG, tanques infláveis e agentes duplos como \"Garbo\". O registro confirma a estrutura de subplanos.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944",
+      "data_fim": "1944-06-06",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "1944 – 6 JUN 1944",
+      "local": "Sudeste da Inglaterra · Reino Unido",
+      "lat": 51.2,
+      "lon": 0.8,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "D-Day's Parachuting Dummies and Inflatable Tanks",
+        "entidade": "Imperial War Museums",
+        "url": "https://www.iwm.org.uk/history/d-days-parachuting-dummies-and-inflatable-tanks",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "The D-Day deception plan was codenamed Operation 'Fortitude' and was part of a larger overall deception strategy – Operation 'Bodyguard'. ... the Allies created the fictitious First US Army Group (FUSAG), an imaginary force 'based' in south-east Britain.",
+        "data_acesso": "2026-11-20T22:10:38+00:00",
+        "matriz_id": "F047",
+        "matriz_funcoes": [
+          "P",
+          "C"
+        ]
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Coordenação com a URSS em Moscou",
+      "texto": "Telegramas diplomáticos britânicos enviados de Moscou e guardados nos Arquivos Nacionais do Reino Unido tratam da adesão soviética ao Bodyguard, incluindo um \"protocolo assinado\" e um plano de engano sobre a Bulgária. Eles mostram que o plano foi pensado para toda a Europa e incluía os soviéticos. As datas exatas não aparecem no trecho do catálogo consultado.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1944",
+      "data_fim": null,
+      "precisao_temporal": "aproximada",
+      "data_exibicao": "1944 (APROX.)",
+      "local": "Moscou · URSS (Rússia)",
+      "lat": 55.7558,
+      "lon": 37.6173,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operations: Operation BODYGUARD: Moscow telegram No 616. Further to Bod/44/29 Protocol signed (FO 954/17A/77)",
+        "entidade": "The National Archives (UK)",
+        "url": "https://discovery.nationalarchives.gov.uk/details/r/C6562346?descriptiontype=Full",
+        "tipo_fonte": "primaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Reference: FO 954/17A/77 · Operations: Operation BODYGUARD: Moscow telegram No 616. Further to Bod/44/29 Protocol signed. (Série relacionada: telegrama nº 523, 'Russians have not turned down Bulgarian deception plan').",
+        "data_acesso": "2026-11-20T22:10:32+00:00",
+        "matriz_id": "F035",
+        "matriz_funcoes": [
+          "P",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "Avaliação do efeito: forças retidas em Calais",
+      "texto": "Análises feitas depois da guerra indicam que a inteligência alemã acreditou em boa parte do engano. Hitler teria adiado por quase sete semanas o envio de forças de Calais para a Normandia, quando a meta do plano era de 14 dias. Isso é uma avaliação posterior; o peso do engano nessa decisão alemã é uma inferência dos historiadores.",
+      "tipo_registro": "interpretacao_retrospectiva",
+      "data_inicio": "1944-06-06",
+      "data_fim": "1944-07",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "JUN–JUL 1944",
+      "local": "Pas-de-Calais e Normandia · França",
+      "lat": 50.5,
+      "lon": 2.3,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Operation Bodyguard",
+        "entidade": "Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Operation_Bodyguard",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Following the invasion, Hitler delayed redeploying forces from Calais and other regions to defend Normandy for nearly seven weeks (Bodyguard had been intended to delay this for at least 14 days). Evidence suggests that the threat against Pas-de-Calais... contributed to the German decision.",
+        "data_acesso": "2026-11-20T22:10:43+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Bodyguard",
+      "titulo": "Operation Bodyguard"
+    },
+    {
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA404434.pdf",
+      "titulo": "Operation Fortitude - Strategic Deception - DTIC"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Graffham",
+      "titulo": "Operation Graffham"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Ironside",
+      "titulo": "Operation Ironside"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Copperhead",
+      "titulo": "Operation Copperhead"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Zeppelin_(deception_plan)",
+      "titulo": "Operation Zeppelin (deception plan)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Zeppelin_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Ferdinand",
+      "titulo": "Operation Ferdinand"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Fortitude",
+      "titulo": "Operation Fortitude"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Royal_Flush",
+      "titulo": "Operation Royal Flush"
+    },
+    {
+      "url": "https://obscurehistories.com/post/how-the-allies-duped-the-nazis-for-d-day-with-operation-fortitude",
+      "titulo": "How the Allies Duped the Nazis for D-Day with Operation Fortitude"
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C6562331",
+      "titulo": "Operations: Operation BODYGUARD: Moscow telegram No 466. Bulgaria and Bodyguard."
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C6562348",
+      "titulo": "Operations: Operation BODYGUARD: Moscow telegram No 625. Circulation of telegrams about..."
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C6562346?descriptiontype=Full",
+      "titulo": "Operations: Operation BODYGUARD: Moscow telegram No 616. Further to Bod/44/29 Protocol..."
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C6562337",
+      "titulo": "Operations: Operation BODYGUARD: Moscow telegram No 523. Has been assured that Russians..."
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/results/r/4?_q=CO+405&_col=200&_hb=tna",
+      "titulo": "Search results: CO 405"
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C9192788",
+      "titulo": "1. OPERATIONS IN BURMA - DIVERSION OF TRANSPORT AIRCRAFT. 2. \"CROSSBOW\". 3. \"OVERLORD\"..."
+    },
+    {
+      "url": "https://cdn.nationalarchives.gov.uk/documents/d-day-show-notes.pdf",
+      "titulo": "Untold Stories of D-Day"
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C385314",
+      "titulo": "Plan BODYGUARD (MI5-B1a)"
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C9192848",
+      "titulo": "1. \"OVERLORD\" SECURITY - SERVICE LEAVE. COS(44)583(O). 2. \"CROSSBOW\". 3. \"CROSSBOW\" -..."
+    },
+    {
+      "url": "https://iwm.org.uk/history/d-days-parachuting-dummies-and-inflatable-tanks",
+      "titulo": "Operation Fortitude - D-Day’s Deception Strategy"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/R_Force",
+      "titulo": "R Force"
+    },
+    {
+      "url": "https://iwm.org.uk/collections/item/object/205076201",
+      "titulo": "PLANS OF THE CABINET WAR ROOMS"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Titanic",
+      "titulo": "Operation Titanic"
+    },
+    {
+      "url": "https://iwm.org.uk/collections/item/object/1030014669",
+      "titulo": "Private Papers of Captain R H Clark MC"
+    },
+    {
+      "url": "https://iwm.org.uk/spies-lies-and-deception-large-print-guide",
+      "titulo": "Spies, Lies and Deception Large Print Guide"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ops_(B)",
+      "titulo": "Ops (B)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ops_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Noel_Wild",
+      "titulo": "Noel Wild"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/D-Day_naval_deceptions",
+      "titulo": "D-Day naval deceptions"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Operation_Bodyguard",
+      "titulo": "Operation Bodyguard"
+    },
+    {
+      "url": "https://dailydosedocumentary.com/operation-bodyguard",
+      "titulo": "Operation Bodyguard - Daily Dose Documentary"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tehran_Conference",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Military_deception",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.o/",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Second",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allies_of_World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Oberkommando_der_Wehrmacht",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/London_Controlling_Section",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pas-de-Calais",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Balkans",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/France",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Norway",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bulgaria",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Overlord",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Beachhead",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Advanced_Headquarters_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dudley_Clarke",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Bevan_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Enigma_machine",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bletchley_Park",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ultra_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Double_agent",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Double-Cross_System",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Army_Group",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Army_Group_B",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Cockade",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jael",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Old_Testament",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/D-Day",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dwight_Eisenhower",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Frederick_E._Morgan",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Western_Front_",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/William_Henry_Baumer_Jr",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Field_army",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/British_Fourth_Army",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Edinburgh",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Skye",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FUSAG",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/George_S._Patton",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/English_Channel",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rommel",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bernard_Montgomery",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bay_of_Biscay",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bordeaux",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Garonne",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 3,
+    "consultas_checagem": 0,
+    "fontes": 143,
+    "marcos": 5,
+    "marcos_matriz": 2,
+    "rejeitados": 0,
+    "duracao_s": 79.5,
+    "tokens": {
+      "entrada": 24,
+      "saida": 7783,
+      "cache": 207668,
+      "cache_gravado": 30311
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:10:53+00:00",
+  "ultima_revisao": "2026-11-20T22:10:53+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D006",
+  "classe_preliminar": "M",
+  "epoca": "1944",
+  "regiao": "Europa",
+  "status_editorial": "ia_revisao_pendente"
+}

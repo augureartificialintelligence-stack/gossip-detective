@@ -13,6 +13,32 @@ O relatório mostra sempre um **?** no lugar do veredito. A síntese é curta e 
 **tendencioso**, **refutado** ou, quando faltam registros, **inconclusivo**. Limites e fontes consultadas ficam recolhidos.
 A legenda do mapa fica no botão **?** do canto do mapa.
 
+### Matriz de fontes REVELATIO
+
+As pesquisas da IA partem da matriz editorial `docs/REVELATIO_MATRIZ_FONTES_V1.md` (70 fontes: agências de checagem,
+arquivos nacionais, bibliotecas, órgãos científicos e de pesquisa). Ela é convertida para `dados/matriz_fontes.json` por
+`ferramentas/importar_matriz.py` e entra nas instruções da IA como **prioridade de pesquisa**, com as regras de uso da matriz
+(alegação exata, documento de origem, fontes independentes, datas separadas, fato x autoria x intenção). Fontes fora da matriz
+continuam permitidas quando forem o documento original ou a melhor evidência. Todo marco cuja fonte pertence à matriz recebe o
+código dela (`fonte.matriz_id`, de F001 a F070), exibido no Cronograma Documental. Ao revisar a matriz, rode o importador de novo.
+
+### Arquivo REVELATIO (catálogos editoriais)
+
+Os catálogos `docs/GOSSIP_100_DESINFORMACAO_V1.md` e `docs/GOSSIP_100_HOAXES_V1.md` (200 fichas) são convertidos para
+`dados/catalogos.json` por `ferramentas/importar_catalogos.py`, cada ficha com a orientação editorial do próprio documento
+(significado da classe preliminar e cuidados específicos). `ferramentas/missoes_catalogo.py` investiga as fichas com a IA e
+publica os dossiês em `dados/colecoes/`, marcados como **gerados por IA, revisão editorial pendente**:
+
+```
+.venv\Scripts\python ferramentas\missoes_catalogo.py --ids D005,H003
+.venv\Scripts\python ferramentas\missoes_catalogo.py --todas --paralelo 3 --orcamento 110
+.venv\Scripts\python ferramentas\missoes_catalogo.py --ids H099 --refazer --buscas 10 --leituras 6 --esforco high
+```
+
+O executor retoma de onde parou, registra custo e resultado de cada ficha em `dados/colecoes/_relatorio.json` (fora do
+repositório) e para de iniciar missões ao atingir o orçamento. Os dossiês aparecem para todos na seção **ARQUIVO** da central
+(abas 100 Desinformação e 100 Hoaxes, com filtro) e na demonstração do GitHub Pages.
+
 ### Versão de demonstração (GitHub Pages)
 
 **Link:** https://augureartificialintelligence-stack.github.io/gossip-detective/

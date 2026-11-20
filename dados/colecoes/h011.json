@@ -1,0 +1,484 @@
+{
+  "id": "h011",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Spaghetti trees: a colheita de macarrão da BBC (1957, Reino Unido)",
+  "titulo": "Spaghetti trees: a colheita de macarrão da BBC (1957)",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "O episódio existiu: em 1º de abril de 1957, o Panorama da BBC exibiu uma colheita de espaguete encenada como trote de Dia da Mentira.",
+  "sintese": "O segmento do Panorama, narrado por Richard Dimbleby e filmado no Ticino a partir de uma ideia de Charles de Jaeger, foi ao ar em 1º/4/1957. Muitos espectadores telefonaram para a BBC. Os números de audiência (8 milhões) e de ligações vêm de relatos posteriores, e não confirmamos as datas exatas das filmagens.",
+  "limites": "Não conseguimos acessar diretamente o documento primário (o clipe do BBC Archive, a página BBC On This Day nem a entrevista de Peacock em 2014). A cronologia se apoia em fontes secundárias concordantes, como Museum of Hoaxes, Wikipedia, AgWeb e Open Culture, que em parte se citam umas às outras. Audiência, número de ligações e detalhes das filmagens não foram conferidos na fonte original.",
+  "perspectivas": [
+    {
+      "titulo": "Trote assumido pela própria BBC",
+      "texto": "Todas as fontes consultadas concordam que foi uma brincadeira intencional de 1º de abril, criada pela equipe do Panorama, e não um erro jornalístico.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Escala do engano",
+      "texto": "Os números (8 milhões de espectadores, centenas de ligações) aparecem em relatos posteriores. São plausíveis, mas não verificamos esses dados em registros de 1957.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Locais e bastidores",
+      "texto": "As filmagens no Ticino estão bem atestadas. Outros detalhes, como o hotel em Castagnola, cenas em St Albans e o uso de espaguete entre panos úmidos, vêm de relatos retrospectivos.",
+      "sustentacao": "parcial"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "Filmagem da falsa colheita no Ticino",
+      "texto": "Com orçamento de £100 aprovado pelo editor Michael Peacock, o cinegrafista Charles de Jaeger foi ao Ticino, sul da Suíça, filmar macarrão pendurado em árvores. Mostra que a reportagem foi uma encenação planejada pela própria equipe do Panorama.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1957-03",
+      "data_fim": null,
+      "precisao_temporal": "aproximada",
+      "data_exibicao": "MAR 1957 (APROX.)",
+      "local": "Ticino · Suíça",
+      "lat": 46.3,
+      "lon": 8.8,
+      "grau_geografico": "regiao",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Spaghetti Farming Hoax Ranks as Prank for the Ages",
+        "entidade": "AgWeb",
+        "url": "https://www.agweb.com/news/crops/crop-production/spaghetti-farming-hoax-ranks-prank-ages",
+        "tipo_fonte": "jornalistica",
+        "data_documento": null,
+        "trecho_de_suporte": "Given a green light and a whopping £100 budget by Panorama editor Michael Peacock, de Jaeger flew to the Ticino region of southern Switzerland to craft the film footage.",
+        "data_acesso": "2026-11-20T20:02:03+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Panorama exibe a \"colheita de espaguete\"",
+      "texto": "O programa Panorama, da BBC, exibe no 1º de abril um segmento de três minutos sobre uma safra recorde de espaguete no sul da Suíça. É o registro central: a reportagem existiu e foi ao ar no Dia da Mentira.",
+      "tipo_registro": "publicacao",
+      "data_inicio": "1957-04-01",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "1 ABR 1957",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "The Swiss Spaghetti Harvest",
+        "entidade": "The Museum of Hoaxes",
+        "url": "https://hoaxes.org/archive/permalink/the_swiss_spaghetti_harvest",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "On April 1, 1957 the British news show Panorama broadcast a three-minute segment about a bumper spaghetti harvest in southern Switzerland. ... narrated by distinguished broadcaster Richard Dimbleby",
+        "data_acesso": "2026-11-20T20:02:07+00:00",
+        "matriz_id": "F019",
+        "matriz_funcoes": [
+          "D",
+          "C"
+        ]
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Telespectadores ligam para a BBC",
+      "texto": "Cerca de 8 milhões teriam assistido; no dia seguinte, centenas ligaram para questionar a reportagem ou perguntar como cultivar espaguete. A BBC entrou na brincadeira: \"coloque um raminho de espaguete numa lata de molho de tomate e torça\".",
+      "tipo_registro": "amplificacao",
+      "data_inicio": "1957-04-02",
+      "data_fim": null,
+      "precisao_temporal": "dia",
+      "data_exibicao": "2 ABR 1957",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Spaghetti-tree hoax",
+        "entidade": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spaghetti-tree_hoax",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "An estimated eight million people watched the programme on 1 April 1957, and hundreds phoned in the following day to question the authenticity of the story or ask for more information about spaghetti cultivation (cita Daily Telegraph, 2011)",
+        "data_acesso": "2026-11-20T20:02:12+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "Trote vira clássico da TV",
+      "texto": "Quase 70 anos depois, a imprensa cultural ainda trata o segmento como um dos primeiros trotes de 1º de abril da televisão e relembra que a CNN o chamou de maior trote de um veículo de notícias respeitado. Mostra a consolidação do episódio na memória coletiva.",
+      "tipo_registro": "memoria_historica",
+      "data_inicio": "2025-11",
+      "data_fim": null,
+      "precisao_temporal": "mes",
+      "data_exibicao": "NOV 2025",
+      "local": "Local não identificado",
+      "lat": null,
+      "lon": null,
+      "grau_geografico": "desconhecido",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "The 1957 \"Spaghetti-Grows-on-Trees\" Hoax: One of TV's First April Fools' Day Pranks",
+        "entidade": "Open Culture",
+        "url": "https://www.openculture.com/2025/11/the-1957-spaghetti-grows-on-trees-hoax.html",
+        "tipo_fonte": "jornalistica",
+        "data_documento": "2025-11",
+        "trecho_de_suporte": "In 1957, the BBC program Panorama aired one of the first televised April Fools' Day hoaxes ... An estimated eight million people watched the original program, and, decades later, CNN called the broadcast \"the biggest hoax...\"",
+        "data_acesso": "2026-11-20T20:02:17+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://hoaxes.org/archive/permalink/the_swiss_spaghetti_harvest",
+      "titulo": "The Swiss Spaghetti Harvest - The Museum of Hoaxes"
+    },
+    {
+      "url": "https://hoaxes.org/af_database/permalink/the_swiss_spaghetti_harvest",
+      "titulo": "The Swiss Spaghetti Harvest (April Fool, 1957)"
+    },
+    {
+      "url": "https://imdb.com/title/tt4519722",
+      "titulo": "\"Panorama\" Spaghetti Harvest (TV Episode 1957) ⭐ 8.1"
+    },
+    {
+      "url": "https://hoaxes.org/af_database/display/category/bbc",
+      "titulo": "The BBC's April Fool's Day Hoaxes"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spaghetti-tree_hoax",
+      "titulo": "Spaghetti-tree hoax"
+    },
+    {
+      "url": "https://theretrospectors.com/the-spaghetti-harvest",
+      "titulo": "The Spaghetti Harvest - The Retrospectors"
+    },
+    {
+      "url": "https://allthatsinteresting.com/spaghetti-tree-hoax",
+      "titulo": "Inside The Bizarre 'Spaghetti Tree' Hoax Of 1957"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_April_Fools%27_Day_jokes",
+      "titulo": "List of April Fools%27 Day jokes"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Panorama_(British_TV_programme)",
+      "titulo": "Panorama (British TV programme)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Panorama_",
+      "titulo": ""
+    },
+    {
+      "url": "https://open.prodir.com/en/2023/03/the-swiss-spaghetti-tree-hoax",
+      "titulo": "The Swiss spaghetti-tree hoax"
+    },
+    {
+      "url": "https://vaviper.blogspot.com/2014/03/bbcs-1957-spaghetti-harvest-prank.html",
+      "titulo": "VA Viper: BBC's 1957 Spaghetti Harvest prank"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/1957_in_British_television",
+      "titulo": "1957 in British television"
+    },
+    {
+      "url": "https://cityfarmer.info/bbc-reminds-us-of-1957-april-fools-hoax-swiss-spaghetti-harvest",
+      "titulo": "BBC reminds us of 1957 April Fools Hoax"
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/Spaghetti-tree_hoax",
+      "titulo": "Spaghetti-tree hoax"
+    },
+    {
+      "url": "https://cryptidz.fandom.com/wiki/Spaghetti_tree",
+      "titulo": "Spaghetti tree"
+    },
+    {
+      "url": "https://agweb.com/news/crops/crop-production/spaghetti-farming-hoax-ranks-prank-ages",
+      "titulo": "Spaghetti Farming Hoax Ranks as Prank for the Ages - AgWeb"
+    },
+    {
+      "url": "https://openculture.com/2025/11/the-1957-spaghetti-grows-on-trees-hoax.html",
+      "titulo": "The 1957 “Spaghetti-Grows-on-Trees” Hoax: One of TV’s First April Fools’ Day Pranks"
+    },
+    {
+      "url": "https://intriguingtimes.substack.com/p/the-legendary-bbc-panorama-hoax-that",
+      "titulo": "The legendary BBC Panorama hoax that convinced people spaghetti grew on trees"
+    },
+    {
+      "url": "https://rarehistoricalphotos.com/spaghetti-tree-hoax-photos",
+      "titulo": "The Spaghetti Tree Hoax: Inside the 1957 BBC’s April Fools Joke That Caused A Nationwide Uproar - Rare Historical Photos"
+    },
+    {
+      "url": "https://kids.kiddle.co/Spaghetti-tree_hoax",
+      "titulo": "Spaghetti-tree hoax facts for kids"
+    },
+    {
+      "url": "https://theconspiratory.com/theory/spaghetti-tree-hoax",
+      "titulo": "The BBC spaghetti-tree hoax of 1957, explained"
+    },
+    {
+      "url": "https://goodreads.com/author_blog_posts/18654177-you-re-having-a-laugh-part-twenty-four",
+      "titulo": "You’re Having A Laugh – Part Twenty Four"
+    },
+    {
+      "url": "https://hoaxes.org/images/hoaxipedia/spaghetti1.jpg",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/images/media2/mohlogo_7704.png",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/images/media2/mohlogo_70.png",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/about",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/weblog/contact",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/forums",
+      "titulo": ""
+    },
+    {
+      "url": "https://facebook.com/HoaxMuseum",
+      "titulo": ""
+    },
+    {
+      "url": "https://twitter.com/HoaxMuseum",
+      "titulo": ""
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheMuseumOfHoaxes",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/photo_database",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/photo_database/viral_images",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/photo_database/photo_category/category/deleted_details",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/photo_database/photo_category/category/real",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/af_database",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/af_database/permalink/origin_of_april_fools_day",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/aprilfool",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/aprilfool/faq",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/worstaprilfools.html",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/satirical_art",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/bigfoot",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/loch_ness_monster",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/weblog/categories/category/Pareidolia",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/student_pranks",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/Top/satirical_candidates",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/animals",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/categories",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/middleages",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/earlymodern",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1700s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1800-1850",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1850-1900",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1900s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1910s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1920s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1930s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1940s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1950s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1960s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1970s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1980s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/1990s",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/archive/display/category/2000s",
+      "titulo": ""
+    },
+    {
+      "url": "https://youtube.com/embed/tVo_wkxH9dU",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/images/hoaxipedia/spaghetti3.jpg",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/images/hoaxipedia/dimbleby.jpg",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/images/hoaxipedia/spaghetti2.jpg",
+      "titulo": ""
+    },
+    {
+      "url": "https://hoaxes.org/images/hoaxipedia/spaghetti4.jpg",
+      "titulo": ""
+    },
+    {
+      "url": "https://dev-tvnews.library.vanderbilt.edu/broadcasts/450616",
+      "titulo": ""
+    },
+    {
+      "url": "https://youtube.com/embed/q-ZtGoXkI58",
+      "titulo": ""
+    },
+    {
+      "url": "https://amazon.com/gp/product/1615731032/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1615731032&linkCode=as2&tag=museofhoax-20&linkId=3JSD4X5Q23LYVGOJ",
+      "titulo": ""
+    },
+    {
+      "url": "https://ir-na.amazon-adsystem.com/e/ir?t=museofhoax-20&l=as2&o=1&a=1615731032",
+      "titulo": ""
+    },
+    {
+      "url": "https://news.bbc.co.uk/1/hi/england/southern_counties/3591687.stm",
+      "titulo": ""
+    },
+    {
+      "url": "https://news.bbc.co.uk/onthisday/hi/dates/stories/april/1/newsid_2819000/2819261.stm",
+      "titulo": ""
+    },
+    {
+      "url": "https://news.bbc.co.uk/onthisday/hi/witness/april/1/newsid_4362000/4362667.stm",
+      "titulo": ""
+    },
+    {
+      "url": "https://transdiffusion.org/emc/aspidistra/spaghetti_fool.php",
+      "titulo": ""
+    },
+    {
+      "url": "https://findarticles.com/p/articles/mi_qn4158/is_20000529/ai_n14316791",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 5,
+    "leituras": 3,
+    "consultas_checagem": 0,
+    "fontes": 136,
+    "marcos": 4,
+    "marcos_matriz": 1,
+    "rejeitados": 0,
+    "duracao_s": 89.0,
+    "tokens": {
+      "entrada": 24,
+      "saida": 7003,
+      "cache": 194714,
+      "cache_gravado": 32963
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T20:02:26+00:00",
+  "ultima_revisao": "2026-11-20T20:02:26+00:00",
+  "colecao": "hoaxes",
+  "catalogo_id": "H011",
+  "classe_preliminar": "Primeiro de abril",
+  "epoca": "1957",
+  "regiao": "Reino Unido",
+  "status_editorial": "ia_revisao_pendente"
+}

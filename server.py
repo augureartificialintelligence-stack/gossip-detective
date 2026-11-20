@@ -214,6 +214,8 @@ class Manipulador(BaseHTTPRequestHandler):
             self._json({"erro": "Entre na sua conta para continuar."}, 401)
         elif rota == "/api/casos":
             self._json({"verificados": arquivo.casos_verificados(), "recentes": arquivo.investigacoes_recentes(60, usuario["id"])})
+        elif rota == "/api/colecoes":
+            self._json({"colecoes": arquivo.colecoes_publicadas()})
         elif rota == "/api/bombando":
             self._json({"itens": arquivo.mais_investigadas()})
         elif rota == "/api/avaliacoes":

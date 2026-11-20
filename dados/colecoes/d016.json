@@ -1,0 +1,584 @@
+{
+  "id": "d016",
+  "origem": "catalogo",
+  "versao": 1,
+  "pergunta": "Double-Cross System: agentes duplos britânicos (1940–1945, Reino Unido/Alemanha)",
+  "titulo": "Double-Cross System: o MI5 controlava de fato a espionagem alemã no Reino Unido?",
+  "tipo_alegacao": "fato_historico",
+  "classificacao": "bem_documentada",
+  "veredito": "O sistema de agentes duplos britânico é fato histórico documentado. A frase de Masterman de que o MI5 controlava a espionagem alemã no país tem bom apoio, com a",
+  "sintese": "De 1939 a 1945, o MI5 virou agentes alemães, a partir de SNOW, e coordenou o engano por meio do Comitê Vinte, criado em janeiro de 1941. O auge foi o GARBO no Dia D. O balanço de Masterman foi escrito em 1945 e publicado em 1972. Ainda é incerto o tamanho exato do efeito militar. Também falta confirmar, por fontes alemãs, se o controle era mesmo total.",
+  "limites": "A busca na web ficou limitada por restrições técnicas. Não consultei diretamente os arquivos do MI5 no UK National Archives (série KV), a história oficial de Hinsley e Simkins (1990) nem documentos alemães. O controle quase total e o efeito sobre as divisões em Calais estão apoiados em fontes britânicas institucionais ou derivadas delas. A ressalva de que só um agente, que se suicidou, escapou aparece numa fonte secundária (Wikipedia/Macintyre) e não foi checada no documento primário.",
+  "perspectivas": [
+    {
+      "titulo": "Versão institucional britânica",
+      "texto": "O MI5 e Masterman afirmam que o serviço dirigia e controlava a espionagem alemã no país, com cerca de 120 agentes virados. Eles também atribuem ao GARBO papel decisivo no engano sobre Calais.",
+      "sustentacao": "documentada"
+    },
+    {
+      "titulo": "Ressalva sobre o 'controle total'",
+      "texto": "Fontes secundárias baseadas em registros do pós-guerra dizem que quase nenhum agente da Abwehr passou despercebido. A exceção seria um único agente, que se suicidou. Essa ressalva qualifica o 'total', mas ainda precisa ser conferida no documento primário.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Tamanho do efeito militar",
+      "texto": "A retenção de divisões alemãs em Calais aparece num relatório do MI5 a Churchill, ou seja, numa avaliação interna. Medir o peso exato do engano exige cruzar com documentos alemães, o que não foi feito aqui.",
+      "sustentacao": "parcial"
+    },
+    {
+      "titulo": "Natureza do caso",
+      "texto": "Foi engano militar estratégico contra o comando adversário em tempo de guerra. Não se trata de desinformação cívica contra a população nem de 'fake news'.",
+      "sustentacao": "documentada"
+    }
+  ],
+  "marcos": [
+    {
+      "id": "m01",
+      "seq": 1,
+      "titulo": "SNOW, o primeiro agente \"virado\"",
+      "texto": "Logo após o início da guerra, o engenheiro galês codinome SNOW (Arthur Owens) passou a ser usado pelo MI5 como agente duplo. Segundo o próprio MI5, foi o primeiro de cerca de 120 agentes alemães virados ao longo da guerra.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1939-09",
+      "data_fim": "1939-12",
+      "precisao_temporal": "aproximada",
+      "data_exibicao": "FIM DE 1939",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "MI5 in World War II",
+        "entidade": "MI5 – Security Service (Reino Unido)",
+        "url": "https://www.mi5.gov.uk/history/world-war-ii/mi5-in-world-war-ii",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "Shortly after the outbreak of War, SNOW became the first in a series of 120 wartime German agents who were turned by MI5 into double agents.",
+        "data_acesso": "2026-11-20T22:16:50+00:00"
+      }
+    },
+    {
+      "id": "m02",
+      "seq": 2,
+      "titulo": "Leva de espiões mal treinados",
+      "texto": "Entre setembro e novembro de 1940 chegaram menos de 25 agentes alemães, em geral mal treinados, apesar da \"mania de espiões\" no país. O MI5, alertado com antecedência por interceptações, capturou quase todos, base material do sistema.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1940-09",
+      "data_fim": "1940-11",
+      "precisao_temporal": "intervalo",
+      "data_exibicao": "SET–NOV 1940",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "Double-Cross System",
+        "entidade": "Wikipedia (com base em Macintyre e Masterman)",
+        "url": "https://en.wikipedia.org/wiki/Double-Cross_System",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "The truth was that between September and November 1940 fewer than 25 agents arrived in the country; mostly of non-German extraction, they were badly trained and poorly motivated.",
+        "data_acesso": "2026-11-20T22:16:54+00:00"
+      }
+    },
+    {
+      "id": "m03",
+      "seq": 3,
+      "titulo": "Nasce o Comitê Vinte (XX)",
+      "texto": "A partir de janeiro de 1941, a desinformação passada pelos agentes duplos à inteligência alemã passou a ser coordenada pelo Twenty Committee, presidido por J. C. Masterman. O nome brinca com o numeral romano XX, uma \"dupla cruz\".",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1941-01",
+      "data_fim": null,
+      "precisao_temporal": "mes",
+      "data_exibicao": "JAN 1941",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "MI5 in World War II",
+        "entidade": "MI5 – Security Service (Reino Unido)",
+        "url": "https://www.mi5.gov.uk/history/world-war-ii/mi5-in-world-war-ii",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "From January 1941 the disinformation passed on by the double agents to German Intelligence was coordinated by the Twenty Committee (so called because the Roman numeral for twenty, XX, is a double cross), chaired by J. C. Masterman",
+        "data_acesso": "2026-11-20T22:16:59+00:00"
+      }
+    },
+    {
+      "id": "m04",
+      "seq": 4,
+      "titulo": "GARBO e o engano do Dia D",
+      "texto": "O agente GARBO (Juan Pujol García), com rede fictícia de 28 subagentes, ajudou a convencer os alemães de que o alvo principal da invasão de junho de 1944 seria a região de Calais, não a Normandia. Foi engano militar dirigido ao comando inimigo, não desinformação contra a população.",
+      "tipo_registro": "fato_historico",
+      "data_inicio": "1944-06",
+      "data_fim": null,
+      "precisao_temporal": "mes",
+      "data_exibicao": "JUN 1944",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "MI5 in World War II",
+        "entidade": "MI5 – Security Service (Reino Unido)",
+        "url": "https://www.mi5.gov.uk/history/world-war-ii/mi5-in-world-war-ii",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "GARBO played a key role in persuading the Germans that the main target of the D-Day landings in June 1944 was not the Normandy beaches but the area round Calais.",
+        "data_acesso": "2026-11-20T22:17:03+00:00"
+      }
+    },
+    {
+      "id": "m05",
+      "seq": 5,
+      "titulo": "MI5 relata efeito a Churchill",
+      "texto": "Quatro semanas após o desembarque, o MI5 informou a Churchill que divisões alemãs destinadas à Normandia foram retidas ou recolhidas diante da suposta ameaça a Calais. É a avaliação interna britânica do impacto, não um documento alemão.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1944-07",
+      "data_fim": null,
+      "precisao_temporal": "aproximada",
+      "data_exibicao": "JUL 1944",
+      "local": "Londres · Reino Unido",
+      "lat": null,
+      "lon": null,
+      "grau_geografico": "desconhecido",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "MI5 in World War II",
+        "entidade": "MI5 – Security Service (Reino Unido)",
+        "url": "https://www.mi5.gov.uk/history/world-war-ii/mi5-in-world-war-ii",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "Four weeks after the landings began, MI5 reported to Churchill: 'It is known for a fact that the Germans intended at one time to move certain Divisions from the Pas de Calais area to Normandy but... these troops were either stopped... or... not moved at all.'",
+        "data_acesso": "2026-11-20T22:17:08+00:00"
+      }
+    },
+    {
+      "id": "m06",
+      "seq": 6,
+      "titulo": "Relatório interno de Masterman",
+      "texto": "Masterman redigiu em 1945 um relatório oficial para o MI5 sobre o sistema. Ele só seria publicado com permissão do governo britânico mais de vinte anos depois, o que mostra que a versão pública nasce de um balanço do próprio serviço.",
+      "tipo_registro": "documento_primario",
+      "data_inicio": "1945",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1945",
+      "local": "Reino Unido",
+      "lat": 54.0,
+      "lon": -2.0,
+      "grau_geografico": "pais",
+      "relacao_com_anterior": "cronologia",
+      "fonte": {
+        "titulo": "The Double-Cross System by John Masterman",
+        "entidade": "Penguin Books Australia",
+        "url": "https://www.penguin.com.au/books/the-double-cross-system-9781448190324",
+        "tipo_fonte": "secundaria",
+        "data_documento": null,
+        "trecho_de_suporte": "Written as an official report for MI5 in 1945, originally published with the permission of the British Government over twenty years later",
+        "data_acesso": "2026-11-20T22:17:12+00:00"
+      }
+    },
+    {
+      "id": "m07",
+      "seq": 7,
+      "titulo": "Livro de Masterman é publicado",
+      "texto": "A Yale University Press publicou em 1972, em New Haven, \"The Double-Cross System in the War of 1939 to 1945\". Nele aparece a frase de que o MI5 \"dirigia e controlava ativamente\" a espionagem alemã no país, a afirmação central deste caso.",
+      "tipo_registro": "publicacao",
+      "data_inicio": "1972",
+      "data_fim": null,
+      "precisao_temporal": "ano",
+      "data_exibicao": "1972",
+      "local": "New Haven · EUA",
+      "lat": 41.3083,
+      "lon": -72.9279,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "reproducao_documentada",
+      "fonte": {
+        "titulo": "The Double-Cross System In the War of 1939 to 1945 by Masterman, J.C. (1972)",
+        "entidade": "AbeBooks (registro bibliográfico)",
+        "url": "https://www.abebooks.com/first-edition/Double-Cross-System-1939-1945-Masterman-J.C/32074886587/bd",
+        "tipo_fonte": "secundaria",
+        "data_documento": "1972",
+        "trecho_de_suporte": "1st Edition - hardcover - Yale University Press, New Haven - 1972",
+        "data_acesso": "2026-11-20T22:17:16+00:00"
+      }
+    },
+    {
+      "id": "m08",
+      "seq": 8,
+      "titulo": "MI5 endossa a frase hoje",
+      "texto": "A página histórica oficial do MI5 reproduz a frase de Masterman e cita cerca de 120 agentes virados. Isso mostra a posição institucional atual, mas é o serviço avaliando a própria atuação, não uma verificação independente.",
+      "tipo_registro": "memoria_historica",
+      "data_inicio": "2026",
+      "data_fim": null,
+      "precisao_temporal": "aproximada",
+      "data_exibicao": "CONSULTA 2026",
+      "local": "Londres · Reino Unido",
+      "lat": 51.4936,
+      "lon": -0.1269,
+      "grau_geografico": "cidade",
+      "relacao_com_anterior": "reproducao_documentada",
+      "fonte": {
+        "titulo": "MI5 in World War II",
+        "entidade": "MI5 – Security Service (Reino Unido)",
+        "url": "https://www.mi5.gov.uk/history/world-war-ii/mi5-in-world-war-ii",
+        "tipo_fonte": "institucional",
+        "data_documento": null,
+        "trecho_de_suporte": "Through the Double Cross System, wrote Masterman later, 'we actively ran and controlled the German espionage system in this country'.",
+        "data_acesso": "2026-11-20T22:17:21+00:00"
+      }
+    }
+  ],
+  "fontes_consultadas": [
+    {
+      "url": "https://andrewharwoodauthor.substack.com/p/the-twenty-committee-britains-double",
+      "titulo": "THE TWENTY COMMITTEE: BRITAIN’S DOUBLE CROSS SYSTEM"
+    },
+    {
+      "url": "https://mi5.gov.uk/history/world-war-ii/mi5-in-world-war-ii",
+      "titulo": "MI5 in world War II"
+    },
+    {
+      "url": "https://oxfordreference.com/display/10.1093/oi/authority.20110803125225257",
+      "titulo": "XX-committee - Oxford Reference"
+    },
+    {
+      "url": "https://covertcouncil.com/operations/double-cross-system",
+      "titulo": "The Double-Cross System: September 1939"
+    },
+    {
+      "url": "https://intotheshadows.channel/war/operation-double-cross-british-deception-fooled-nazis",
+      "titulo": "Operation Double-Cross: The Deception That Fooled Hitler"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Cecil_Masterman",
+      "titulo": "John Cecil Masterman"
+    },
+    {
+      "url": "https://legendsliveon.co.uk/articles/xx-committee",
+      "titulo": "XX Committee"
+    },
+    {
+      "url": "https://intelligenceref.blogspot.com/2010/11/twenty-committee.html",
+      "titulo": "Intelligence Reference: TWENTY COMMITTEE"
+    },
+    {
+      "url": "https://coldspur.com/the-mystery-of-the-undetected-radios-part-2",
+      "titulo": "The Mystery of the Undetected Radios (Part 2)"
+    },
+    {
+      "url": "https://abebooks.com/first-edition/Double-Cross-System-1939-1945-Masterman-J.C/32074886587/bd",
+      "titulo": "The Double-Cross System In the War of 1939 to 1945 by Masterman, J.C.: hardcover (1972)"
+    },
+    {
+      "url": "https://archive.org/details/doublecrosssyste0000mast",
+      "titulo": "The double-cross system, 1939-1945 : Masterman, J. C. (John Cecil), 1891-1977 : Free Download, Borrow, and Streaming : Internet Archive"
+    },
+    {
+      "url": "https://goodreads.com/book/show/252324.The_Double_Cross_System",
+      "titulo": "The Double-Cross System: The Incredible True Story of How Nazi Spies Were Turned into Double Agents by J.C. Masterman"
+    },
+    {
+      "url": "https://archive.org/details/doublecrosssyste00mast",
+      "titulo": "The double-cross system : the incredible true story of how Nazi spies were turned into double agents : Masterman, J. C. (John Cecil), 1891- : Free Download, Borrow, and Streaming : Internet Archive"
+    },
+    {
+      "url": "https://tandfonline.com/doi/full/10.1080/08850600590911972",
+      "titulo": "A Retrospective on John Masterman's The Double-Cross System : International Journal of Intelligence and CounterIntelligence: Vol 18 , No 2 - Get Access"
+    },
+    {
+      "url": "https://goodreads.com/book/show/29413660-the-double-cross-system",
+      "titulo": "The Double-Cross System: The Classic Account of World War Two Spy-Masters by J.C. Masterman"
+    },
+    {
+      "url": "https://openresearch-repository.anu.edu.au/items/a9ccbf83-654c-4bf8-a405-75d087141eb5",
+      "titulo": "The double-cross system in the war of 1939 to 1945"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wulf_Schmidt",
+      "titulo": "Wulf Schmidt"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Double-Cross_System",
+      "titulo": "Double-Cross System"
+    },
+    {
+      "url": "https://matthewsbookshop.com/pages/books/3943/j-c-masterman/the-double-cross-system",
+      "titulo": "The Double-Cross System by J. C Masterman on Matthew's Books"
+    },
+    {
+      "url": "https://thamesandhudson.com/blogs/all-news-features/garbo-mi5-s-most-extraordinary-double-agent",
+      "titulo": "GARBO: MI5’s Most Extraordinary Double Agent"
+    },
+    {
+      "url": "https://warfarehistorynetwork.com/article/how-juan-pujol-garcia-garbo-made-d-day-invasion-happen",
+      "titulo": "How Juan Pujol Garcia (a.k.a. \"Garbo\") Made The D-Day Invasion Happen"
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C6091977",
+      "titulo": "Juan PUJOL GARCIA, codename GARBO: copies of communications by letter and WT with..."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Operation_Fortitude",
+      "titulo": "Operation Fortitude"
+    },
+    {
+      "url": "https://nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/second-world-war/operation-overlord-and-d-day",
+      "titulo": "Operation Overlord and D-Day - The National Archives"
+    },
+    {
+      "url": "https://arnett-files.ghost.io/juan-pujol-spanish-double-agent-who-thwarted-the-nazis-on-d-day",
+      "titulo": "Juan Pujol: Spanish Double Agent Who Thwarted The Nazis On D-Day"
+    },
+    {
+      "url": "https://historydecoded.co.uk/articles/operation-fortitude.html",
+      "titulo": "Operation Fortitude: The Phantom Army That Saved D-Day"
+    },
+    {
+      "url": "https://agentgarbo.com/timeline/operation-fortitude",
+      "titulo": "Operation Fortitude - Agent Garbo"
+    },
+    {
+      "url": "https://agentgarbo.com/documentos/british-official-records",
+      "titulo": "British official records - Agent Garbo"
+    },
+    {
+      "url": "https://media.nationalarchives.gov.uk/index.php/security-service-file-release-september-2016",
+      "titulo": "Security Service file release September 2016"
+    },
+    {
+      "url": "https://nationalarchives.gov.uk/whats-on/exhibitions/mi5-official-secrets",
+      "titulo": "MI5: Official Secrets - The National Archives"
+    },
+    {
+      "url": "https://nationalarchives.gov.uk/double-agent-operations",
+      "titulo": "Double Agent Operations - The National Archives"
+    },
+    {
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C16282445",
+      "titulo": "Juan PUJOL GARCIA, aliases GARBO, BOVRIL, IMMORTAL: Spanish. PUJOL GARCIA was the..."
+    },
+    {
+      "url": "https://shop.nationalarchives.gov.uk/products/double-cross-the-true-story-of-the-d-day-spies",
+      "titulo": "Double Cross: The True Story of The D-Day Spies - The National Archives Shop"
+    },
+    {
+      "url": "https://images.nationalarchives.gov.uk/asset/45205",
+      "titulo": "- The National Archives"
+    },
+    {
+      "url": "https://cdn.nationalarchives.gov.uk/documents/d-day-show-notes.pdf",
+      "titulo": "Untold Stories of D-Day"
+    },
+    {
+      "url": "https://blog.nationalarchives.gov.uk/blog/spy-garbo-story-behind-britains-greatest-double-cross-agent",
+      "titulo": "Garbo: the story behind Britain’s greatest Double Cross agent"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/John_Cecil_Masterman",
+      "titulo": "John Cecil Masterman"
+    },
+    {
+      "url": "https://hockeymuseum.org/sir-john-masterman-and-mi5s-twenty-committee",
+      "titulo": "Sir John Masterman and MI5’s Twenty Committee - The Hockey Museum"
+    },
+    {
+      "url": "https://livesofthefirstworldwar.iwm.org.uk/lifestory/6900051",
+      "titulo": "Life story: John Cecil Masterman"
+    },
+    {
+      "url": "https://historynet.com/art-double-cross",
+      "titulo": "The Art of the Double Cross"
+    },
+    {
+      "url": "https://spotterup.com/mi5s-double-cross-system-turning-the-tables-on-nazi-espionage",
+      "titulo": "MI5's Double-Cross System: Turning the Tables on Nazi Espionage • Spotter Up"
+    },
+    {
+      "url": "https://grokipedia.com/page/Double-Cross_System",
+      "titulo": "Double-Cross System — Grokipedia"
+    },
+    {
+      "url": "https://goodreads.com/book/show/1656789.The_Double_Cross_System_in_the_War_of_1939_1945",
+      "titulo": "The Double-Cross System in the War of 1939-1945 by J.C. Masterman"
+    },
+    {
+      "url": "https://military-history.fandom.com/wiki/Double-Cross_System",
+      "titulo": "Double-Cross System"
+    },
+    {
+      "url": "https://sonsoflibertymuseum.org/double-cross-system.cfm",
+      "titulo": "Double Cross"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elvira_Chaudoir",
+      "titulo": "Elvira Chaudoir"
+    },
+    {
+      "url": "https://dukereportbooks.com/books/the-double-cross-system-1939-1945",
+      "titulo": "The Double-Cross System 1939-1945"
+    },
+    {
+      "url": "https://spyinggame.wordpress.com/2011/06/05/the-double-cross-system-by-j-c-masterman-2011",
+      "titulo": "Double-Cross System"
+    },
+    {
+      "url": "https://penguin.com.au/books/the-double-cross-system-9781448190324",
+      "titulo": "The Double-Cross System by John Masterman - Penguin Books Australia"
+    },
+    {
+      "url": "https://goodreads.com/book/show/12631543-the-double-cross-system",
+      "titulo": "The Double-Cross System: In the War of 1939 to 1945 by J.C. Masterman"
+    },
+    {
+      "url": "https://goodreads.com/book/show/3672416",
+      "titulo": "The Double Cross system in the war of 1939 to 1945 by J.C. Masterman"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Counter-espionage",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MI5",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nazism",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Disinformation",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Roman_numerals",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Abwehr",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sicherheitsdienst",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nathalie_Sergueiew",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Roger_Grosjean",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Neutral_powers_during_World_War_II",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jan_Willem_Ter_Braak",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Citing_sources",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kiel",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Enigma_machine",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Camp_020",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Latchmere_House",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Please_clarify",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Double_agent",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thomas_Argyll_Robertson",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scot",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Arthur_Owens",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Royal_Naval_Air_Service",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Walter_Dicketts",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lisbon",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nikolaus_Ritter",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bona_fides",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Military_deception",
+      "titulo": ""
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Guy_Liddell",
+      "titulo": ""
+    }
+  ],
+  "estatisticas": {
+    "buscas": 10,
+    "leituras": 3,
+    "consultas_checagem": 2,
+    "fontes": 184,
+    "marcos": 8,
+    "marcos_matriz": 0,
+    "rejeitados": 0,
+    "duracao_s": 129.0,
+    "tokens": {
+      "entrada": 38,
+      "saida": 10483,
+      "cache": 331706,
+      "cache_gravado": 35115
+    }
+  },
+  "modelo": "claude-opus-5-5",
+  "motor": "GOSSIP DETECTIVE 1.0.0",
+  "criado_em": "2026-11-20T22:17:33+00:00",
+  "ultima_revisao": "2026-11-20T22:17:33+00:00",
+  "colecao": "desinformacao",
+  "catalogo_id": "D016",
+  "classe_preliminar": "M",
+  "epoca": "1940–1945",
+  "regiao": "Reino Unido/Alemanha",
+  "status_editorial": "ia_revisao_pendente"
+}
