@@ -1,0 +1,14 @@
+.venv/
+.env
+__pycache__/
+*.tmp
+# dados locais: contas, sessões, avaliações e investigações nunca vão para o repositório
+dados/investigacoes/
+dados/tendencias.json
+dados/usuarios.json
+dados/sessoes.json
+dados/avaliacoes.json
+# capturas de tela pessoais usadas como referência de design
+docs/*.jpeg
+docs/*.jpg
+docs/*.png

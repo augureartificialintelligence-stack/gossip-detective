@@ -1,0 +1,197 @@
+[
+  {
+    "id": "farsa-lunar-1835",
+    "origem": "curadoria",
+    "versao": 2,
+    "rotulo": "A Lua tinha habitantes?",
+    "pergunta": "A Lua tinha habitantes?",
+    "titulo": "A grande farsa lunar de 1835",
+    "tipo_alegacao": "rumor",
+    "classificacao": "refutada",
+    "veredito": "Alegação histórica refutada",
+    "sintese": "Os textos do New York Sun em 1835 não demonstraram vida na Lua. O episódio é conhecido como Great Moon Hoax: uma série de reportagens apresentou supostas criaturas lunares e foi depois identificada como farsa jornalística.",
+    "limites": "Não reconstituímos todas as republicações nem identificamos a primeira pessoa a acreditar na história. Os três marcos apoiam-se numa única fonte secundária; faltam edições originais do jornal.",
+    "perspectivas": [
+      {"titulo": "A reportagem", "texto": "Apresentava observações lunares como descobertas científicas.", "sustentacao": "documentada"},
+      {"titulo": "A verificação posterior", "texto": "A história foi identificada como farsa jornalística.", "sustentacao": "documentada"},
+      {"titulo": "Lacuna da investigação", "texto": "Ainda falta uma coleção de edições originais e o rastreamento de reproduções para mapear sua difusão com rigor.", "sustentacao": "parcial"}
+    ],
+    "marcos": [
+      {
+        "id": "m01", "seq": 1,
+        "titulo": "Começa a série no New York Sun",
+        "texto": "O jornal publica o primeiro de seis relatos sobre supostas descobertas lunares.",
+        "tipo_registro": "primeiro_registro_localizado",
+        "data_inicio": "1835-08-25", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "25 AGO 1835",
+        "local": "Nova York · EUA", "lat": 40.7128, "lon": -74.006, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "The Great Moon Hoax", "entidade": "HISTORY", "url": "https://www.history.com/this-day-in-history/August-25/the-great-moon-hoax", "tipo_fonte": "secundaria", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m02", "seq": 2,
+        "titulo": "Relatos ganham detalhes fantásticos",
+        "texto": "A narrativa descreve animais e humanoides alados supostamente observados por telescópio.",
+        "tipo_registro": "amplificacao",
+        "data_inicio": "1835-08-25", "data_fim": "1835-08", "precisao_temporal": "intervalo", "data_exibicao": "AGO 1835",
+        "local": "Nova York · EUA", "lat": 40.7128, "lon": -74.006, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "The Great Moon Hoax", "entidade": "HISTORY", "url": "https://www.history.com/this-day-in-history/August-25/the-great-moon-hoax", "tipo_fonte": "secundaria", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m03", "seq": 3,
+        "titulo": "Farsa passa à memória do jornalismo",
+        "texto": "O conjunto ficou conhecido como Great Moon Hoax, exemplo histórico de notícias fantasiosas publicadas como descobertas.",
+        "tipo_registro": "interpretacao_retrospectiva",
+        "data_inicio": "1835", "data_fim": "1900", "precisao_temporal": "seculo", "data_exibicao": "SÉC. XIX",
+        "local": "Estados Unidos", "lat": 39.5, "lon": -98.35, "grau_geografico": "pais",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "The Great Moon Hoax", "entidade": "HISTORY", "url": "https://www.history.com/this-day-in-history/August-25/the-great-moon-hoax", "tipo_fonte": "secundaria", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      }
+    ],
+    "fontes_consultadas": [],
+    "estatisticas": null,
+    "modelo": null,
+    "criado_em": "2026-11-09T00:00:00+00:00",
+    "ultima_revisao": "2026-11-09T00:00:00+00:00"
+  },
+  {
+    "id": "palavra-robo",
+    "origem": "curadoria",
+    "versao": 2,
+    "rotulo": "De onde veio “robô”?",
+    "pergunta": "De onde veio a palavra robô?",
+    "titulo": "A palavra robô: trabalho, teatro e tecnologia",
+    "tipo_alegacao": "origem_de_palavra",
+    "classificacao": "bem_documentada",
+    "veredito": "Origem histórica bem documentada",
+    "sintese": "O termo ganhou projeção com a peça R.U.R., de Karel Čapek (publicada em 1920 e encenada em 1921). Fontes tchecas atribuem a sugestão da palavra a seu irmão Josef.",
+    "limites": "Esta linha mostra marcos selecionados, não todos os usos nem a evolução semântica completa da palavra.",
+    "perspectivas": [
+      {"titulo": "Karel Čapek", "texto": "Escreveu a obra que difundiu a palavra.", "sustentacao": "documentada"},
+      {"titulo": "Josef Čapek", "texto": "É creditado nas fontes tchecas pela sugestão do termo.", "sustentacao": "documentada"},
+      {"titulo": "Significado contemporâneo", "texto": "Hoje a palavra abrange máquinas e sistemas muito distintos dos trabalhadores artificiais da peça.", "sustentacao": "parcial"}
+    ],
+    "marcos": [
+      {
+        "id": "m01", "seq": 1,
+        "titulo": "Publicação de R.U.R.",
+        "texto": "A peça de Karel Čapek é publicada e apresenta os trabalhadores artificiais chamados “robots”.",
+        "tipo_registro": "primeiro_registro_localizado",
+        "data_inicio": "1920-11", "data_fim": null, "precisao_temporal": "mes", "data_exibicao": "NOV 1920",
+        "local": "Praga · Tchecoslováquia", "lat": 50.0755, "lon": 14.4378, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "100 years ago, the robot was born", "entidade": "Embaixada da República Tcheca em Tirana", "url": "https://mzv.gov.cz/tirana/en/about_the_czech_republic/x100_year_ago_robot_was_born.html", "tipo_fonte": "institucional", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m02", "seq": 2,
+        "titulo": "Primeira montagem teatral",
+        "texto": "Um grupo de teatro encena a peça antes da estreia em Praga.",
+        "tipo_registro": "fato_historico",
+        "data_inicio": "1921-01-02", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "02 JAN 1921",
+        "local": "Hradec Králové · Tchecoslováquia", "lat": 50.2092, "lon": 15.8328, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "Robot: the most famous Czech word", "entidade": "Embaixada da República Tcheca em Ottawa", "url": "https://mzv.gov.cz/ottawa/en/news_and_events/robot_the_most_famous_czech_word.html", "tipo_fonte": "institucional", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m03", "seq": 3,
+        "titulo": "Estreia no Teatro Nacional",
+        "texto": "R.U.R. chega ao Teatro Nacional de Praga.",
+        "tipo_registro": "amplificacao",
+        "data_inicio": "1921-01-25", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "25 JAN 1921",
+        "local": "Praga · Tchecoslováquia", "lat": 50.0755, "lon": 14.4378, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "Karel Čapek — vida e obra", "entidade": "Arquivo biográfico Karel Čapek", "url": "https://karelcapek.cz/en/life-and-creation/karel-capek", "tipo_fonte": "secundaria", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m04", "seq": 4,
+        "titulo": "A peça chega à Broadway",
+        "texto": "A circulação internacional da peça favorece a difusão do termo.",
+        "tipo_registro": "amplificacao",
+        "data_inicio": "1922-10-09", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "09 OUT 1922",
+        "local": "Nova York · EUA", "lat": 40.7128, "lon": -74.006, "grau_geografico": "cidade",
+        "relacao_com_anterior": "reproducao_documentada",
+        "fonte": {"titulo": "100 years ago, the robot was born", "entidade": "Embaixada da República Tcheca em Tirana", "url": "https://mzv.gov.cz/tirana/en/about_the_czech_republic/x100_year_ago_robot_was_born.html", "tipo_fonte": "institucional", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      }
+    ],
+    "fontes_consultadas": [],
+    "estatisticas": null,
+    "modelo": null,
+    "criado_em": "2026-11-09T00:00:00+00:00",
+    "ultima_revisao": "2026-11-09T00:00:00+00:00"
+  },
+  {
+    "id": "vitoria-europa-1945",
+    "origem": "curadoria",
+    "versao": 2,
+    "rotulo": "Quem venceu a guerra na Europa?",
+    "pergunta": "Quem venceu a Segunda Guerra na Europa?",
+    "titulo": "1945: a vitória na Europa e suas narrativas",
+    "tipo_alegacao": "conflito_de_narrativas",
+    "classificacao": "bem_documentada",
+    "veredito": "Vitória coletiva dos Aliados",
+    "sintese": "A derrota da Alemanha nazista na Europa resultou dos esforços conjuntos dos Aliados. A Frente Oriental foi decisiva e extremamente custosa; o avanço ocidental também integrou o desfecho. Nenhum país, isoladamente, explica toda a vitória.",
+    "limites": "Este caso trata da guerra na Europa, não do fim global da Segunda Guerra Mundial, ocorrido em setembro de 1945.",
+    "perspectivas": [
+      {"titulo": "Ênfase soviética/russa", "texto": "Destaca a Frente Oriental, os enormes sacrifícios soviéticos e a tomada de Berlim.", "sustentacao": "parcial"},
+      {"titulo": "Ênfase norte-americana/ocidental", "texto": "Destaca desembarques, campanhas no oeste, poder industrial e cooperação aliada.", "sustentacao": "parcial"},
+      {"titulo": "Evidências conciliáveis", "texto": "A rendição foi conjunta; os documentos não sustentam a tese de que apenas uma potência derrotou a Alemanha.", "sustentacao": "documentada"}
+    ],
+    "marcos": [
+      {
+        "id": "m01", "seq": 1,
+        "titulo": "Americanos e soviéticos se encontram",
+        "texto": "As forças de ambos os lados se encontram no rio Elba, dividindo as áreas ainda controladas pela Alemanha.",
+        "tipo_registro": "fato_historico",
+        "data_inicio": "1945-04-25", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "25 ABR 1945",
+        "local": "Torgau · Alemanha", "lat": 51.5604, "lon": 13.0055, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "The Soviet Union and the Eastern Front", "entidade": "United States Holocaust Memorial Museum", "url": "https://encyclopedia.ushmm.org/content/en/article/the-soviet-union-and-the-eastern-front", "tipo_fonte": "institucional", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m02", "seq": 2,
+        "titulo": "Berlim se rende às forças soviéticas",
+        "texto": "Após combates intensos, Berlim cai diante das forças soviéticas.",
+        "tipo_registro": "fato_historico",
+        "data_inicio": "1945-05-02", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "02 MAI 1945",
+        "local": "Berlim · Alemanha", "lat": 52.52, "lon": 13.405, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "The Soviet Union and the Eastern Front", "entidade": "United States Holocaust Memorial Museum", "url": "https://encyclopedia.ushmm.org/content/en/article/the-soviet-union-and-the-eastern-front", "tipo_fonte": "institucional", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m03", "seq": 3,
+        "titulo": "Rendição assinada em Reims",
+        "texto": "Representantes alemães assinam rendição incondicional na presença de representantes aliados.",
+        "tipo_registro": "documento_primario",
+        "data_inicio": "1945-05-07", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "07 MAI 1945",
+        "local": "Reims · França", "lat": 49.2583, "lon": 4.0317, "grau_geografico": "cidade",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "Surrender of Germany", "entidade": "National Archives (EUA)", "url": "https://www.archives.gov/milestone-documents/surrender-of-germany", "tipo_fonte": "primaria", "data_documento": "1945-05-07", "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m04", "seq": 4,
+        "titulo": "Assinatura da rendição em Berlim",
+        "texto": "A rendição é ratificada diante dos representantes soviéticos e ocidentais.",
+        "tipo_registro": "fato_historico",
+        "data_inicio": "1945-05-08", "data_fim": null, "precisao_temporal": "dia", "data_exibicao": "08 MAI 1945",
+        "local": "Berlim-Karlshorst · Alemanha", "lat": 52.4855, "lon": 13.5307, "grau_geografico": "ponto_exato",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "The historic location", "entidade": "Museum Berlin-Karlshorst", "url": "https://www.museum-karlshorst.de/en/about-us/the-historic-location/", "tipo_fonte": "institucional", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      },
+      {
+        "id": "m05", "seq": 5,
+        "titulo": "Datas distintas de comemoração",
+        "texto": "8 de maio é celebrado em muitos países ocidentais; 9 de maio tornou-se a data soviética/russa, ligada ao horário e à cerimônia em Berlim.",
+        "tipo_registro": "memoria_historica",
+        "data_inicio": "1945-05-08", "data_fim": "1945-05-09", "precisao_temporal": "intervalo", "data_exibicao": "08–09 MAI 1945",
+        "local": "Europa", "lat": 50.0, "lon": 15.0, "grau_geografico": "continente",
+        "relacao_com_anterior": "cronologia",
+        "fonte": {"titulo": "V-E Day: Victory in Europe", "entidade": "The National WWII Museum", "url": "https://www.nationalww2museum.org/war/topics/v-e-day-victory-europe", "tipo_fonte": "institucional", "data_documento": null, "trecho_de_suporte": "", "data_acesso": null}
+      }
+    ],
+    "fontes_consultadas": [],
+    "estatisticas": null,
+    "modelo": null,
+    "criado_em": "2026-11-09T00:00:00+00:00",
+    "ultima_revisao": "2026-11-09T00:00:00+00:00"
+  }
+]

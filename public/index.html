@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#000000">
+<title>GOSSIP DETECTIVE · Central de Verificação</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='black'/%3E%3Cpath d='M61.3 19A30 30 0 1 0 72 42H47' fill='none' stroke='%23f4c430' stroke-width='11' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M63 63L88 88' stroke='white' stroke-width='14' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vendor/fonts/rajdhani.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<!-- Logo oficial: o "G" de Gossip desenhado como uma lupa (anel aberto + barra do G + cabo). -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="lupaG" viewBox="0 0 100 100">
+    <path d="M61.3 19A30 30 0 1 0 72 42H47" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M26.5 35.5A17 17 0 0 1 37 25.5" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" opacity=".5"/>
+    <path d="M63 63L88 88" fill="none" style="stroke: var(--lupa-cabo, #fff)" stroke-width="13" stroke-linecap="round"/>
+  </symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topo-linha">
+    <button type="button" class="menu-btn" id="btnMenu" aria-label="Abrir menu: histórico e dossiês" aria-expanded="false" aria-controls="menuLateral">
+      <span class="menu-ico" aria-hidden="true">≡</span> MENU <i class="menu-n hidden" id="menuN"></i>
+    </button>
+    <a class="marca" href="./" aria-label="Gossip Detective, início">
+      <svg class="logo-g" aria-hidden="true"><use href="#lupaG"/></svg><span class="marca-texto" aria-hidden="true">OSSIP DETECTIVE</span>
+    </a>
+    <div class="topo-dir">
+      <small class="subtitulo">CENTRAL DE COMANDO DE VERIFICAÇÃO</small>
+      <span class="sys" id="sysStatus" title="Verificando sistemas…"><i class="led"></i></span>
+      <div class="conta hidden" id="conta">
+        <span class="conta-avatar" id="contaAvatar" aria-hidden="true"></span>
+        <span class="conta-nome" id="contaNome"></span>
+        <button type="button" class="tag tag-btn" id="btnSair">SAIR</button>
+      </div>
+    </div>
+  </div>
+  <nav class="nav-topo" aria-label="Seções da central">
+    <a href="#secTrends">TRENDS</a>
+    <a href="#secMapa">INVESTIGAÇÃO</a>
+    <a href="#secCronograma">CRONOGRAMA</a>
+    <button type="button" id="navHistorico">HISTÓRICO</button>
+  </nav>
+</header>
+
+<div class="demo-faixa hidden" id="demoFaixa" role="note">
+  <b>VERSÃO DE DEMONSTRAÇÃO</b> · Aqui você navega pelos dossiês já investigados. A pesquisa ao vivo por IA, o login e as
+  avaliações funcionam na versão completa, que roda no servidor.
+</div>
+
+<main class="console">
+  <section class="panel command" aria-label="Console de missão">
+    <span class="eyebrow">INVESTIGUE ANTES DE COMPARTILHAR</span>
+    <h1 class="hero-titulo">O que você quer investigar?</h1>
+    <form id="formBusca" class="cmdline" autocomplete="off">
+      <span class="prompt" aria-hidden="true">&gt;_</span>
+      <input id="pergunta" maxlength="300" aria-label="Pergunta, rumor, frase ou notícia a investigar"
+             placeholder="Digite uma frase, rumor, palavra ou notícia para rastrear…">
+      <div class="modos" role="radiogroup" aria-label="Modo de investigação">
+        <button type="button" class="mode" data-modo="ia" role="radio" aria-checked="false"
+                title="Pesquisa ao vivo: a IA busca na web, fonte por fonte">IA AO VIVO</button>
+        <button type="button" class="mode" data-modo="arquivo" role="radio" aria-checked="false"
+                title="Arquivo: reproduz um dossiê já pesquisado">ARQUIVO</button>
+      </div>
+      <button type="submit" id="btnIniciar" class="btn btn-primary">RASTREAR</button>
+      <button type="button" id="btnAbortar" class="btn btn-danger hidden">ABORTAR</button>
+    </form>
+    <p id="avisoModo" class="aviso" role="status"></p>
+
+    <div class="faixas" id="secTrends">
+      <div class="faixa-meia" aria-label="Trends">
+        <button type="button" class="faixa-rotulo trends-rotulo" id="btnTrends"
+                title="Alegações que mais repercutiram nas agências de checagem nos últimos dias (não é volume de buscas). Clique para atualizar.">
+          TRENDS <i aria-hidden="true">⟳</i>
+        </button>
+        <div class="ticker" id="tickerTrends"></div>
+      </div>
+      <div class="faixa-meia" aria-label="Bombando no Gossip Detective">
+        <span class="faixa-rotulo bombando-rotulo" title="Pesquisas feitas nesta central nos últimos 7 dias">BOMBANDO NO GOSSIP DETECTIVE</span>
+        <div class="ticker" id="tickerBombando"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel map-panel" id="secMapa" aria-label="Mapa do cronograma da informação">
+      <div class="panel-title">
+        <span>CRONOGRAMA DA INFORMAÇÃO</span>
+        <span class="tags">
+          <button type="button" class="tag tag-btn hidden" id="btnAlternar"></button>
+          <span class="tag" id="mapaEstado">AGUARDANDO MISSÃO</span>
+        </span>
+      </div>
+      <div class="map-wrap" id="mapaWrap">
+        <svg id="mapaSvg" viewBox="0 0 1000 560" role="img" aria-label="Mapa-múndi com os registros localizados durante a investigação">
+          <defs>
+            <radialGradient id="gradFinal"><stop offset="0" stop-color="#ff2d2d" stop-opacity=".55"/><stop offset="1" stop-color="#ff2d2d" stop-opacity="0"/></radialGradient>
+            <filter id="brilho" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <g id="camadaMapa"></g>
+          <g id="camadaRota"></g>
+          <g id="camadaVarredura"></g>
+          <g id="camadaMarcos"></g>
+        </svg>
+        <div class="hud-corner tl"></div><div class="hud-corner tr"></div><div class="hud-corner bl"></div><div class="hud-corner br"></div>
+        <div class="radar" id="radar" aria-hidden="true"></div>
+        <div class="hud-temporal" aria-live="polite">
+          <span class="mini">INTELIGÊNCIA TEMPORAL</span>
+          <div class="data" id="dataAtual">-- --- ----</div>
+          <div class="local" id="localAtual">Aguardando registros</div>
+        </div>
+        <div class="hud-modo hidden" id="hudModo"></div>
+        <div class="map-zoom">
+          <button type="button" id="zoomMais" aria-label="Aproximar">+</button>
+          <button type="button" id="zoomMenos" aria-label="Afastar">−</button>
+          <button type="button" id="zoomTudo" aria-label="Enquadrar todos os registros">⤢</button>
+        </div>
+        <button type="button" class="map-info" id="btnLegenda" aria-label="Legenda do mapa" aria-expanded="false" aria-controls="legenda">?</button>
+        <div class="legenda hidden" id="legenda">
+          <span><i class="lg lg-sinal"></i>sinal de varredura: busca em curso, não é registro</span>
+          <span><i class="lg lg-ponto"></i>registro localizado</span>
+          <span><i class="lg lg-area"></i>localização aproximada</span>
+          <span><i class="lg lg-final"></i>ponto final do rastro</span>
+          <span><i class="lg lg-linha"></i>ordem cronológica, não rota comprovada</span>
+        </div>
+        <div class="tooltip hidden" id="tooltip" role="tooltip"></div>
+      </div>
+      <div class="missao">
+        <div class="missao-linha">
+          <span class="contadores">
+            <span>BUSCAS <b id="tBuscas">0</b></span><span>FONTES <b id="tFontes">0</b></span>
+            <span>MARCOS <b id="tMarcos">0</b></span><span>REJEITADOS <b id="tRejeitados">0</b></span>
+          </span>
+          <ol class="fases" id="fases">
+            <li data-fase="ingestao">INGESTÃO</li>
+            <li data-fase="recuperacao">RECUPERAÇÃO</li>
+            <li data-fase="verificacao">VERIFICAÇÃO</li>
+            <li data-fase="cronologia">CRONOLOGIA</li>
+            <li data-fase="sintese">SÍNTESE</li>
+          </ol>
+          <span class="cronometro" id="cronometro">T+00:00</span>
+        </div>
+        <div class="barra" id="barra"><span></span></div>
+        <div class="missao-linha">
+          <span class="status-linha" id="statusLinha" aria-live="polite"></span>
+          <button type="button" class="tag tag-btn hidden" id="btnPular">EXIBIR IMEDIATAMENTE</button>
+        </div>
+      </div>
+  </section>
+
+  <aside class="panel rastros" id="secCronograma" aria-label="Cronograma documental">
+      <div class="panel-title"><span>CRONOGRAMA DOCUMENTAL</span></div>
+      <ol class="catalogo" id="catalogo" aria-live="polite"></ol>
+  </aside>
+
+  <section id="dossie" class="panel dossie hidden" aria-live="polite">
+    <div class="panel-title"><span>RELATÓRIO DA MISSÃO</span></div>
+    <div class="veredito">
+      <div class="veredito-selo" aria-hidden="true">?</div>
+      <div>
+        <p class="mini" id="vPergunta"></p>
+        <h2 id="vTitulo"></h2>
+      </div>
+    </div>
+    <h3>Síntese</h3>
+    <ol class="linha-sintese" id="vLinha"></ol>
+
+    <h3>Perspectivas</h3>
+    <div class="perspectivas" id="vPerspectivas"></div>
+
+    <details class="consultadas" id="vConsultadasBox">
+      <summary>Limites e fontes consultadas</summary>
+      <p class="limite" id="vLimites"></p>
+      <ul id="vConsultadas"></ul>
+    </details>
+
+    <div class="acoes">
+      <button type="button" class="btn btn-ghost" id="btnCopiar">COPIAR RESUMO E FONTES</button>
+      <button type="button" class="btn btn-ghost" id="btnExportar">EXPORTAR JSON</button>
+      <button type="button" class="btn btn-ghost" id="btnFeedback">COPIAR FORMULÁRIO DE FEEDBACK</button>
+      <button type="button" class="btn btn-ghost" id="btnContestar">CONTESTAR / CORRIGIR</button>
+      <span class="aviso" id="acaoStatus" role="status"></span>
+    </div>
+
+    <section class="avaliacao" aria-labelledby="avalTitulo">
+      <div class="aval-cab">
+        <h3 id="avalTitulo">Avalie esta investigação</h3>
+        <span class="aval-media" id="avalMedia"></span>
+      </div>
+      <form id="formAvaliacao" class="aval-form">
+        <div class="estrelas" id="estrelas" role="radiogroup" aria-label="Sua nota de 1 a 5 estrelas">
+          <button type="button" role="radio" aria-checked="false" data-nota="1" aria-label="1 estrela">★</button>
+          <button type="button" role="radio" aria-checked="false" data-nota="2" aria-label="2 estrelas">★</button>
+          <button type="button" role="radio" aria-checked="false" data-nota="3" aria-label="3 estrelas">★</button>
+          <button type="button" role="radio" aria-checked="false" data-nota="4" aria-label="4 estrelas">★</button>
+          <button type="button" role="radio" aria-checked="false" data-nota="5" aria-label="5 estrelas">★</button>
+        </div>
+        <textarea id="avalComentario" maxlength="1000" rows="3" aria-label="Comentário"
+                  placeholder="Comente a investigação: as fontes convenceram? faltou algo?"></textarea>
+        <div class="aval-acoes">
+          <button type="submit" class="btn btn-primary" id="btnAvaliar">ENVIAR AVALIAÇÃO</button>
+          <span class="aviso" id="avalStatus" role="status"></span>
+        </div>
+      </form>
+      <ul class="comentarios" id="comentarios"></ul>
+    </section>
+  </section>
+</main>
+
+<div class="veu hidden" id="veu"></div>
+<aside class="menu-lateral" id="menuLateral" aria-label="Histórico e dossiês" inert>
+  <div class="ml-cab">
+    <b>ARQUIVO CENTRAL</b>
+    <button type="button" class="ml-fechar" id="btnFecharMenu" aria-label="Fechar menu">✕</button>
+  </div>
+  <input type="search" class="ml-filtro" id="filtroMenu" placeholder="Filtrar histórico e dossiês…" aria-label="Filtrar histórico e dossiês">
+  <div class="ml-corpo">
+    <section>
+      <h2 class="ml-secao">HISTÓRICO DE MISSÕES <span class="tag" id="historicoN">0</span></h2>
+      <ul class="ml-lista" id="listaRecentes"></ul>
+    </section>
+    <section>
+      <h2 class="ml-secao">DOSSIÊS VERIFICADOS <span class="tag" id="verificadosN">0</span></h2>
+      <ul class="ml-lista" id="listaVerificados"></ul>
+    </section>
+  </div>
+</aside>
+
+<div class="acesso hidden" id="acesso" role="dialog" aria-modal="true" aria-labelledby="acessoTitulo">
+  <div class="acesso-caixa">
+    <div class="acesso-marca" id="acessoTitulo" aria-label="Gossip Detective">
+      <svg class="logo-g" aria-hidden="true"><use href="#lupaG"/></svg><span class="marca-texto" aria-hidden="true">OSSIP DETECTIVE</span>
+    </div>
+    <div class="acesso-abas" role="tablist" aria-label="Acesso">
+      <button type="button" role="tab" id="abaEntrar" aria-selected="true">ENTRAR</button>
+      <button type="button" role="tab" id="abaCadastrar" aria-selected="false">CRIAR CONTA</button>
+    </div>
+    <form id="formAcesso" novalidate>
+      <label class="campo hidden" id="campoNome"><span>Nome</span>
+        <input id="acNome" autocomplete="name" maxlength="60"></label>
+      <label class="campo"><span>E-mail</span>
+        <input id="acEmail" type="email" autocomplete="email" maxlength="254" required></label>
+      <label class="campo"><span>Senha</span>
+        <input id="acSenha" type="password" autocomplete="current-password" maxlength="128" required></label>
+      <p class="acesso-erro" id="acessoErro" role="alert"></p>
+      <button type="submit" class="btn btn-primary" id="btnAcesso">ENTRAR</button>
+    </form>
+  </div>
+</div>
+
+<button type="button" class="voltar-topo hidden" id="btnTopo" aria-label="Voltar ao topo"></button>
+
+<footer class="rodape">
+  <b>GOSSIP DETECTIVE</b> · No modo IA, cada ponto surge só quando um registro é validado contra uma fonte recuperada;
+  no modo Arquivo, a animação reproduz uma pesquisa já feita.
+</footer>
+
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="js/mapa.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
